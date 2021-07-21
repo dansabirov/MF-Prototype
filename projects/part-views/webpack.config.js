@@ -35,7 +35,6 @@ module.exports = {
         // remotes: {
         //     "shell": "shell@http://localhost:4200/remoteEntry.js",
         //     "core": "core@http://localhost:4201/remoteEntry.js",
-        //     "shared": "shared@http://localhost:4202/remoteEntry.js",
 
         // },
 

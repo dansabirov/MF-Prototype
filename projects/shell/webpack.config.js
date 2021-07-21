@@ -34,7 +34,6 @@ module.exports = {
         // For hosts (please adjust)
         remotes: {
         //     "core": "core@http://localhost:4200/remoteEntry.js",
-        //     "shared": "shared@http://localhost:4200/remoteEntry.js",
              "partViews": "partViews@http://localhost:4200/remoteEntry.js",
 
         },
