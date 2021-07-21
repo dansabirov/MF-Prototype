@@ -16,7 +16,7 @@ export class AuthLibService {
   }
 
   public login(userName: string, password?: string): void {
-    console.log(this.userName)
+    console.log('current:' + this.user + 'setted:' + userName);
     this.userName = userName;
   }
 
