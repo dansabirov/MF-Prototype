@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { AuthLibService } from 'projects/core-lib/src/public-api';
 
 @Component({
   selector: "app-profile",
@@ -6,7 +7,9 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./profile.component.css"],
 })
 export class ProfileComponent implements OnInit {
-  constructor() {}
+  constructor(private service: AuthLibService) {
+    this.service.login('Dan');
+  }
 
   ngOnInit(): void {}
 }
