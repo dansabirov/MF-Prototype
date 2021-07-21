@@ -34,7 +34,6 @@ module.exports = {
         // For hosts (please adjust)
         // remotes: {
         //     "shell": "shell@http://localhost:4200/remoteEntry.js",
-        //     "core": "core@http://localhost:4201/remoteEntry.js",
 
         // },
 
