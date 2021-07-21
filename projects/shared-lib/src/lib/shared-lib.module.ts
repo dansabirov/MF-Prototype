@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { SharedLibComponent } from './shared-lib.component';
 import { OtherComponent } from './other/other.component';
-// import { AuthLibModule } from 'auth-lib';
+import { AuthLibModule } from 'projects/core-lib/src/public-api';
 
 
 
 @NgModule({
   declarations: [SharedLibComponent, OtherComponent],
   imports: [
-    // AuthLibModule,
+    AuthLibModule,
   ],
   exports: [SharedLibComponent, OtherComponent]
 })

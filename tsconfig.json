@@ -23,6 +23,9 @@
     "paths": {
       "shared-lib": [
         "projects/shared-lib/src/public-api.ts",
+      ],
+      "core-lib": [
+        "projects/core-lib/src/public-api.ts"
       ]
     }
   },
