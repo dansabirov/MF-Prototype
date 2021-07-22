@@ -8,7 +8,9 @@ import { AuthLibService } from './auth-lib.service';
 })
 export class AuthLibComponent implements OnInit {
 
-  user = this.service.user;
+  get user(): string {
+    return this.service.user;
+  }
 
   constructor(private service: AuthLibService) {
 

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AuthLibService } from 'projects/core-lib/src/public-api';
+import { AuthLibService } from 'core-lib';
 
 @Component({
   selector: 'app-root',
