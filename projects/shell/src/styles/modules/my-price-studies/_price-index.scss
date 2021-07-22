@@ -1,0 +1,183 @@
+.price-index-page {
+  .price-index-dashboard-header {
+    position: relative;
+  }
+}
+
+.price-index-graph {
+  @extend .mde-card;
+
+  .graph-toolbar {
+    width: 100%;
+    height: 32px;
+
+    border-bottom: 1px solid color(lightest-grey);
+
+    .drill-down-button {
+      color: color(light-grey);
+      stroke: color(light-grey);
+      &.enabled {
+        .title {
+          color: color(grey);
+          stroke: color(grey);
+        }
+
+        &.ei {
+          @extend .pointer;
+          color: color(grey);
+          stroke: color(grey);
+
+          &:hover {
+            color: color(yellow);
+            stroke: color(yellow);
+          }
+        }
+      }
+      .enabled {
+        color: color(grey);
+        stroke: color(grey);
+
+        &.arrow {
+          @extend .pointer;
+          &:hover {
+            color: color(yellow);
+            stroke: color(yellow);
+          }
+        }
+      }
+    }
+
+    .chart-setting-icons {
+      padding: 3px 0 0 0;
+    }
+  }
+
+  .cpg-inc {
+    fill: color(blue-green) !important;
+    font-style: normal !important;
+    font-size: 12px;
+  }
+  .cpg-red {
+    fill: color(red) !important;
+    font-style: normal !important;
+    font-size: 12px;
+  }
+
+  .dxc-series {
+    cursor: pointer;
+  }
+}
+.price-index-search-panel {
+  .dx-texteditor.dx-editor-underlined {
+    &:after {
+      border-bottom: none !important;
+    }
+  }
+}
+
+.price-index-reset {
+  border: none;
+  background-color: color(white);
+
+  outline: none;
+
+  &.enabled {
+    @extend .pointer;
+    color: color(yellow);
+  }
+
+  .dx-icon {
+    color: #717776;
+    font-size: 16px;
+  }
+}
+.arrow {
+  line-height: 11px;
+}
+
+.price-index-grid-label {
+  @extend .pointer;
+  font-size: 12px !important;
+  color: color(grey);
+
+  &:hover {
+    color: color(yellow);
+
+    .icon use {
+      fill: color(yellow);
+    }
+  }
+
+  & .icon use {
+    fill: color(blue-grey);
+  }
+}
+
+.pi-tooltip {
+  @extend .fz12;
+  color: color(mid-grey);
+
+  .pi-title {
+    color: color(mid-grey);
+    font-weight: 500;
+  }
+  .pi-oe {
+    color: color(blue);
+    font-weight: 500;
+  }
+  .pi-iam {
+    color: color(orange);
+    font-weight: 500;
+  }
+}
+
+.price-index-settings-panel {
+  position: relative;
+  font-weight: 400;
+
+  .price-index-settings {
+    position: absolute;
+    top: 18px;
+    right: 6px;
+    width: 500px;
+    background-color: color(white);
+    border-radius: 2px;
+    border-width: 0px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+    z-index: 500;
+
+    .dx-tag {
+      margin: 11px 4px 2px 0 !important;
+      .dx-tag-content {
+        @extend .fz12;
+        padding: 3px 29px 3px 6px !important;
+        background-color: transparent !important;
+        color: color(mid-grey);
+      }
+
+      .dx-tag-remove-button:before {
+        font-size: 10px;
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        background-color: transparent !important;
+        color: color(orange);
+      }
+    }
+
+    .save-button {
+      border-radius: 2px;
+      .dx-button-mode-outlined.dx-button-normal {
+        border: none !important;
+      }
+
+      .dx-button-content {
+        color: color(white);
+
+        .dx-icon {
+          color: color(white);
+        }
+      }
+    }
+  }
+}

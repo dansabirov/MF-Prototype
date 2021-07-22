@@ -1,0 +1,14 @@
+.scroll-view {
+  height: calc(100% - 55px);
+  overflow: auto;
+}
+
+.full-scroll-view {
+  height: 100%;
+  overflow: auto;
+}
+
+.my-zone-pages-scroll-view {
+  height: calc(100% - 39px);
+  overflow: auto;
+}

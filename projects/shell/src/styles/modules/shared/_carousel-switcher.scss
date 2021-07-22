@@ -1,0 +1,15 @@
+.carousel-switcher {
+  @extend .flex;
+  > div {
+    @extend .mx-24;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: color(super-light);
+    cursor: pointer;
+    
+    &.active {
+      background-color: color(yellow);
+    }
+  }
+}

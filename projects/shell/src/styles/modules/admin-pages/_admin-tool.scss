@@ -1,0 +1,36 @@
+.admin-popup {
+
+  .mde-part-number, .dx-selection .mde-part-number {
+    color: color(blue);
+  }
+
+  .add-my-set {
+    margin-bottom: 3px;
+    .dx-button-content {
+      @extend .py-0;
+      padding-left: 4px!important;
+      padding-right: 4px!important;
+    }
+  }
+
+  .dx-field-item {
+    padding-bottom: 10px!important;
+  }
+}
+
+app-users-in-roles .dx-header-row > td, app-user-admin-groups .dx-header-row > td {
+  text-align: left!important;
+}
+
+.batchSearchVolume {
+  border-collapse: collapse;
+  border: 1px solid #e0e0e0;
+  color: color(blue-grey);
+  tr {
+    // border: 1px solid #e0e0e0;
+    td {
+      border: 1px solid #e0e0e0;
+      padding: 2px 6px;
+    }
+  }
+}

@@ -1,0 +1,338 @@
+.export {
+  padding-top: 9px !important;
+  text-align: right;
+}
+
+app-chart-export {
+  .export-chart {
+    height: 30px;
+  }
+
+  .dropdown-container {
+    min-width: 100px;
+
+    padding: 4px 0 4px 0 !important;
+
+    background: color(white);
+
+    border: 0;
+
+    z-index: 120;
+  }
+
+  .dropdown-item {
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+
+    height: 28px;
+
+    padding: 6px 15px 5px 15px;
+
+    &:hover {
+      background-color: color(yellow);
+
+      color: color(white);
+    }
+  }
+}
+
+app-icon .clear.icon {
+  stroke: color(grey);
+
+  &:hover {
+    stroke: color(yellow);
+  }
+}
+
+.clear {
+  margin-bottom: 2px;
+}
+
+.dx-price-grid {
+  .dx-row-lines > td {
+    @extend .fz12;
+    background-color: color(white);
+  }
+
+  .dx-row-alt > td {
+    background-color: color(super-light-grey);
+  }
+
+  .dx-row > td {
+    height: 20px;
+
+    padding: 0 8px 0 8px !important;
+
+    white-space: normal;
+  }
+
+  .dx-header-row > td {
+    height: 26px;
+
+    padding: 4px 8px 4px 8px !important;
+
+    background-color: color(white);
+
+    .dx-datagrid-text-content {
+      white-space: nowrap;
+    }
+  }
+
+  .dx-datagrid-headers {
+    border-top-width: 1px !important;
+    border-bottom-width: 1px !important;
+  }
+}
+
+.grid-prices {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8px;
+  color: color(blue-grey);
+  font-size: 12px;
+
+  .title {
+    padding-top: 13px;
+    .partNumber {
+      color: color(blue);
+      font-weight: 700;
+      &:hover {
+        color: color(green-blue) !important;
+      }
+    }
+  }
+}
+
+.pointGrid {
+  @extend .mde-card;
+
+  .grid-prices {
+    grid-column-gap: 0 !important;
+  }
+}
+
+.rectangle {
+  width: 10px;
+  height: 10px;
+
+  margin: 2px 0 0 0;
+
+  &.hide {
+    background: color(white);
+    border: 1px solid color(blue-grey);
+    border-radius: 1px;
+  }
+
+  .point {
+    width: 4px;
+    height: 4px;
+    background: color(yellow);
+    margin-left: 2px;
+    margin-top: 2px;
+  }
+}
+
+.legend {
+  @extend .mde-card;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  box-sizing: border-box;
+  display: grid;
+
+  .dx-radiobutton .dx-item-content {
+    @extend .fz12;
+    color: color(blue-grey);
+  }
+
+  .dx-scrollable-scrollbars-alwaysvisible.dx-scrollable-both .dx-scrollable-content {
+    padding: 0 !important;
+  }
+
+  .w-100 {
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  .item {
+    display: inline-flex;
+
+    margin: 8px 8px 8px 8px;
+
+    cursor: pointer;
+
+    &:hover,
+    &.item-hover {
+      text-decoration: underline;
+    }
+
+    &.deactivated {
+      color: color(light-grey);
+    }
+  }
+
+  .legend-border {
+    border-color: color(lightest) !important;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    margin: 0 32px;
+
+    .item {
+      margin: 8px 0 !important;
+    }
+  }
+}
+
+.t-bold {
+  font-weight: 700;
+}
+
+.border-lightest {
+  border: 1px solid color(lightest);
+}
+
+dx-button-group.quick-time-btn {
+  .dx-buttongroup-item {
+    width: 90px;
+    .dx-button-content {
+      padding: 6px;
+      .dx-button-text {
+        font-size: 13px;
+        line-height: 14px;
+        color: color(blue-grey);
+      }
+    }
+  }
+
+  .dx-item-selected {
+    background-color: color(yellow) !important;
+    border-color: color(yellow);
+    .dx-button-content .dx-button-text {
+      color: color(white) !important;
+    }
+  }
+}
+
+.range-selector {
+  padding-left: 8px;
+  padding-right: 8px;
+
+  .dxrs-slidersContainer {
+    path {
+      stroke: color(yellow);
+    }
+    .slider {
+      path {
+        stroke: #3b3b3b;
+      }
+      .slider-marker path {
+        fill: #3b3b3b;
+      }
+    }
+  }
+}
+
+.range-selector-tooltip {
+  color: color(blue-grey);
+  font-style: italic;
+  font-size: 10px;
+  height: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  text-align: center;
+}
+
+.price-history-legend-tooltip {
+  .dx-overlay-content {
+    border-radius: 4px;
+  }
+  .dx-popup-content {
+    background-color: color(white);
+    color: color(dark-grey);
+    border-radius: 4px;
+    border: 1px solid color(light);
+    padding: 8px 12px !important;
+    text-align: initial;
+
+    .custom-tooltip {
+      div {
+        margin-top: 8px;
+      }
+
+      .date {
+        color: color(light-grey);
+      }
+    }
+  }
+}
+.price-history-tabs {
+  .tab.disabled {
+    opacity: 0.4;
+    cursor: help;
+  }
+
+  .tab {
+    @extend .fz12;
+    @extend .font-medium;
+    @extend .px-16;
+    @extend .pt-8;
+    @extend .pb-8;
+    @extend .pointer;
+    @extend .nowrap;
+
+    text-align: center;
+    color: color(blue-grey);
+    position: relative;
+
+    &.selected {
+      @extend .font-bold;
+      color: color(yellow);
+
+      &::after {
+        content: ' ';
+        width: 100%;
+        background-color: color(yellow);
+        height: 4px;
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+      }
+    }
+  }
+}
+.graphic-main {
+  .graph-toolbar {
+    height: 32px;
+
+    border-bottom: 1px solid color(lightest-grey);
+  }
+}
+
+.chart-component {
+  .dxc-series {
+    cursor: pointer;
+  }
+}
+
+.price-history-reset {
+  margin: 0 10px 0 0;
+
+  border: none;
+  background-color: color(white);
+
+  &.enabled {
+    @extend .pointer;
+    color: color(yellow);
+  }
+
+  .dx-icon {
+    color: #717776;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,136 @@
+.cp-inc {
+  color: color(blue-green);
+  &::before {
+    content: '+';
+  }
+}
+.dx-data-row {
+  .cp-red {
+    color: color(red);
+  }
+}
+
+.dx-selection {
+  .cp-inc {
+    color: color(white);
+    &::before {
+      content: '+';
+    }
+  }
+  .cp-red {
+    color: color(white);
+  }
+}
+
+.current-price-graph {
+  @extend .mde-card;
+  @extend .chart-custom-export-styles;
+
+  .drill-down-button {
+    font-size: 12px;
+
+    color: color(light-grey);
+    stroke: color(light-grey);
+
+    &.enabled {
+      .title {
+        color: color(grey);
+        stroke: color(grey);
+      }
+
+      &.ei {
+        @extend .pointer;
+        color: color(grey);
+        stroke: color(grey);
+
+        &:hover {
+          color: color(yellow);
+          stroke: color(yellow);
+        }
+      }
+    }
+    .enabled {
+      color: color(grey);
+      stroke: color(grey);
+
+      &.arrow {
+        @extend .pointer;
+        &:hover {
+          color: color(yellow);
+          stroke: color(yellow);
+        }
+      }
+    }
+  }
+
+  .graph-main {
+    position: relative;
+
+    padding: 8px 8px 8px 8px;
+
+    z-index: 1;
+  }
+
+  .graph-toolbar {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 32px;
+
+    padding: 8px 8px 8px 8px;
+
+    background-color: color(white);
+
+    border-bottom: 1px solid color(lightest-grey);
+
+    z-index: 0;
+  }
+  .graph-toolbar-items {
+    width: calc(100% - 32px);
+    z-index: 1;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+  }
+
+  .cpg-inc {
+    fill: color(blue-green) !important;
+    font-style: normal !important;
+    font-size: 12px;
+  }
+  .cpg-red {
+    fill: color(red) !important;
+    font-style: normal !important;
+    font-size: 12px;
+  }
+
+  .cpg-zero {
+    font-style: normal !important;
+    font-size: 12px;
+  }
+
+  .cpg-date {
+    fill: color(light-grey) !important;
+    font-style: normal !important;
+    font-size: 12px;
+  }
+}
+
+.cpg-tooltip {
+  @extend .fz12;
+  color: color(mid-grey);
+
+  .cpg-country {
+    color: color(light-grey);
+  }
+
+  .cpg-price {
+    @extend .fz14;
+    color: color(dark-grey);
+    font-weight: 500;
+  }
+}

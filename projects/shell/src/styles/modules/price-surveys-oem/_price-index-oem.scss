@@ -1,0 +1,58 @@
+app-price-index-oem {
+  .btn-drill-return {
+    background-color: color(yellow);
+    border-radius: 14px;
+    width: max-content;
+
+    &:hover {
+      box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
+    }
+
+    .button-text {
+      color: color(white);
+      line-height: 28px;
+    }
+  }
+
+  .pi-tooltip {
+    @extend .fz12;
+
+    color: color(mid-grey);
+
+    .pi-title {
+      color: color(mid-grey);
+      font-weight: 500;
+    }
+  }
+
+  .text {
+    color: rgb(118, 118, 118);
+    margin: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .text-yellow {
+    color: color(yellow);
+    margin: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .text-hint {
+    color: color(blue-grey);
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .text-rotated {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform: rotate(-180deg);
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+  }
+}

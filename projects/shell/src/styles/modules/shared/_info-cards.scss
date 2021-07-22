@@ -1,0 +1,35 @@
+.info-card-container {
+  grid-column-gap: 8px;
+}
+
+.info-card-item {
+  @extend .pl-16;
+  @extend .pr-4;
+  @extend .pt-8;
+  @extend .pb-8;
+  @extend .mde-card;
+  color: color(orange);
+  overflow: hidden;
+
+  .dx-loadindicator { position: absolute; }
+
+  &.info-card-item-loader {
+    @extend .flex-center;
+    @extend .pl-4;
+  }
+
+  .info-card-value {
+    @extend .fz20;
+    @extend .font-bold;
+  }
+
+  .info-card-description {
+    @extend .fz12;
+    @extend .font-medium;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: calc(100% - 12px);
+  }
+}

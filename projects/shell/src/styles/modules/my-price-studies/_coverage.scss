@@ -1,0 +1,174 @@
+.coverage-page {
+  .coverage-dashboard-header {
+    position: relative;
+  }
+
+  .dashboard-toolbar {
+    position: absolute;
+
+    top: 7px;
+    right: 19px;
+  }
+
+  .disabled-element {
+    color: color(light-grey);
+
+    cursor: default;
+
+    &:hover,
+    i:hover {
+      color: color(light-grey);
+    }
+
+    .dx-icon-export,
+    .dx-icon-undo {
+      color: inherit;
+    }
+  }
+}
+
+.coverage-search-panel {
+  .dx-texteditor.dx-editor-underlined {
+    &:after {
+      border-bottom: none !important;
+    }
+  }
+}
+
+.coverage-graph {
+  @extend .mde-card;
+
+  .dx-data-row > td .dx-template-wrapper app-icon {
+    margin-left: 0px !important;
+  }
+
+  .graph-toolbar {
+    width: 100%;
+    height: 32px;
+
+    border-bottom: 1px solid color(lightest-grey);
+
+    .chart-setting-icons {
+      padding: 3px 0 0 0;
+    }
+
+    .cross-icon {
+      font-size: 14px;
+      line-height: 15px;
+    }
+  }
+
+  .spa-r {
+    border-right: 1px solid color(lightest-grey);
+  }
+  .spa-l {
+    border-left: 1px solid color(lightest-grey);
+  }
+}
+
+.dx-treelist-headers .dx-treelist-table .dx-row > td.font-medium {
+  font-weight: 700 !important;
+}
+.coverage-reset {
+  @extend .pointer;
+  border: none;
+  background-color: color(white);
+
+  i:hover {
+    color: color(yellow);
+  }
+
+  .dx-icon-export {
+    color: #717776;
+    font-size: 16px !important;
+  }
+
+  .dx-icon-undo {
+    color: color(yellow);
+    font-size: 16px !important;
+  }
+}
+.coverage-ec {
+  @extend .pointer;
+  border: none;
+  background-color: color(white);
+
+  &:hover {
+    color: color(orange);
+  }
+
+  .dx-icon {
+    color: #717776;
+    font-size: 16px;
+  }
+}
+
+.coverage-text-center {
+  div {
+    text-align: center;
+
+    &.dx-text-content-alignment-left {
+      width: calc(100% - 23px);
+    }
+  }
+}
+
+.coverage-graph {
+  .dx-data-row > td .dx-template-wrapper app-icon.check .icon use {
+    fill: color(orange) !important;
+  }
+  .dx-data-row > td .dx-template-wrapper app-icon.minus .icon use {
+    fill: color(blue-grey) !important;
+  }
+
+  tr.dx-row.dx-data-row.dx-row-lines:not(:first-child) {
+    td {
+      background-color: color(white);
+      font-weight: 500 !important;
+    }
+  }
+
+  .graph-toolbar {
+    .toolbox-graph-button {
+      margin-top: -4px;
+      height: 27px;
+
+      .dx-icon {
+        width: 15px;
+        font-size: 15px;
+        margin-right: 2px;
+      }
+
+      &:hover {
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
+      }
+    }
+  }
+}
+
+.ex-inc-btn {
+  .dx-icon {
+    margin-bottom: 1px;
+  }
+}
+
+.chart-separator {
+  height: 1px;
+  background-color: color(blue-grey);
+}
+
+.coverage-graph-container {
+  .main-chart {
+    .dxc-series .dxc-markers path {
+      @extend .pointer;
+    }
+  }
+}
+
+.cv-dynamic-chart {
+  .dxc-series {
+    rect {
+      cursor: pointer;
+    }
+  }
+}

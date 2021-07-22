@@ -1,0 +1,16 @@
+.h-100 {
+  height: calc(100% - 60px);
+}
+
+app-article-details,
+.article-details-popup {
+  .dx-data-grid.mde-card .dx-datagrid {
+    box-shadow: none;
+  }
+}
+
+app-article-details-view {
+  .dx-datagrid .dx-row-lines > td {
+    border-bottom: none;
+  }
+}

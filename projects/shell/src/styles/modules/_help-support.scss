@@ -1,0 +1,97 @@
+.help-support-tabs {
+  border-bottom: 1px solid;
+  border-color: color(light);
+  .tab {
+    @extend .fz14;
+    @extend .font-medium;
+    @extend .mde-text-center;
+    @extend .pointer;
+
+    position: relative;
+
+    width: auto;
+    height: 32px;
+
+    padding: 8px 24px 8px 24px;
+
+    color: color(blue-grey);
+
+    &.selected {
+      @extend .font-bold;
+
+      color: color(yellow);
+
+      &::after {
+        content: ' ';
+        width: 100%;
+        background-color: color(yellow);
+        height: 4px;
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+      }
+    }
+  }
+}
+
+.help-support-container {
+  > * {
+    height: 100%;
+  }
+  .dx-datagrid-header-panel {
+    background-color: #fff !important;
+
+    .dx-toolbar {
+      background-color: #fff !important;
+    }
+  }
+
+  .dx-toolbar-item {
+    .dx-button {
+      background-color: color(white) !important;
+    }
+  }
+}
+
+a.send-button {
+  @extend .fz14;
+  @extend .font-medium;
+
+  min-width: 120px;
+  height: 40px;
+  box-shadow: none;
+  color: color(white);
+  background: color(yellow);
+  border-color: color(yellow);
+  border-radius: 2px;
+  text-decoration: none;
+
+  &:hover {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
+  }
+
+  &.disabled {
+    cursor: default !important;
+    color: color(light-grey);
+    border: none;
+    background-color: color(grey-white);
+    border: 1px solid color(lightest);
+  }
+}
+
+.training-container {
+  .dx-texteditor-container {
+    border: 1px solid;
+    border-color: color(lightest);
+
+    textarea {
+      @extend .p-8;
+    }
+  }
+
+  .dx-textarea {
+    &::after {
+      display: none;
+    }
+  }
+}

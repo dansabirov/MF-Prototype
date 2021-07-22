@@ -1,0 +1,184 @@
+.my-zone {
+  .view {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+
+    &.single {
+      margin: 4px 8px 8px 8px;
+    }
+    &.combined {
+      margin: 4px 8px 8px 8px;
+    }
+
+    .title {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 14px;
+      color: color(blue-grey);
+
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .dx-data-grid {
+      .dx-toolbar-label > div {
+        text-overflow: clip !important;
+      }
+
+      .dx-datagrid-rowsview .dx-selection.dx-row > td {
+        color: color(white) !important;
+      }
+
+      .dx-scrollable-scrollbars-alwaysvisible.dx-scrollable-both .dx-scrollable-content {
+        padding-bottom: 0px !important;
+      }
+      .dx-datagrid-header-panel {
+        padding: 0;
+        .dx-datagrid-group-panel {
+          margin-left: 8px;
+        }
+      }
+      .dx-row > td {
+        padding: 4px 8px !important;
+        .success {
+          stroke: color(yellow);
+        }
+        .stroke-light-grey {
+          stroke: color(light-grey);
+        }
+      }
+
+      .dx-row:not(.dx-header-row) > td:not(.dx-command-expand) {
+        // padding-top: 5px !important;
+        // padding-bottom: 5px !important;
+        // line-height: 19px;
+      }
+
+      .dx-group-row > td {
+        padding: 6px !important;
+      }
+
+      .dx-data-row > td .dx-template-wrapper app-icon.fill-light-grey .icon use {
+        fill: color(light-grey) !important;
+      }
+      .dx-datagrid-rowsview {
+        .dx-selection.dx-row > td {
+          color: color(white) !important;
+          app-icon {
+            stroke: color(white) !important;
+            &.fill-light-grey{
+              .icon use {
+                fill: color(white) !important;
+                stroke: none !important;
+              }
+            }
+          }
+        }
+      }
+      .dx-data-row > td .dx-template-wrapper app-icon {
+        margin-left: 0px !important;
+      }
+    }
+    .dx-editor-cell .dx-texteditor .dx-texteditor-input {
+      height: 24px !important;
+    }
+  }
+
+  .view--horizontal {
+    &.single,
+    &.combined {
+      margin: 0;
+      padding: 4px 8px 4px 8px;
+    }
+  }
+
+  .select-btn {
+    background: color(grey-white);
+    width: 120px;
+    height: 40px;
+    color: color(dark-grey);
+
+    &:hover {
+      color: color(white);
+      background: color(yellow);
+    }
+  }
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.my-zone-title {
+  @extend .fz16;
+
+  .page-title {
+    > * {
+      vertical-align: baseline;
+    }
+  }
+}
+
+.my-zone-grid {
+  &.hideGrouping {
+    .dx-group-panel-message {
+      display: none;
+    }
+
+    &.hideTitle {
+      .title {
+        display: none;
+      }
+    }
+
+    &.hideToolbar {
+      .dx-toolbar-after {
+        display: none;
+      }
+    }
+  }
+
+  .dx-datagrid-header-panel .dx-toolbar {
+    background-color: color(white) !important;
+  }
+
+  .dx-data-grid .dx-toolbar .dx-button {
+    &.reset-button {
+      background-color: color(white) !important;
+    }
+  }
+
+  .dx-datagrid-headers {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px !important;
+
+    .dx-datagrid-table .dx-row > td.static-column:hover {
+      background-color: inherit !important;
+      cursor: default;
+    }
+  }
+
+  .dx-datagrid-rowsview {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .dx-row-lines {
+    > .grid-cell-name {
+      @extend .pointer;
+      color: color(blue);
+      font-weight: 700;
+
+      &:hover {
+        color: color(green-blue);
+      }
+    }
+  }
+
+  app-icon.without-filter svg {
+    margin-top: 3px;
+  }
+}

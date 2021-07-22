@@ -1,0 +1,25 @@
+.customer-survey {
+  .btnStart {
+    height: auto;
+
+    .dx-button-content {
+      white-space: normal;
+      overflow: unset;
+    }
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  .dx-checkbox-text {
+    @extend .fz14;
+    color: inherit!important;
+  }
+
+  .mde-button-yellow.continue-btn {
+    .dx-button-text {
+      text-transform: lowercase;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+@import 'variables';
+@import 'utils';
+@import 'base/animations';
+@import 'base/base';
+@import 'base/margins';
+@import 'base/grid';
+@import 'base/borders';
+@import 'base/notification';
+@import 'base/confirm-dialog';
+@import 'typography';
+@import 'common';
+
+@import 'modules/customer-survey';
+@import 'modules/landing-layout';
+@import 'modules/comparing-сenter';
+@import 'modules/menu';
+@import 'modules/dx-grid';
+@import 'modules/scroll-view';
+@import 'modules/compare-filter';
+@import 'modules/part-basket';
+@import 'modules/settings';
+@import 'modules/help-support';
+
+@import 'dx-styles';
+
+@import 'modules/admin-pages/users-in-role';
+@import 'modules/admin-pages/admin-tool';
+@import 'modules/admin-pages/maintenance';
+
+@import 'modules/analytics/kpi-monitoring';
+@import 'modules/analytics/price-changes';
+@import 'modules/analytics/reference-gaps';
+@import 'modules/analytics/vehicles-comparison';
+
+@import 'modules/batch-processing/automated-services';
+@import 'modules/batch-processing/batch-search';
+
+@import 'modules/part-views/article-details';
+@import 'modules/part-views/current-prices';
+@import 'modules/part-views/online-market';
+@import 'modules/part-views/price-history';
+@import 'modules/part-views/references';
+@import 'modules/part-views/supersessions';
+@import 'modules/part-views/welcome-popup';
+
+@import 'modules/parts-potential';
+
+@import 'modules/price-surveys-oem/coverage-oem';
+@import 'modules/price-surveys-oem/data-table-oem';
+@import 'modules/price-surveys-oem/price-index-oem';
+
+@import 'modules/my-price-studies/price_studies';
+@import 'modules/my-price-studies/competitive-intensity';
+@import 'modules/my-price-studies/coverage';
+@import 'modules/my-price-studies/dashboard';
+@import 'modules/my-price-studies/data-table';
+@import 'modules/my-price-studies/price-index';
+
+@import 'modules/my-zone/my-downloads';
+@import 'modules/my-zone/my-export-definitions';
+@import 'modules/my-zone/my-favorites';
+@import 'modules/my-zone/my-parts-baskets';
+@import 'modules/my-zone/my-sets';
+
+@import 'modules/shared/carousel-switcher';
+@import 'modules/shared/custom-chart-export-popup';
+@import 'modules/shared/dropdown';
+@import 'modules/shared/file-selector';
+@import 'modules/shared/job-grid';
+@import 'modules/shared/info-cards';
+@import 'modules/shared/part-search';
+@import 'modules/shared/price-studies';
+@import 'modules/shared/range';
+@import 'modules/shared/references-grid';
+@import 'modules/shared/running-jobs-popup';
+@import 'modules/shared/search-control';
+@import 'modules/shared/share-popover';
+@import 'modules/shared/split-button';
+@import 'modules/shared/star-rating';
+@import 'modules/shared/vehicle-search';
+@import 'modules/shared/xml-viewer';

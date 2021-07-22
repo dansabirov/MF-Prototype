@@ -1,0 +1,220 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url('../assets/fonts/Roboto-Regular.woff2') format('woff2'),
+    url('../assets/fonts/Roboto-Regular.woff') format('woff'), url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url('../assets/fonts/Roboto-Italic.woff2') format('woff2'),
+    url('../assets/fonts/Roboto-Italic.woff') format('woff'), url('../assets/fonts/Roboto-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url('../assets/fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../assets/fonts/Roboto-Medium.woff') format('woff'), url('../assets/fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url('../assets/fonts/Roboto-MediumItalic.woff2') format('woff2'),
+    url('../assets/fonts/Roboto-MediumItalic.woff') format('woff'), url('../assets/fonts/Roboto-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DXIconsGeneric';
+  src: local('DevExtreme Generic Icons'), local('devextreme_generic_icons'),
+    url(../../../../node_modules/devextreme/dist/css/icons/dxicons.woff2) format('woff2'),
+    url(../../../../node_modules/devextreme/dist/css/icons/dxicons.woff) format('woff'),
+    url(../../../../node_modules/devextreme/dist/css/icons/dxicons.ttf) format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-300 {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400 !important;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700 !important;
+}
+
+html {
+  font: 16px/22px 'Roboto', sans-serif;
+  color: color(grey);
+  @extend .font-normal;
+}
+
+h1 {
+  @extend .font-bold;
+  font-size: 24px !important;
+  line-height: 14px;
+  color: color(dark-grey);
+  letter-spacing: 0px !important;
+}
+
+h2 {
+  @extend .font-bold;
+  font-size: 18px !important;
+  line-height: 14px;
+  color: color(dark-grey);
+  letter-spacing: 0px !important;
+}
+
+h3 {
+  @extend .font-bold;
+  font-size: 16px !important;
+  line-height: 14px;
+  color: color(dark-grey);
+  letter-spacing: 0px !important;
+}
+
+.h7 {
+  font-size: 10px !important;
+  line-height: 14px;
+  color: color(mid-grey);
+  letter-spacing: 0px !important;
+}
+
+.h18 {
+  height: 18px;
+  line-height: 18px;
+  color: color(mid-grey);
+}
+
+.lh14 {
+  line-height: 14px;
+}
+
+.lh18 {
+  line-height: 18px;
+}
+
+.lh32 {
+  line-height: 32px;
+}
+
+.fz8 {
+  font-size: 8px;
+}
+
+.fz10 {
+  font-size: 10px;
+}
+
+.fz11 {
+  font-size: 11px;
+}
+
+.fz12 {
+  font-size: 12px;
+}
+
+.fz13 {
+  font-size: 13px;
+}
+
+.fz14 {
+  font-size: 14px;
+}
+
+.fz16 {
+  font-size: 16px;
+}
+
+.fz18 {
+  font-size: 18px;
+}
+
+.fz20 {
+  font-size: 20px;
+}
+
+.fz24 {
+  font-size: 24px;
+}
+
+.fz30 {
+  font-size: 30px;
+}
+
+.fc-white {
+  color: color(white);
+}
+
+.fc-black {
+  color: #000;
+}
+
+.fc-blue {
+  color: color(blue);
+}
+
+.fc-green {
+  color: color(green);
+}
+
+.fc-darkgrey {
+  color: color(dark-grey);
+}
+
+.fc-red {
+  color: color(dark-red);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+a.link {
+  color: color(blue);
+}
+
+.mid-grey {
+  color: color(mid-grey);
+}
+
+.blue-grey {
+  color: color(blue-grey);
+}
+.red {
+  color: color(red);
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+
+.overflow_break {
+  overflow-wrap: break-word;
+}

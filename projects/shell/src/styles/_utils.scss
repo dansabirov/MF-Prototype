@@ -1,0 +1,22 @@
+@function map-get-strict($map, $key) {
+  @if map-has-key($map, $key) {
+    @return map-get($map, $key);
+  } @else {
+    @error "ERROR: Specified index does not exist in the mapping: `#{$map}`, `#{$key}`";
+  }
+}
+
+// retrieve color from map ie. `color(primary, base)`
+@function color($color-name, $color-variant: null) {
+  // color variant is optional
+  @if ($color-variant != null) {
+    // map inception
+    @return map-get-strict(map-get-strict($colors, $color-name), $color-variant);
+  } @else {
+    @return map-get-strict($colors, $color-name);
+  }
+}
+
+@function size($size-name) {
+  @return map-get-strict($sizes, $size-name);
+}

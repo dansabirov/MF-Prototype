@@ -1,0 +1,29 @@
+.jobs-grid {
+  .dx-scrollable-scrollbars-alwaysvisible.dx-scrollable-both > .dx-scrollable-wrapper > .dx-scrollable-container > .dx-scrollable-content {
+    padding-bottom: 0px;
+  }
+  .dx-datagrid-total-footer {
+    .dx-datagrid-text-content {
+      overflow: unset;
+      text-overflow: unset;
+    }
+  }
+
+  .table-close-icon {
+    @extend .pointer;
+  }
+
+  .dx-data-row > td .dx-template-wrapper app-icon {
+    margin-left: 0 !important;
+  }
+
+  app-icon[name='close'] .icon use {
+    stroke: color(red);
+  }
+
+  .dx-selection app-icon[name='close'] .icon use {
+    stroke: color(white);
+  }
+
+  .light-row { color: color(light-grey);}
+}

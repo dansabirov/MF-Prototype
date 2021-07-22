@@ -1,0 +1,18 @@
+.users-in-role {
+  .dx-treelist-search-panel {
+
+    &:after,
+    &.dx-state-hover:after,
+    &.dx-state-readonly.dx-state-focused:before {
+      border-bottom: none !important;
+    }
+
+    border: 1px solid;
+    border-color: color(lightest);
+
+    .dx-placeholder {
+      margin-left: 12px;
+      color: color(light-grey);
+    }
+  }
+}

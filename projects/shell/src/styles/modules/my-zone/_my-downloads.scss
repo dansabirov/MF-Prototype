@@ -1,0 +1,14 @@
+// .my-downloads {
+//   .view.single .dx-data-grid .dx-row > td {
+//     padding: 5px 8px 5px 8px !important;
+//   }
+
+//   .view.combined .dx-data-grid .dx-row > td {
+//     padding: 5px 8px 4px 8px !important;
+//   }
+// }
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td.static-column:hover {
+  background-color: inherit !important;
+  cursor: default;
+}

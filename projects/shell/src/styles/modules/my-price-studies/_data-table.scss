@@ -1,0 +1,7 @@
+.data-table-search-panel {
+  .dx-texteditor.dx-editor-underlined {
+    &:after {
+      border-bottom: none !important;
+    }
+  }
+}

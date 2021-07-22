@@ -1,0 +1,37 @@
+/**
+ *  Component: app-custom-chart-export-popup
+ */
+.custom-chart-export-popup {
+  @extend .box-reset;
+
+  .content {
+    @extend .box-reset;
+  }
+
+  .fields-area {
+    width: 100%;
+    height: auto;
+
+    padding: 0 0 16px 0;
+  }
+
+  .field-area {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: auto;
+
+    padding: 10px 0 10px 0;
+
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .field-checkbox {
+  }
+
+  .field-label {
+    padding: 0 0 0 16px;
+  }
+}

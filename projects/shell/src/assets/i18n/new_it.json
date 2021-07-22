@@ -1,0 +1,2042 @@
+{
+  "ARTICLE-DETAILS": {
+    "TITLE": "Dettagli articolo",
+    "PARTS_POOL_SOURCE": "In PartsPool",
+    "TEC_DOC_SOURCE": "In TecDoc",
+    "POPUP": {
+      "CLOSE": "Chiudi Dettagli articolo"
+    },
+    "VEHICLE-LINKINGS": {
+      "NO-DATA": "Nessun dato disponibile",
+      "COLUMNS": {
+        "CONSTRUCTION": "Costruzione",
+        "YEAR_FROM": "Dall'anno",
+        "YEAR_TO": "All'anno",
+        "KW": "kW",
+        "HP": "CV",
+        "CCM": "cm³",
+        "CYLINDER": "Cilindrata",
+        "CYLINDER_CCM": "Cilindrata (cc)",
+        "CYLINDER_LITER": "Cilindrata (litri)",
+        "VALVES": "Valvole",
+        "MOTOR_TYPE": "Tipo di motore",
+        "FUEL_TYPE": "Tipo di carburante",
+        "FUEL_TYPE_PROCESS": "Processo carburante",
+        "IMPULSION_TYPE": "Tipo di impulso",
+        "BRAKE_SYSTEM": "Sistema freni",
+        "TECDOC": "Tipo TecDoc num.",
+        "KBA_NUM": "Numeri KBA",
+        "MOTOR_CODES": "Codici motore"
+      }
+    },
+    "PART_LIST": {
+      "QUANTITY": "Quantità",
+      "PACKAGING_UNIT": "Unità di imballaggio"
+    },
+    "ACCESSORY_LIST": {
+      "QUANTITY": "Quantità",
+      "PACKAGING_UNIT": "Unità di imballaggio"
+    }
+  },
+  "AUTOMATED-SERVICES": {
+    "PRICE-CHANGE-SERVICES": "Servizi modifiche prezzi ({{value}})",
+    "SUPERSESSIONS-SERVICES": "Servizi sostituzioni ({{value}})",
+    "ADD-PRICE-CHANGES-SERVICE": "Aggiungi Servizio modifiche prezzi",
+    "ADD-SUPERSESSIONS-SERVICE": "Aggiungi Servizio sostituzioni",
+    "PRICE-CHANGES": {
+      "ADD": "Aggiungi Servizio modifiche prezzi",
+      "EDIT": "Modifica Servizio modifiche prezzi",
+      "COPY": "Copia Servizio modifiche prezzi",
+      "OPEN": "Apri Servizio modifiche prezzi"
+    },
+    "SUPERSESSIONS": {
+      "ADD": "Aggiungi Servizio sostituzioni",
+      "EDIT": "Modifica Servizio sostituzioni",
+      "COPY": "Copia Servizio sostituzioni",
+      "OPEN": "Apri Servizio sostituzioni"
+    },
+    "FORM-FIELDS": {
+      "FREQUENCY": "Frequenza",
+      "TO": "Elenco destinatari email \"A\"",
+      "CC": "Elenco destinatari email \"Cc\"",
+      "SUBJECT-OF-MONITORING": "Oggetto del monitoraggio",
+      "MONITORING-TYPES": "Tipi di monotoraggio",
+      "OPTIONAL-FILTERS": "Filtri opzionali",
+      "BRAND-SET": "Set di brand",
+      "PRICE-INCREASE": "Aumento di prezzo (>)",
+      "PRICE-DECREASE": "Riduzione di prezzo (<)",
+      "INCLUDE-REFERENCES": "Includi referenze"
+    },
+    "PART-BASKET-HELP-TEXT": "Solo i carrelli con articoli condivisi (con il gruppo di utenti) possono essere utilizzati per i servizi automatizzati",
+    "VALIDATORS": {
+      "NAME": "Nome obbligatorio",
+      "ENABLED": "You can not add an additional enabled service, because the limit is reached. Please disable a current enabled service first.",
+      "BRAND-SET": "If Recepients fields is filled, then selected Brand Set must be shared"
+    },
+    "FREQUENCIES": {
+      "WEEKLY": "Settimanale",
+      "BI_WEEKLY": "Quindicinale",
+      "MONTHLY": "Mensile"
+    }
+  },
+  "BASE-LAYOUT": {
+    "COMPARING-CENTER": {
+      "APPLY-CHOOSEN-PART-NUMBER": "Applica Numero ricambio a tutte le visualizzazioni"
+    },
+    "FOOTER": {
+      "ALL-RIGHTS-RESERVED": "Tutti i diritti riservati",
+      "HELP/SUPPORT": "Aiuto & Assistenza",
+      "LANGUAGE": "Lingua",
+      "PRIVACY/POLICY": "Informativa sulla privacy"
+    },
+    "NAVIGATION": {
+      "ANALYTICS": "PartsPool Analytics",
+      "ARTICLE-DETAILS": "Dettagli articolo",
+      "AUTOMATED-SERVICE": "Servizi automatizzati",
+      "BATCH-PROCESSES": "PartsPool Elaborazione a blocchi",
+      "BATCH-SEARCH": "Ricerca Lista",
+      "COMPARING-CENTER": "Centro - comparazione",
+      "CURRENT-PRICES": "Prezzi",
+      "COMPETITIVE-INTENSITY": "Competitive Intensity",
+      "COVERAGE": "Coverage",
+      "DASHBOARD": "Inizio",
+      "DATA-TABLE": "Data Table",
+      "DOWNLOADS": "I miei download",
+      "FAVORITES": "I miei preferiti",
+      "GAP-ANALYSIS": "Gap di referenze",
+      "KEY-FINDINGS": "Key Findings",
+      "KPI-VIEW": "PortfolioMonitor",
+      "MY-SETS": "I miei set",
+      "MY-ZONE": "La mia zona",
+      "NEW-TAB": "Nuova scheda",
+      "OE-BENCHMARK": "Confronto veicoli",
+      "ONLINE-MARKET": "Mercato online",
+      "PART-BASKET": "I miei Carrelli articoli",
+      "PART-VIEW": "PartsPool Visualizzazione ricambio",
+      "PRICE-CHANGES": "Modifiche prezzi",
+      "PRICE-INDEX": "Price Index",
+      "PRICE-HISTORY": "Cronologia prezzi",
+      "PRICE-STUDIES": "PriceSurveys IAM Benchmark",
+      "PRICE-STUDIES-DASHBOARD": "Study Dashboard",
+      "PRICE-SURVEYS-OEM": "PriceSurveys OEM Benchmark",
+      "PRICE-STUDIES-DASHBOARD-OEM": "Study Dashboard",
+      "KEY-FINDINGS-OEM": "Key Findings",
+      "DATA-TABLE-OEM": "Data Table",
+      "COVERAGE-OEM": "Coverage",
+      "PRICE-INDEX-OEM": "Price Index",
+      "MY-STUDY-PRESETS-OEM": "My Study Presets",
+      "PARTS-COMPARISON": "Comparazione Articoli",
+      "PARTS-POTENTIALS": "PartsPotential",
+      "POTENTIAL-EQUAL-PARTS": "Potenziale parti uguali",
+      "REFERENCES": "Referenze",
+      "HELP-SUPPORT": "Aiuto & Assistenza",
+      "SETTINGS": "Le mie impostazioni",
+      "SUPERSESSIONS": "Sostituzioni",
+      "MY-EXPORT-DEFINITION": "Le mie difinizione di export",
+      "USER-ADMIN": "Admin Utenti",
+      "ADMIN-USERS": "Utenti",
+      "ADMIN-GROUPS": "Gruppi",
+      "ROLES-AND-USERS": "Licenze",
+      "MAINTENANCE": "Set to Maintenance",
+      "POPUPS": "Popups ",
+      "RELEASE-NOTES-MANAGEMENT": "Release Notes",
+      "FAQ-MANAGEMENT": "FAQs",
+      "MY-STUDY-PRESETS": "My Study Presets",
+      "CUSTOMER-DATA": "Customer Data"
+    },
+    "USER_MENU": {
+      "TITLE": "Menu Utenti",
+      "RUNNING-JOBS": "Lavori in esecuzione",
+      "HELP": "Aiuto & Assistenza",
+      "LOGOUT": "Logout"
+    }
+  },
+  "BATCH-SEARCH": {
+    "CHOOSE-BRAND-SET": "Set di brand (optional)",
+    "RRP-MODE": "Modalità prezzo consigliato",
+    "ONLINE-MODE": "Modalità online",
+    "ALL-BRANDS": "Tutte le marche",
+    "ALL-WEBSHOPS": "Tutti i webshop",
+    "NO-WEBSHOPS": "Nessun Webshop disponibile",
+    "PRICES": "Prezzi",
+    "MAX-PRICE-AGE": "Max. Anno prezzo",
+    "SHOW-OE-BLOCKS-WITHOUT-PRICE": "Mostra blocchi OE senza prezzo",
+    "WITHOUT-PRICE": "Articoli senza prezzo",
+    "EXPORT-FORMAT": "Formato Export",
+    "MATCHING-FILTER": "Filtro corrispondente",
+    "OFF": "Disattivo",
+    "VERY-LOW": "Molto basso",
+    "LOW": "Basso",
+    "MEDIUM": "Medio",
+    "HIGH": "Alto",
+    "VERY-HIGH": "Molto alto",
+    "OFF-TOOLTIP": "Tutti i risultati",
+    "VERY-LOW-TOOLTIP": "Tutti i ricambi trovati e conosciuti da PartsPool®",
+    "LOW-TOOLTIP": "Include tutti i ricambi trovati e conosciuti da PartsPool® che hanno la stessa marca o numero di ricambio come inserimento o referenza sullo stesso ricambio OE",
+    "MEDIUM-TOOLTIP": "Stessa marca e numero di ricambio o referenza del ricambio cercato e trovato su almeno un ricambio OE identico",
+    "HIGH-TOOLTIP": "Stessa marca e numero di ricambio o il ricambio cercato e il ricambio trovato sono correlati come sostituzioni",
+    "VERY-HIGH-TOOLTIP": "Stessa marca e numero di ricambio",
+    "JOB-WAS-PUSHED": "Il processo di ricerca batch è stato inviato al server. Riceverai una notifica via email.<br/>I risultati saranno disponibili sulla pagina I miei download.",
+    "PART-BASKET-IS-MISSING": "Seleziona Carrello ricambi",
+    "COUNTRIES-ARE-MISSING": "Seleziona almeno un Paese",
+    "JOB-COULDNOT-START": "Il processo di ricerca batch non è stato avviato. Contatta l'amministratore.",
+    "TOOLTIPS": {
+      "FULL-SCREEN-ON": "Aprire Modalità Schermo intero",
+      "FULL-SCREEN-OFF": "Uscire Modalità Schermo intero"
+    },
+    "NO-EXPORT": "Nessuna definizione export disponibile",
+    "NO-BRANDS": "Nessun Set Marchi disponibile",
+    "BATCH_JOB": "Batch Search Job",
+    "CURR_MONTH_VOL": "Current month vol.",
+    "LAST_MONTH_VOL": "Last month vol.",
+    "RRP_VOLUME": "Batch Search RRP Limit",
+    "ONLINE_VOLUME": "Batch Search Online Limit",
+    "LIMIT_ERROR": "Attention: The batch search cannot be processed, because your montly limit of {{value}} requests would be exceeded. Please contact your Administrator or our Support for further information.",
+    "JOB-HISTORY": "Utilizzo (corrente mese)",
+    "FOOTER_TEXT": "Job History / Requested Volume:",
+    "LOW-TRAFFIC": "Low traffic.",
+    "LOW-TEXT": "Your job will start in 0-60 minutes.",
+    "MEDIUM-TRAFFIC": "Medium traffic.",
+    "MEDIUM-TEXT": "Your job will start in 1-8 hours.",
+    "HIGH-TRAFFIC": "High traffic.",
+    "HIGH-TEXT": "Your job will start in 8-24 hours.",
+    "YOUR-JOB-STARTS-IMMEDIATELY": "Your job will start immediately.",
+    "YOUR-JOB-ONLY-MIN": "Your job will start in approx. {{minutes}} minutes.",
+    "YOUR-JOB-ONLY-MIN-AND-HOURS": "Your job will start in approx. {{hours}}h {{minutes}} m",
+    "MONTHLY_LIMIT": "Batch Search - Monthly Limit"
+  },
+  "COMMON": {
+    "ADD-VEHICLE": "Aggiungi veicoli",
+    "1-MONTH": "1 mese",
+    "2-MONTHS": "2 mesi",
+    "3-MONTHS": "3 mesi",
+    "6-MONTHS": "6 mesi",
+    "1-YEAR": "1 anno",
+    "2-YEARS": "2 anni",
+    "3-YEARS": "3 Years",
+    "5-YEARS": "5 Years",
+    "INFINITY": "Senza limiti",
+    "BACK": "Back",
+    "EXISTING": "Existing",
+    "EXPORT": "Export",
+    "EXCLUDE": "Exclude",
+    "INCLUDE": "Include",
+    "APPLY": "Applica",
+    "CANCEL": "Annulla",
+    "CANCELED": "Annullato",
+    "COLLAPSE_ALL": "Chiudere tutto",
+    "CONTINUE": "Continue",
+    "EXPAND_ALL": "Aprire tutto",
+    "OK": "OK",
+    "CHOOSE-PROJECT": "Select a Project",
+    "CHOOSE-WITH-DOTS": "Scegli...",
+    "COPY_OF": "Copia di",
+    "DEFAULT": "Predefinito",
+    "DELETE": "Delete",
+    "FILE-SELECTOR": {
+      "Title": "Trascina selezione",
+      "Files": "un file {{files}} qui",
+      "OR": "o",
+      "Browse": "naviga",
+      "UNALLOWED-FILE": "File extension is not permitted or MIME type does not match the file content. Allowed file extensions list: {{extensions}}"
+    },
+    "LINK": "Link",
+    "CLICK-HERE": "Cliccare",
+    "LOAD": "Carica",
+    "LOADING": "Caricamento",
+    "LOADING-WITH-DOTS": "Caricamento...",
+    "NO-RESULTS": "Nessun risultato",
+    "NEW": "Nuovo",
+    "NEXT_LEVEL": "Next level",
+    "NO": "No",
+    "NONE": "Nessuno",
+    "NO-DATA": "No data",
+    "NO-FILTERS": "Nessun filtro",
+    "NO_ANSWER": "no answer",
+    "SHOW": "Show",
+    "PARTS": "Ricambi",
+    "PREVIOUS_LEVEL": "Previous level",
+    "SAVE": "Salva",
+    "SAVE-AS": "Save as New",
+    "SELECT": "Seleziona",
+    "SHARE": {
+      "PLACEHOLDER": "Scegli utenti",
+      "SHARE_WITH": "Condividi con",
+      "SHARE_WITH_GROUP": "Condividi con tutto il Gruppo utenti",
+      "NO_SHARING": "Nessuna condivisione"
+    },
+    "START": "Inizio",
+    "TITLE": "Market Data Engine",
+    "YES": "Sì",
+    "UNDO-DELETING": "Annullare cancella",
+    "WEBSHOPS": "Webshop",
+    "PIN": "Aggiungi pin",
+    "REMOVE": "Rimuovi",
+    "UNPIN": "Elimina pin",
+    "VIEW-MODE-NO-RIGHTS": "Questa modalità di visualizzazione non è disponibile con l'attuale licenza PartsPool. Contattaci per ulteriori informazioni",
+    "SEARCH": "Cercare",
+    "SEND": "Inviare",
+    "CREATE": "Creare",
+    "CREATE-NEW": "New",
+    "DYNAMIC": "dinamico",
+    "QUANTITY": "Quantità",
+    "PARAMETERS": "Parametro",
+    "PARTSPOOL-PAGES": {
+      "LOGO-TITLE": "Questo è un modulo PartsPool®",
+      "PLACEHOLDER": "Prego inserite un codice articolo"
+    },
+    "RESET": "Reset",
+    "TOTAL": "Totale",
+    "TOOLTIPS": {
+      "CLOSE": "Close",
+      "OPEN-MENU": "Open Menu",
+      "COLLAPSE": "Collapse",
+      "UNCOLLAPSE": "Uncollapse"
+    },
+    "CUSTOM": "Definito dall'utente",
+    "INPUT-TYPE": "Tipo di input",
+    "UPDATE": "Aggiornare",
+    "UPDATE-DATA": "Aggiornare Dati",
+    "UNSAVED-CHANGES": "There are unsaved changes, do you want to discard them?",
+    "MIN": "Min",
+    "MAX": "Max",
+    "AVERAGE": "Ø",
+    "STANDARD-DEVIATION": "σ",
+    "CONFIRM": "Confirm",
+    "OF": "di",
+    "DOWNLOADING-FILE": "Downloading file",
+    "SHARED-OWN": "Elemento proprio e condiviso",
+    "SHARED-NOT-OWN": "Elemento non proprio, pero condiviso",
+    "OTHER-USER": "Other User of User Group"
+  },
+  "COMMON-COLUMNS": {
+    "NAME": "Nome",
+    "BRAND": "Marca",
+    "MODEL": "Modello",
+    "TYPE": "Tipo",
+    "PART_NUMBER": "Codice articolo",
+    "DESCRIPTION": "Descrizione",
+    "MODIFICATION_DATE": "Ultima modifica",
+    "CREATOR": "Creatore",
+    "PARTS_BASKET": "Carrello articoli",
+    "CHANGE": "Cambiare",
+    "COMMENT": "Commento",
+    "RRP": "Prezzo raccomandato",
+    "RRP_DATE": "Data prezzo raccomandato",
+    "TOTAL": "Totale",
+    "COUNTRY": "Paese",
+    "RRP_ORIGIN": "Prezzo raccomandato (valuta d'origine)",
+    "RRP_ORIGIN_CUR": "Valuta d'origine (prezzo raccomandato)",
+    "ARTICLE_STATUS": "Stato articolo",
+    "CREATE_DATE": "Data creazione",
+    "MODE": "Modalità",
+    "COUNTRIES": "Paesi",
+    "INPUT": "Inserimento",
+    "BRAND_TYPE": "Tipo di marca",
+    "ALT_PART_NUMBER": "Codice articolo alternativo",
+    "NUM_OF_REF": "# referenze",
+    "IAM_PARTS": "# Ricambi IAM",
+    "SUCCESSOR": "Successore",
+    "PREDECESSOR": "Predecessore",
+    "NUM_OF_COUNTRIES": "# Countries",
+    "NUMBER_OF_PARTS": "# Ricambi",
+    "NUM_OF_PREDECESSORS": "# Predecessori",
+    "NUM_OF_SUCCESSORS": "# Successori",
+    "NUMBER_OF_CHANGES": "# Changes",
+    "CURRENCY": "Valuta",
+    "WEBSHOP": "Webshop",
+    "PART_ID": "ID ricambio",
+    "EUCON_ID": "Eucon ID",
+    "GENERIC_ARTICLE_ID": "ID articolo generico",
+    "GENERIC_ARTICLE": "Articolo generico",
+    "CHANGE_PERCENT": "Cambia %",
+    "OE_BLOCK": "Blocco OE",
+    "PRICE_TYPE_ID": "Tipo di prezzo",
+    "PART_NUM_REDUCED": "Numero di ricambio ridotto",
+    "PRICE_CURRENCY": "Valuta (prezzo raccomandato)",
+    "REMANUFACTURED_PART": "Pezzo rigenerato",
+    "CORE_CHARGE_DATE": "Data prezzo cauzione",
+    "CORE_CHARGE": "Prezzo cauzione",
+    "CORE_CHARGE_ORIGIN": "Prezzo cauzione (valuta d'origine)",
+    "CORE_CURRENCY": "Valuta (prezzo cauzione)",
+    "CORE_CURRENCY_ORIGIN": "Valuta d'origine (prezzo cauzione)",
+    "ENABLED": "Abilitato",
+    "USE_CASE": "Use Case",
+    "PROJECT_NAME": "Project Name",
+    "STUDY_NAME": "Study Name",
+    "STUDY_TYPE": "Study Type",
+    "YEAR": "Year",
+    "TIME_UNIT": "Time Unit",
+    "STATUS": "Stato"
+  },
+  "CONTEXT-MENU": {
+    "ALL_VIEWS": "All Views",
+    "APPLY_PART_NUMBER_TO": "Apply Part Number to... >"
+  },
+  "COMPETITIVE-INTENSITY": {
+    "AXIS-NAME": "Price Index",
+    "ARGUMENT-AXIS-NAME": "Ø Number of IAM Price Information per Covered OE Part",
+    "CONSTANT-LINE": "OE RRP Index",
+    "TOOLTIPS": {
+      "FULL-SCREEN-ON": "Aprire Modalità Schermo intero",
+      "FULL-SCREEN-OFF": "Uscire Modalità Schermo intero"
+    },
+    "POPOVER": {
+      "TITLE": "Study Scope"
+    },
+    "GRID-LABEL": {
+      "PART_NUMBER": "OE Part Number",
+      "IAM_PI": "# IAM Price Information",
+      "IAM_INDEX": "IAM RRP Index"
+    },
+    "SHOW-LABELS": "Show Labels"
+  },
+  "CURRENT-PRICES": {
+    "GRAPH-VIEW": "Modalità grafico",
+    "TABLE-VIEW": "Modalità tabella",
+    "TITLE": "Prezzi",
+    "AVG-TITLE": "Ø Prezzo consigliato",
+    "COLUMNS": {
+      "RRP_DIFF": "Differenza prezzo raccomandato"
+    }
+  },
+  "CUSTOM-CHART-EXPORT-POP-UP": {
+    "TITLE": "Export Configuration",
+    "CHECKBOXES": {
+      "INCLUDE-HEADLINE": "Include Headline",
+      "INCLUDE-INFO-CARDS": "Include Info Cards",
+      "INCLUDE-GRAPHIC": "Include Graphic"
+    }
+  },
+  "COVERAGE": {
+    "GRID-TITLE": "Coverage",
+    "TOTAL": "Total Coverage",
+    "TOOLTIPS": {
+      "FULL-SCREEN-ON": "Aprire Modalità Schermo intero",
+      "FULL-SCREEN-OFF": "Uscire Modalità Schermo intero"
+    },
+    "TREELIST-COLUMNS": {
+      "INPUT_PARTS": "# OE Parts",
+      "ANALYZED_PARTS": "Analyzed OE Parts by Eucon",
+      "IAM_COVERAGE": "OE Parts Covered by IAM",
+      "IAM_NOT_COVERAGE": "OE Parts Not Covered by IAM",
+      "COVERED_PARTS": "# Covered Parts",
+      "COVERED_PARTS_PERS": "%",
+      "NOT_OFFERED": "# Not Offered at Selected Wholesalers",
+      "CAPTIVE": "# Captive",
+      "IAM_OFFERING": "IAM Price Information",
+      "IAM_PI": "#",
+      "IAM_PI_PART": "Ø per Covered OE Part",
+      "TOTAL": "Total"
+    }
+  },
+  "DOWNLOADS": {
+    "TITLE": "I miei download",
+    "SUBTITLE": "I download saranno automaticamente eliminati da questa panoramica dopo 100 giorni.",
+    "GRID": {
+      "TOOLTIP": {
+        "SHARED-NOT-OWN": "Elemento non proprio, pero condiviso",
+        "SHARED-OWN": "Elemento proprio e condiviso"
+      }
+    },
+    "BATCH_SEARCH": "Ricerche batch ({{value}})",
+    "AUTOMATED_SERVICE": "Servizi automatizzati ({{value}})",
+    "SHARE": {
+      "TITLE": "Condividi download"
+    }
+  },
+  "FAVORITES": {
+    "TITLE": "I miei preferiti",
+    "COLUMNS": {
+      "MODE": "Modulo",
+      "FILTER": "Filtro",
+      "VIEW": "Visualizza"
+    },
+    "COMBINED_VIEW": "Visualizzazioni combinate ({{value}})",
+    "GRID": {
+      "TOOLTIP": {
+        "SHARED-NOT-OWN": "Elemento non proprio, pero condiviso",
+        "SHARED-OWN": "Elemento proprio e condiviso"
+      }
+    },
+    "SINGLE_VIEW": "Visualizzazioni singole ({{value}})",
+    "SAVE_WITH_FILTERS": "Salva con Inserimento e Filtri",
+    "ADD_TO_FAVORITES": "Aggiungi a 'I miei preferiti'",
+    "DEFAULT_NAME": "Visualizzazione preferita 1",
+    "SUCCESS-NOTIFICATION": "Pagina aggiunta a 'I miei Preferiti'",
+    "EDIT-DIALOG-TITLE": "Modifica preferito",
+    "COPY-DIALOG-TITLE": "Copia preferito",
+    "SHARE": {
+      "TITLE": "Condividi preferito"
+    }
+  },
+  "GALLERY": {
+    "NO-DATA": "Nessuna foto disponibile",
+    "CLOSE-POPUP": "Chiudi popup",
+    "POPUP-TITLE": "Immagine ingrandita",
+    "MAXIMIZE": "Ingrandisci immagine",
+    "MAXIMIZED_IMAGE": "Immagine ingrandita",
+    "CLOSE_IMAGE": "Chiudi immagine",
+    "JOB-WAS-PUSHED": "Il processo di ricerca batch è stato inviato al server. Riceverai una notifica via email.<br/>I risultati saranno disponibili sulla pagina I miei download."
+  },
+  "GAP-ANALYSIS": {
+    "TITLE-REFERENCE_GAPS": "Gap di referenze",
+    "TITLE-POTENTIAL_EQUAL_PARTS": "Potenziale parti uguali",
+    "COLUMNS": {
+      "NUM_OF_VL": "# Collegamenti veicolo",
+      "IAM_BRANDS": "Marche IAM"
+    },
+    "POPUP": {
+      "CLOSE": "Chiudi Popup"
+    },
+    "EXPORT": {
+      "YES": "Sì",
+      "OUTSTANDING": "in sospeso",
+      "SEARCHEDPARTREFERENCES": "Referenze ricambi cercati"
+    },
+    "TOOLTIPS": {
+      "PRICE": "Il prezzo originale è di {{value}}",
+      "CURRENT": "Ricambi - referenza ({{value}})",
+      "REFERENCED": "Ricambio OE, a cui si riferisce il ricambio cercato"
+    }
+  },
+  "GRID": {
+    "EXPORT-DATA-TABLE": "Export table",
+    "GROUP-PANEL-TEXT": "Trascina qui una colonna per raggruppamento",
+    "SET-TO-DEFAULT": "Imposta come predefinito",
+    "SET-TO-DEFAULT-TITLE": "Reset",
+    "REFRESH-BUTTON": "Rinfrescare",
+    "RESET_FILTER": "Reset",
+    "BULK_DELETE": "Bulk Delete",
+    "DELETE": "Elimina",
+    "CANCEL": "Annulla",
+    "SHARE": "Condividi",
+    "EDIT": "Modifica",
+    "OPEN": "Apri",
+    "COPY": "Copia",
+    "DOWNLOAD": "Esegui il download",
+    "UNSHARE": "Unshare",
+    "ADD-EXPORT-DEFINITION": "Nuova definizione export",
+    "ADD-PART-PASKET": "Aggiungi Carrello articoli",
+    "ADD-MY-SET": "Aggiungi nuovo set",
+    "ADD-NEW": "Aggiungi nuovo",
+    "ADD-NEW-KEY-FINDING": "New Key Finding",
+    "EXPAND-ALL": "Espandi tutto",
+    "COLLAPSE-ALL": "Comprimi tutto",
+    "ADD-GROUP": "Aggiungere gruppo",
+    "ADD-USER": "Aggiungere utente",
+    "ADD-STUDY-PRESET": "New Study Preset",
+    "EXCLUDE-SELECTED": "Exclude selected Rows",
+    "UNDO-EXCLUDE-SELECTED": "Reset Exclusions",
+    "TOOLTIPS": {
+      "OPEN-ARTICLE-DETAILS": "Apri Dettagli articolo",
+      "OPEN-REFERENCES": "Open # References",
+      "OPEN-COLUMN-NAME": "Apri {{column}}"
+    }
+  },
+  "INFO-CARDS": {
+    "AVERAGE-ONLINE-PRICE": "Ø Prezzo online ({{currency}})",
+    "BASE_COUNTRY_HIGH": " Più alto",
+    "BASE_COUNTRY_LOW": " Più basso",
+    "CHAIN_TYPE": "Tipo catena",
+    "FIRST_LEVEL_MAXIMUM": "Maximum Competitor RRP Index",
+    "FIRST_LEVEL_MINIMUM": "Minimum Competitor RRP Index",
+    "EXACT-SEARCH-RESULTS": "# Risultati ricerca esatta",
+    "HIGHEST_CHANGE": "Cambio più alto",
+    "IAM_BRANDS": "# Marche IAM",
+    "INDEX_RANGE_PARTS": "Range indice (ricambi)",
+    "INDEX_AVERAGE_PARTS": "Ø indice (ricambi)",
+    "INDEX_RANGE_VEHICLES": "Range Indice (veicoli)",
+    "INDEX_AVERAGE_VEHICLES": "Ø indice (veicoli)",
+    "LOWEST_CHANGE": "Cambio più basso",
+    "NUMBER_OF_PARTS_WITH_PRICE": "# Ricambi con prezzo",
+    "OE": "# Ricambi OE",
+    "OE_COVERED": "# OEM Parts Covered by IAM",
+    "OE_PARTS": "# Ricambi OE (Totale)",
+    "OE_COMP_INDEX": "Ø Competitor RRP Index",
+    "OE_COMP_PARTS": "# Parts Used for Index Calculation",
+    "OE_PARTS_REFERENCES": "# Ricambi OE (Referenze)",
+    "OE_RRP_RANGE": "Range prezzo raccomandato OE",
+    "OE_RRP_AVG": "Ø prezzo consigliato OE",
+    "OE_RRP_DEVIATION": "OE RRP Standard Deviation",
+    "ONLINE-PRICE-RANGE": "Range prezzo online ({{currency}})",
+    "OWN-PARTS": "# Own Parts with Competition",
+    "OWN-PARTS-WITH-IAM": "# Own Parts with IAM Units sold",
+    "TOTAL-IAM": "# Total IAM Units sold",
+    "IAM-REFERENCES": "# IAM References with Units sold",
+    "OWN-PARTS-COMPETITION": "# IAM References with Market Share > 80%",
+    "TOTAL_IAM_REFERENCES": "# IAM References",
+    "PARTS": "# Ricambi",
+    "RRP_AVG": "Ø prezzo consigliato ({{currency}})",
+    "RRP_CHANGE_AVERAGE": "Ø RRP Total Change",
+    "RRP_CHANGES": "# RRP Changes",
+    "RRP_CHANGE_COUNTRY": "Cambio prezzo raccomandato nel Paese cercato",
+    "RRP_DIFFERENCE": "Ø RRP Difference",
+    "RRP_DATE": "Data prezzo ({{currency}})",
+    "RRP_DIFF": "Differenza per Ø prezzo consigliato",
+    "RRP_MEDIAN": "Mediana prezzo raccomandato ({{currency}})",
+    "RRP_POINTS": "# Prezzi raccomandati",
+    "RRP_RANGE": "Range prezzo raccomandato ({{currency}})",
+    "RRP_VALUES": "# Prezzi raccomandati",
+    "SEARCHED_PARTS_AVG_PERC_CHANGE": "Ø Change (Searched Parts)",
+    "SEARCHED_PARTS_PRICE_CHANGE": "# Searched Parts (with Change)",
+    "SEARCHED_PART_RRP": "Cambio prezzo raccomandato del ricambio cercato",
+    "SEARCH-RESULTS": "# Risultati ricerca",
+    "SEARCHED-WEBSHOPS": "# Webshop cercati",
+    "SHARE_GREATER_THEN": "# Parts with RRP Index > 150",
+    "SHARE_LESS_THEN": "# Parts with RRP Index < 50",
+    "STANDART-DEVIATION": "Deviazione standard",
+    "TOTAL_AVG_PERC_CHANGES": "Ø Change (All Parts)",
+    "TOTAL_PARTS_PRICE_CHANGE": "# Total Parts (with Change)",
+    "VEHICLES": "# Veicoli",
+    "WEBSHOPS-WITH-RESULTS": "# Webshop con Risultati",
+    "WHL": "# Ricambi grossista"
+  },
+  "KEY-FINDINGS": {
+    "DASHBOARD-MODE": "Dashboard Mode",
+    "TABLE-MODE": "Table Mode",
+    "FORM": {
+      "IMPACT": "Impact",
+      "TITLE": "Title"
+    }
+  },
+  "KEY-FINDING": {
+    "SELECTION-TITLE": "Key Finding Selection",
+    "GRID-TITLE": "Key Findings ({{value}})",
+    "IMPACT": {
+      "HIGH": "HIGH",
+      "MEDIUM": "MEDIUM",
+      "LOW": "LOW"
+    },
+    "BELOW_COMPETITORS": "Price positioning below OE competitors",
+    "ABOVE_COMPETITORS": "Price positioning above OE competitors",
+    "MAJOR_DIFFERENCES": "Major technical differences to OE competitors",
+    "MISCELLANEOUS": "Miscellaneous",
+    "PRICE_OPPORTUNITIES": "Part numbers and product groups with price opportunities",
+    "PRICE_WITH_LITTLE_COMPETITION": "Part numbers and product groups with little or no competition",
+    "PRICE_WITH_INTENSE_COMPETITION": "Part numbers and product groups with intense competition"
+  },
+  "KPI-VIEW": {
+    "TITLE": "PortfolioMonitor",
+    "DELIVERY": "Consegna",
+    "ALL-BRANDS": "Tutte le marche",
+    "BRANDS": "Marche",
+    "VIEW": "Livello",
+    "FILTER": "Use Case:",
+    "OES-COLUMN": "IAM Price Distance Index for OES Quality + Comparable Quality",
+    "IAM-COMP-COLUMN": "IAM Price Distance Index for OES Quality + Comparable Quality",
+    "IAM-COLUMN": "IAM Offer Intensity ",
+    "IAM-LOW-COLUMN": "IAM Price Distance Index for Lower Quality",
+    "ALL-COLUMN": "All Qualities",
+    "LOW-COLUMN": "IAM Price Distance Index for Lower Quality",
+    "PRODUCT-GROUP-VIEW": "Product Group View",
+    "PART-NUMBER-VIEW": "Part Number View",
+    "TOOLTIPS": {
+      "FULL-SCREEN-ON": "Enter Full Screen Mode",
+      "FULL-SCREEN-OFF": "Exit Full Screen Mode",
+      "INFORMATION": "Information"
+    },
+    "FILTERS": {
+      "GREEN": "Green",
+      "RED": "Red",
+      "YELLOW": "Yellow"
+    },
+    "CONTEXT": {
+      "OPEN": "Open in Part Number View",
+      "COPY": "Copy Product Group Number"
+    },
+    "COLUMNS": {
+      "AGGREGATION_LVL_1": "Product Subgroup 3",
+      "AGGREGATION_LVL_1_LNG_1": "Product Subgroup 3 Description",
+      "AGGREGATION_LVL_1_LNG_2": "Product Subgroup 3 Description 2",
+      "AGGREGATION_LVL_2": "Product Subgroup 2",
+      "AGGREGATION_LVL_2_LNG_1": "Product Subgroup 2 Description",
+      "AGGREGATION_LVL_2_LNG_2": "Product Subgroup 2 Description 2",
+      "AGGREGATION_LVL_3": "Product Subgroup",
+      "AGGREGATION_LVL_3_LNG_1": "Product Subgroup Description",
+      "AGGREGATION_LVL_3_LNG_2": "Product Subgroup Description 2",
+      "AGGREGATION_LVL_4": "Product Group",
+      "AGGREGATION_LVL_4_LNG_1": "Product Group Description",
+      "AGGREGATION_LVL_4_LNG_2": "Product Group Description 2",
+      "ANZ_OEM_TEILE": "# Customer Parts",
+      "AVG_PI_LOW": "IAM Price Distance Index",
+      "AVG_PI_OES_CMP": "IAM Price Distance Index",
+      "BRAND": "Brand",
+      "CLUSTERID": "ClusterId",
+      "COUNTRY_CODE": "Country",
+      "CURRENCY_CODE": "Currency",
+      "CUSTOMER_ATTRIBUTE_1": "OEM Attribute 1",
+      "CUSTOMER_ATTRIBUTE_2": "OEM Attribute 2",
+      "CUSTOMER_ATTRIBUTE_3": "OEM Attribute 3",
+      "CUSTOMER_ATTRIBUTE_4": "OEM Attribute 4",
+      "DATE": "Delivery date",
+      "INT_AVG": "IAM Offer Intensity Index",
+      "INT_OUTLIER_COUNT_HIGH": "# High Extreme Values",
+      "INT_OUTLIER_COUNT_LOW": "# Low Extreme Values",
+      "NUMBER_PI_LOW": "# Price Information",
+      "NUMBER_OES_CMP": "# Price Information",
+      "NUMBER_PRICE_INFORMATION": "# Price Information",
+      "OEM_PART_DESCRIPTION_LNG_1": "Description",
+      "OEM_PART_DESCRIPTION_LNG_2": "Description 2",
+      "OEM_PART_NUMBER": "Part Number",
+      "OEM_PRICE": "OEM RRP",
+      "OEM_SALES": "OEM Sales",
+      "OEM_VOLUME": "OEM Volume",
+      "OI_INDEX": "IAM Offer Intensity Index",
+      "OI_INDEX_CHANGE": "Change to Prior Delivery",
+      "PART_ID": "PartId",
+      "PARTS_WITH_REF": "# OEM Parts with IAM Reference",
+      "PI_ANZAHL_LOW": "# Price Information",
+      "PI_OUTLIER_COUNT_HIGH": "# High Extreme Values",
+      "PI_OUTLIER_COUNT_LOW": "# Low Extreme Values",
+      "REFS_WITH_RECENT_PRICE": "# OEM Parts with IAM Reference with Price",
+      "RRP_INDEX_LOW": "IAM Price Distance Index",
+      "RRP_INDEX_LOW_CHANGE": "Change to Prior Delivery",
+      "RRP_INDEX_OES_CMP": "IAM Price Distance Index",
+      "RRP_INDEX_OES_CMP_CHANGE": "Change to Prior Delivery",
+      "SHARE_WITH_REF": "% OEM Parts with IAM Reference",
+      "SHARE_WITH_REF_AND_PRICE": "% OEM Parts with IAM Reference with Price",
+      "STDEV_INTENSITY": "Standard Deviation",
+      "STDEV_PI_OES_CMP": "Standard Deviation",
+      "PLI_CLASSIFICATION": "PLI Classification",
+      "PLI_FREE_TEXT_1": "PLI Attribute 1",
+      "PLI_FREE_TEXT_2": "PLI Attribute 2",
+      "PLI_FREE_TEXT_3": "PLI Attribute 3",
+      "PLI_SCORE": "PLI Score"
+    }
+  },
+  "LANGUAGES": {
+    "ZH": "中文",
+    "DE": "Deutsch",
+    "EN": "English",
+    "ES": "Español",
+    "FR": "Français",
+    "IT": "Italiano",
+    "NL": "Nederlands",
+    "PT": "Português",
+    "RU": "Ру́сский",
+    "TR": "Türkçe"
+  },
+  "LOGIN": {
+    "DESCRIPTION": {
+      "MDE": "One global access point to all your automotive aftermarket data",
+      "PP": "One of the largest database for price and product infos",
+      "MRA": "Private data warehouse for your specific studies"
+    },
+    "LOGIN": "Login",
+    "FORGOT_PSW": "Username o password dimenticata?",
+    "FORGOT-BACKLINK": "Back to 'Login page'",
+    "FORGOT_PSW_OR_USERNAME": "Username o password dimenticata?",
+    "CHECK_EMAIL": "Please check your email and click on the provided link to reset your password.",
+    "SET_NEW_PASSWORD": "Set new password",
+    "PLEASE_ENTER_YOUR_EMAIL": "Please enter your email address",
+    "PWD_HAS_BEEN_RESET": "Your password has been reset",
+    "TO_SIGN_IN": "Sign in with your new password",
+    "CONTACT_SUPPORT": "Click here",
+    "SUPPORT": "Assistenza",
+    "LEGAL_NOTICE": "Note legali",
+    "PRIVACY_POLICY": "Informativa sulla privacy",
+    "GENERAL_TERMS": "Termini e condizioni generali",
+    "USER_NAME_MESSAGE": "Nome utente obbligatorio",
+    "USER_NAME": "Nome utente",
+    "PASSWORD_MESSAGE": "Password obbligatoria",
+    "PASSWORD": "Password",
+    "VERIFY_PASSWORD": "Verify Password",
+    "LOGIN_BTN": "Login",
+    "INVALID_CREDENTIALS_MSG": "Credenziali non valide. Riprova di nuovo",
+    "COPYRIGHT_MSG": "Copyright © {{ value }} Eucon GmbH. Tutti i diritti riservati."
+  },
+  "MESSAGE": {
+    "DELETE-FOR-ALL-USERS": "Eliminare questo elemento?",
+    "ATTENTION_DELETE_SHARE": "Attenzione: gli elementi condivisi sono eleminati per tutti gli utenti",
+    "UNSHARE_ATTENTION": "Do you want unshare this element?",
+    "DELETE": "Eliminare questo elemento?",
+    "DISCARD": "Do you really want to discard all changes?",
+    "STRING-LENGTH": "Questo campo non può avere più di {{max_characters}} caratteri",
+    "REQUIRED": "Questo campo è obbligatorio",
+    "NO-COUNTRIES": "Nessun paese con licenza",
+    "CHOOSE_DATE_ERROR": "La data di inizio non può essere superiore alla data di fine",
+    "NO-PAGE-TO-ADD-TO-FAVORITES": "Non ci sono pagine da aggiungere ai preferiti",
+    "COPY_PART_NUMBER_MSG": "Il numero del ricambio copiato negli appunti",
+    "COPY_PRODUCT_GROUP_MSG": "The product group is copied to the clipboard",
+    "NO_DATA_AVAILABLE": "Nessun dato disponibile",
+    "MISSING_PARAMETERS": "Parametri manacanti",
+    "NO_IMAGE_AVAILABLE": "Nessuna immagine disponibile",
+    "NO_SETTINGS_AVAILABLE": "Impostazioni non disponibili",
+    "REMOVE_PART_FROM_COMPARISON": "Ricambio {{partId}} rimosso dalla comparazione",
+    "NO_SUPPLIER_AVAILABLE": "Nessun elenco di fornitori disponibile",
+    "NO_IAM_SUPPLIER_AVAILABLE": "Nessun elenco di fornitori IAM disponibile",
+    "NO_IAM_PARTS_AVAILABLE": "Nessun ricambio IAM disponibile",
+    "NO_OE_PARTS_AVAILABLE": "Nessuna OE referenza",
+    "TRANSER-CHANGES-ALL": "Applicare cambio a tutti moduli?",
+    "EMAIL_IS_INVALID": "Email adress is invalid",
+    "PASSWORD_MUST_BE": "Password must contain at least 8 characters",
+    "PASSWORDS_DONT_MATCH": "New Password and Confirmation do not match!",
+    "EMAIL_NOT_FOUND": "Invalid email address",
+    "SHARING_WARNING": "Select at least one user or change sharing option",
+    "OPEN_IN_A_NEW_TAB": "Open in new Tab",
+    "OPERATION_IS_NOT_PERMITTED": "Operation is not permitted",
+    "UNKNOWN_ERROR": "An unknown issue occurred that can be caused by the following reasons:<ul><li>The server is not responding</li><li>Your internet connection is lost</li></ul>",
+    "LOGIN-NAME-EXISTS": "Login name already exists.",
+    "DO_NOT_SHOW_AGAIN": "Do not show again"
+  },
+  "MESAGE": {
+    "PASSWORD_MUST_BE_SECURE": "La password deve contenere lettere minuscole e maiuscole, min. 1 numero e min. 1 carattere speciale (! @ # $% ^ & *)"
+  },
+  "MY-SETS": {
+    "TITLE": "I miei set",
+    "BRAND": "Set marche ({{value}})",
+    "WEBSHOP": "Set webshop ({{value}})",
+    "VEHICLE": "Set veicoli ({{value}})",
+    "VEHICLES": "Vehicles ({{value}})",
+    "BRAND-COLUMNS": {
+      "BRANDS": "# Brand"
+    },
+    "WEBSHOP-COLUMNS": {
+      "WEBSHOPS": "# Webshop"
+    },
+    "VEHICLE-COLUMNS": {
+      "VEHICLES": "# Veicoli"
+    },
+    "BRAND-SET": {
+      "ADD": "Aggiungi set marche",
+      "EDIT": "Modifica set marche",
+      "COPY": "Copia set marche",
+      "OPEN": "Apri set marche",
+      "UNSELECTED": "Marche non selezionate",
+      "SELECTED": "Marche selezionate"
+    },
+    "VEHICLE-SET": {
+      "ADD": "Aggiungi set veicoli",
+      "EDIT": "Modifica set veicoli",
+      "EDIT_VEHICLE": "Modifica veicoli",
+      "COPY": "Copia set veicoli",
+      "OPEN": "Apri set veicoli",
+      "UNSELECTED": "Veicoli non selezionati",
+      "SELECTED": "Veicoli selezionati"
+    },
+    "WEBSHOP-SET": {
+      "UNSELECTED": "Webshop non selezionati",
+      "SELECTED": "Webshop selezionati",
+      "ADD": "Aggiungi set webshop",
+      "EDIT": "Modifica set webshop",
+      "COPY": "Copia set webshop",
+      "OPEN": "Apri set webshop"
+    },
+    "GRID": {
+      "TOOLTIP": {
+        "SHARED-NOT-OWN": "Elemento non proprio, pero condiviso",
+        "SHARED-OWN": "Elemento proprio e condiviso"
+      }
+    }
+  },
+  "MY-STUDY-PRESETS": {
+    "POPUP": {
+      "TITLE": {
+        "ADD": "New Study Preset",
+        "EDIT": "Edit Study Preset",
+        "COPY": "Copy Study Preset",
+        "OPEN": "Open Study Preset"
+      }
+    },
+    "EXPORT_FILENAME": "PriceSurveys - My Study Presets"
+  },
+  "ONLINE-MARKET": {
+    "TITLE": "Mercato online",
+    "INFO-MESSAGE": "XX di YY Webshops caricati ..",
+    "MODE": {
+      "BASE": "Modalità base",
+      "ADVANCED": "Modalità avanzata"
+    },
+    "TOOLTIP": {
+      "MATCHINGLEVEL_0": "Ricambio non riconosciuto da PartsPool®",
+      "MATCHINGLEVEL_1": "Nessuna corrispondenza tra ricambio cercato e trovato",
+      "MATCHINGLEVEL_2": "Stessa marca o numero di ricambio",
+      "MATCHINGLEVEL_3": "Referenza del ricambio cercato e trovato su almeno un ricambio OE identico",
+      "MATCHINGLEVEL_4": "Ricambio cercato e ricambio trovato corrispondono come successore/predecessore",
+      "MATCHINGLEVEL_5": "Stessa marca e numero di ricambio"
+    },
+    "LABEL": {
+      "MATCHINGLEVELID_0": "Ricambio non conosciuto",
+      "MATCHINGLEVELID_1": "Molto basso",
+      "MATCHINGLEVELID_2": "Basso",
+      "MATCHINGLEVELID_3": "Medio",
+      "MATCHINGLEVELID_4": "Alto",
+      "MATCHINGLEVELID_5": "Molto alto"
+    },
+    "COLUMNS": {
+      "MATCHING_LEVEL": "Livello di corrispondenza",
+      "WEBSHOP_DESCRIPTION": "Descrizione (Webshop)",
+      "WEBSHOP_DETAILED_DESCRIPTION": "Descrizione dettagliata (Webshop)",
+      "ONLINE_PRICE": "Prezzo online",
+      "WEBSHOP_DATE": "Data (Webshop)",
+      "MATCHING_LEVEL_ID": "ID livello di corrispondenza",
+      "WEBSHOP_CURRENCY": "Valuta (Webshop)",
+      "ONLINE_PRICE_INCL_VAT": "Prezzo online incl. IVA",
+      "ONLINE_RRP_INCL_VAT": "Prezzo raccomandato online incl. IVA",
+      "ONLINE_RRP": "Prezzo raccomandato online",
+      "SHIPPING_COSTS": "Costi di spedizione",
+      "DELIVERY_TIME": "Tempi di consegna",
+      "STOCK": "Stock",
+      "WEBSHOP_LINK": "Link webshop",
+      "EAN_WEBSHOP": "EAN/GTIN (Webshop)",
+      "REMARK": "Commento",
+      "SEARCHED_PART_NUMBER": "Codice ricambio cercato",
+      "SEARCHED_BRAND": "Marca cercata",
+      "MAIN_PARTSPOOL": "PartsPool®"
+    },
+    "NO-WEBSHOPS": "Nessun Webshop con licenza per il paese selezionato"
+  },
+  "PART-BASKET": {
+    "TITLE": "I miei Carrelli articoli",
+    "STATIC": "Statico ({{value}})",
+    "DYNAMIC": "Dinamico ({{value}})",
+    "ADD": "Aggiungi Carrello articoli",
+    "EDIT": "Modifica Carrello articoli",
+    "COPY": "Copia Carrello articoli",
+    "OPEN": "Apri Carrello articoli",
+    "ADD-DYNAMIC": "Aggiungi nuovo Carrello articoli dinamico",
+    "EDIT-DYNAMIC": "Modifica Carrello articoli dinamico",
+    "OPEN-DYNAMIC": "Apri Carrello articoli dinamico",
+    "BACK": "Torna ai Carrelli articoli",
+    "PREVIEW": "Anteprima del export",
+    "TABS": {
+      "IDENTIFIED": "Ricambi identificati ({{value}})",
+      "UNIDENTIFIED": "Ricambi non identificati ({{value}})"
+    },
+    "FILES": {
+      "IDENTIFIED": "Ricambi identificati",
+      "UNIDENTIFIED": "Ricambi non identificati"
+    },
+    "FORM": {
+      "ROWS-SKIP": "Righe da saltare",
+      "UNSELECTED": "Non selezionato",
+      "SELECTED": "Selezionato",
+      "MY-COLUMNS": "Le mie colonne",
+      "UPLOAD_FINISHED": "Upload finished",
+      "READY_TO_USE": "Pronto all'uso",
+      "COLUMNS": {
+        "COLUMN-1": {
+          "LABEL": "Codice articolo",
+          "VALUE": "Colonna 1"
+        },
+        "COLUMN-2": {
+          "LABEL": "Marca",
+          "PARTSPOOL": "Colonna 2 (PartsPool)",
+          "EUCON": "Colonna 2 (Brand ID)",
+          "DINR": "Colonna 2 (TecDoc DINr) ",
+          "HERNR": "Colonna 2 (TecDoc HerNr)",
+          "DAT": "Colonna 2 (DAT Brand ID)",
+          "BRAND": "Uguale per tutti i ricambi",
+          "UNDEFINED": "Non definito",
+          "BRAND-PLACEHOLDER": "Seleziona marca",
+          "WARNING": "Attention: Part Identifications with undefined brand often include large numbers of irrelevant records due to the fact that similar part numbers are used by different brands. Therefore, the identification process will be stopped after 50000 parts are identified."
+        },
+        "COLUMN-3": "Colonna 3 per"
+      },
+      "BUTTON": "Carica",
+      "SAVE": "Salva",
+      "GRID-COLUMNS": {
+        "INPUTROW": "Importa riga",
+        "INPUTPARTNUMBER": "Inserisci codice articolo",
+        "INPUTBRAND": "Inserisci marca"
+      }
+    },
+    "GRID": {
+      "TOOLTIP": {
+        "SHARED-NOT-OWN": "Elemento non proprio, pero condiviso",
+        "SHARED-OWN": "Elemento proprio e condiviso"
+      }
+    },
+    "TOOLTIPS": {
+      "FULL-SCREEN-ON": "Aprire Modalità Schermo intero",
+      "FULL-SCREEN-OFF": "Uscire Modalità Schermo intero"
+    },
+    "OPERATION_TAKES_LONG_1": "Processing can take up to several minutes depending on number of parts. Please wait or",
+    "OPERATION_TAKES_LONG_2": "back to 'My Parts Baskets'"
+  },
+  "PART_SEARCH": {
+    "PLACEHOLDER-DEFAULT": "Ricerca per codice articolo",
+    "PLACEHOLDER-IAM": "Ricerca per codice articolo IAM",
+    "PLACEHOLDER-IAM-DISABLED": "Il limite di 25 codici è stato raggiunto",
+    "PLACEHOLDER-BATCH-SEARCH": "Ricerca per nome del Carrello articoli o Creatore",
+    "ALL": "Tutti",
+    "OE": "OE",
+    "IAM": "IAM",
+    "WHOLESALER": "Grossista",
+    "OWN": "Proprio",
+    "OTHER-USERS": "Altri utenti",
+    "SEARCH-RESULTS": "RISULTATI RICERCA",
+    "PARTS_BASKET_LIMIT": "Parts Basket exceeds limit of {{value}} parts.",
+    "SEARCH-HISTORY": "CRONOLOGIA RICERCA",
+    "NO_RESULTS": "Nessun risultato trovato",
+    "SHOW_MORE": "Mostra di più",
+    "ADD_PART_BASKET": "Aggiungi nuovo Carrello articoli",
+    "WHOLESALER_NOT_TRADED_MSG": "Wholesaler part not traded in the selected country"
+  },
+  "PRICE-INDEX": {
+    "AXIS-NAME": "Price Index",
+    "COMPETITOR-RRP-INDEX": "Competitor RRP Index",
+    "CONSTANT-LINE": "OE RRP Index",
+    "HINT": "Double click on a bar to drill down to parts",
+    "PRICES": "Prezzi",
+    "LABEL-IAM": "Ø IAM",
+    "LABEL-OE": "Ø OE",
+    "TOOLTIPS": {
+      "FULL-SCREEN-ON": "Aprire Modalità Schermo intero",
+      "FULL-SCREEN-OFF": "Uscire Modalità Schermo intero",
+      "RRP": "RRP Level",
+      "NET_LEVEL": "Net Price Level",
+      "OE_PARTS": "OE Parts",
+      "PROVISION": "Provision",
+      "OE_INDEX": "OE dealer net price index",
+      "RESEARCH": "Research",
+      "DELTA": "Δ to OE",
+      "IAM_INDEX": "IAM RRP index",
+      "WPP_INDEX": "IAM WPP index",
+      "IAM_MARGIN": "IAM workshop margin index",
+      "CHART_HOVER": "Click on bar to mark bar/Double click to drill in"
+    },
+    "POPOVER": {
+      "TITLE": "Study Scope"
+    },
+    "GRID-TITLE": "Price Index",
+    "GRID": {
+      "LABEL": "Show in 'Data Table'"
+    },
+    "SETTINGS": {
+      "PRICE-INDEX": "Price Index Selection",
+      "OEM_COMPETITOR_RRP_INDEX": "RRP Index",
+      "COMPETITOR_RRP_INDEX": "IAM RRP Index",
+      "COMPETITOR_DEALER_NET_PRICE_INDEX": "IAM Dealer Net Price Index",
+      "CUSTOMER_RRP_INDEX": "OE RRP Index",
+      "CUSTOMER_DEALER_NET_PRICE_INDEX": "OE Dealer Net Price Index",
+      "CHART-MODE": "Chart Mode",
+      "STACKED_BAR_CHART": "Stacked Bar Chart",
+      "PARALLEL_BAR_CHART": "Parallel Bar Chart",
+      "BOX_PLOT_CHART": "Box Plot Chart",
+      "SORT-BY": "Sort Bars by",
+      "NAME_ASC": "Name (ascending)",
+      "NAME_DESC": "Name (descending)",
+      "RRP_INDEX_ASC": "RRP Index (ascending)",
+      "RRP_INDEX_DESC": "RRP Index (descending)",
+      "SHOW-OE": "Show line for OE RRP Index",
+      "SHOW-OE-POINT": "Show points for OE Dealer Net Price Index"
+    }
+  },
+  "PRICE-CHANGES": {
+    "ALL": "Tutti",
+    "MAX_PRICE_CHANGE_AGE": "Massimo eta di cambio del prezzo raccomandato",
+    "MIN_PRICE_CHANGE_PERCENTAGE": "Minimo eta di cambio del prezzo raccomandato",
+    "TITLE": "Modifiche prezzi",
+    "COLUMNS": {
+      "RRP_DIFFERENCE_PERCENTAGE": "% Difference to Ref.",
+      "REF_BRAND": "Ref. Brand",
+      "REF_PART_NUMBER": "Ref. Part Number",
+      "REF_DESCRIPTION": "Ref. Description",
+      "REF_RRP": "Ref. RRP",
+      "REF_GEN_ART": "Ref. Generic Article",
+      "REF_GEN_ART_ID": "Ref. Generic Article ID",
+      "RRP_CHANGE_AVERAGE": "Ø Change",
+      "RRP_OLD": "RRP Old",
+      "RRP_OLD_DATE": "RRP Date Old"
+    }
+  },
+  "PRICE-HISTORY": {
+    "PARTS": "Modalità ricambi",
+    "COUNTRY": "Modalità Paese",
+    "PARTS-DETAIL": "Dettagli ricambi",
+    "COUNTRY-DETAIL": "Dettagli Paese",
+    "TITLE": "Cronologia prezzi",
+    "EXPORT": {
+      "PNG": "File PNG",
+      "PDF": "File PDF",
+      "JPEG": "File JPEG"
+    },
+    "QUICK_BTN": {
+      "YEAR": "Anno",
+      "MONTHS": "Mesi",
+      "YEARS": "Anni",
+      "INFINITY": "Max."
+    },
+    "COMPARE-PART-TO": {
+      "ALL": {
+        "DESCRIPTION": "Tutti"
+      },
+      "OE": {
+        "DESCRIPTION": "Ricambi OE di tutti i blocchi OE"
+      },
+      "IAM": {
+        "DESCRIPTION": "Ricambi IAM di tutti i blocchi OE"
+      },
+      "WHOLESALER": {
+        "DESCRIPTION": "Ricambi grossista di tutti i blocchi OE"
+      },
+      "DEFAULT_NAME": "Ricambi selezionati",
+      "HEADLINE": "Confronta con"
+    },
+    "SINGLE-LINES": "Single lines",
+    "AGGREGATED-LINES": "Aggregated lines (Min., Max., Avg.)",
+    "SELECT_ALL_SERIES": "Seleziona tutto",
+    "RANGE_SELECTOR_TOOLTIP": "Regola l'intervallo di tempo mostrato usando il controllo dei cursori su entrambe le estremità"
+  },
+  "PRICE-STUDIES": {
+    "KEY-FINDINGS-BTN": "Key Findings Menu",
+    "DRILL-DOWN": "Level",
+    "PROJECT-DROPDOWN": "Project",
+    "NAVIGATION": {
+      "TITLE": "Hierarchy",
+      "MAIN": "Product Group",
+      "HIERARCHY": {
+        "IAM_COMPETITOR": "IAM Competitor",
+        "IAM_BRANDS": "IAM Brands",
+        "COUNTRY": "Country",
+        "CUSTOMER_BRANDS": "OE Brands",
+        "CUSTOMER_MODELS": "OE Models",
+        "QUALITY": "IAM Quality"
+      }
+    },
+    "COMPETITIVE-INTENSITY": {
+      "HINT": "Click on a point to show data in details table/double click to drill down into the point"
+    }
+  },
+  "PRICE-SURVEYS-OEM": {
+    "SERVICE": {
+      "TREE-FILTERS-GROUPS": {
+        "COMPETITOR-NAME": "Competitor Name",
+        "COMPETITOR-VEHICLE": "Competitor Vehicle",
+        "CUSTOMER-VEHICLE-MODEL": "Own Model",
+        "PRODUCT-GROUP-1": "Product Group 1",
+        "PRODUCT-GROUP-1-NAME": "Product Group 1 Name",
+        "PRODUCT-GROUP-2": "Product Group 2",
+        "PRODUCT-GROUP-2-NAME": "Product Group 2 Name",
+        "PRODUCT-GROUP-3": "Product Group 3",
+        "PRODUCT-GROUP-3-NAME": "Product Group 3 Name"
+      }
+    },
+    "COVERAGE": {
+      "STACKED-BAR-SEGMENT-1": "Comparable",
+      "STACKED-BAR-SEGMENT-2": "Not Comparable",
+      "STACKED-BAR-SEGMENT-3": "Not Available",
+      "INFO-CARDS": {
+        "CARD-1": "Models",
+        "CARD-2": "Input Parts",
+        "CARD-3": "Competitor References",
+        "CARD-4": "Ø Competitors per Model",
+        "CARD-5": "% Comparable Parts",
+        "CARD-6": "Coverage competitor Prices"
+      },
+      "TREE-FIELDS": {
+        "TOTAL-INPUT-PARTS": "# Total OE Parts (Input)",
+        "COMPETITOR-REFERENCES": "# Competitor References Processed by Eucon",
+        "COVERAGE-COMPETITOR-REFERENCES": "Coverage of Competitor References",
+        "COMPARABLE": "Comparable",
+        "COMPETITOR-REFERENCES-NOT-COMPARABLE": "# Not Comparable",
+        "COMPETITOR-REFERENCES-NOT-AVAILABLE": "# Not Available",
+        "COVERAGE-COMPETITOR-PRICES": "Coverage of Competitor Prices (for Available References)",
+        "COMPARABLE-REFERENCES": "Comparable References",
+        "NOT-COMPARABLE-REFERENCES": "Not Comparable References"
+      },
+      "STACKED-BAR": {
+        "TITLE": "Coverage competitor References"
+      },
+      "DOUGHNUTS": {
+        "TITLE": "Coverage of Competitor Prices (for Comparable References)",
+        "SEGMENT-1": "Share of Comparable References with Price Information",
+        "SEGMENT-2": "Share of Comparable References without Price Information"
+      }
+    }
+  },
+  "PARTS-COMPARISON": {
+    "TITLE": "Confronto ricambi",
+    "TECDOC_COPYRIGHT": "Immagini, informazioni generali e collegamenti veicoli forniti da",
+    "TOGGLE": "Attiva/Disattiva",
+    "UNPINNED": "Ricambio senza pin",
+    "PINNED": "Ricambio con pin",
+    "SORT": "Ordina",
+    "SORT-BY": "Ordina per",
+    "EXPORT": "Esporta",
+    "RESET": "Reset",
+    "BUTTON-SHOW": "Mostra",
+    "OPEN-VEHICLE-DETAILS": "Apri dettagli veicoli",
+    "EXPORT-SUCCESS": "Esportato con successo",
+    "FILTER_TOOLTIP": "Apri impostazioni filtri",
+    "EXPORT_FILE_NAME": "Confronto ricambi",
+    "BRAND": "Marca",
+    "PARTNO": "Codice articolo",
+    "PICTURES": "Immagini",
+    "GENERAL": "Generali",
+    "BRANDTYPE": "Tipo di marca",
+    "DESCRIPTION": "Descrizione",
+    "ADDDESC": "Denomin. supplementare",
+    "ALTERNATIVEPN": "Codice articolo alternativo",
+    "ARTICLESTATUS": "Stato articolo",
+    "QUANTITYPPU": "Quantità per unità imballaggio",
+    "PACKINGUNIT": "Unità di imballaggio",
+    "ACCESSORIESLIST": "Liste accessori",
+    "PARTLIST": "Lista componenti",
+    "ARTICLEDOCUMENTS": "Documenti articolo",
+    "COUNTRY_INC": "Inclusione di paesi",
+    "COUNTRY_EXC": "Esclusione di paesi",
+    "EAN": "EAN/GTIN",
+    "PRICEHISTORY": "Cronologia prezzi",
+    "RRP_BEFORE": "Prezzo raccomandato prima",
+    "RRP_HIGHEST": "Prezzo raccomandato più alto",
+    "RRP_LOWEST": "Prezzo raccomandato più basso",
+    "RRP_FIRST": "Primo prezzo raccomandato",
+    "SUPERSESSIONS": "Sostituzioni",
+    "PREDECESSOR": "Predecessore",
+    "SUCCESSOR": "Successore",
+    "REFERENCES": "Referenze",
+    "VEHICLE_LINKINGS": "Collegamenti veicolo",
+    "CURRENTPRICES": "Prezzi"
+  },
+  "REFERENCES": {
+    "COMPACT-MODE": "Modalità compatta",
+    "OE-BLOCK-MODE": "Modalità blocco OE",
+    "OE-BLOCKS": "Blocchi OE",
+    "TITLE": "Referenze",
+    "TOOLTIP_CURRENT": "Dalla visualizzazione attuale",
+    "TOOLTIP_ADDITIONAL": "In aggiunta",
+    "TOOLTIP_ADD_TO_PRODUCT_CHECK_BTN": "Select parts in the table by the check boxes and click on this button. Max. 25 selected parts can be transferred to 'Parts Comparison'. ",
+    "ADD_TO_PRODUCT_CHECK": "Mostra in \"Comparazione ricambi\"",
+    "ADD_TO_PRICE_HISTORY": "Aggiungi a Cronologia prezzi",
+    "ADD_TO_PART_BASKET": "Aggiungi a Carrello articoli",
+    "COPY_PART_NUMBER": "Copia codice articolo",
+    "COLUMNS": {
+      "SUPERSESSIONS_INDICATOR": "Supersessions Indicator"
+    },
+    "EXPAND-ALL": "Espandi tutti i blocchi OE",
+    "COLLAPSE-ALL": "Comprimi tutti i blocchi OE",
+    "TOOLTIPS": {
+      "FULL-SCREEN-ON": "Aprire Modalità Schermo intero",
+      "FULL-SCREEN-OFF": "Uscire Modalità Schermo intero",
+      "OPEN-ARTICLE-DETAILS": "Apri Dettagli articolo",
+      "OPEN-VEHICLE-LINKINGS": "Apri collegamenti veicolo"
+    }
+  },
+  "RUNNING-JOBS-POPUP": {
+    "TITLE": "Lavori in esecuzione",
+    "USER-MESSAGE": "Questa tabella mostra i lavori attualmente in esecuzione del tuo gruppo di utenti. Prestare attenzione che le ricerche batch dello stesso gruppo utenti vengano eseguite una dopo l'altra e non in parallelo.",
+    "TABLE": {
+      "EMPTY-DATA-MESSAGE": "Attualmente non ci sono lavori in esecuzione"
+    },
+    "COLUMNS": {
+      "PROGRESS": "Progresso (%)",
+      "CANCEL": "Annulla",
+      "END": "Date"
+    },
+    "JOB-TYPES": {
+      "RRP": "Ricerca Lista (Prezzo raccomandato)",
+      "ONLINE": "Ricerca Lista (Online)"
+    },
+    "JOB-STATUSES": {
+      "JOB-IN-CANCEL": "Cancelled",
+      "JOB-IN-PROGRESS": "Lavori in corso",
+      "JOB-IN-QUEUE": "in coda",
+      "JOB-DONE": "Done"
+    },
+    "TOOLTIPS": {
+      "CANCEL-BUTTON": "Annulla"
+    }
+  },
+  "SETTINGS": {
+    "PROFILE": {
+      "TITLE": "Profilo",
+      "MOBILE": "Telefono cellulare",
+      "LIST_OF_ADMINS": "Your User Group Administrators"
+    },
+    "PASSWORD": {
+      "CHANGE_PASSWORD": "Password",
+      "OLD_PASSWORD": "Current Password",
+      "NEW_PASSWORD": "New Password",
+      "CONFIRM_NEW_PASSWORD": "Confirm new Password",
+      "CHANGED_SUCCESSFUL": "Password has been changed successfully!",
+      "WRONG_PASSWORD_ERROR": "Old password was entered incorrect!"
+    },
+    "ACCOUNT": {
+      "TITLE": "Impostazioni account",
+      "COUNTRY": "Paese",
+      "CURRENCY": "Valuta",
+      "APPLICATION_LANGUAGE": "Lingua applicazione",
+      "DATA_OUTPUT_LANGUAGE": "Lingua dati",
+      "SHOW-INFO-CARDS": "Mostra \"Info Cards\"",
+      "START_PAGE": "Pagina di inizio",
+      "OPEN_WHEN_APPLICATION_STARTS": "Mostra dopo l'accesso pagina iniziale anziché le schede dell'ultimo accesso",
+      "CARRY_OVER": "La nuova visualizzazione riprende numero/Paese/valuta del ricambio",
+      "DATE_FORMAT": {
+        "TITLE": "Formato data",
+        "EUROPEAN": "Europeo",
+        "AMERICAN": "Americano"
+      },
+      "START_PAGE_TYPE": {
+        "MODULE": "Selzionare dalla lista dei moduli",
+        "FAVORITE": "Selezionare dai \"I miei favoriti\""
+      }
+    },
+    "NO_ADMINS": "There are no admins for your group",
+    "SAVE": "Salva le modifiche",
+    "SINGLE_VIEW": "Visualizzazioni singole",
+    "COMBINED_VIEW": "Visualizzazioni combinate"
+  },
+  "SUPERSESSIONS": {
+    "CHAIN_TYPE": {
+      "LINEAR": "LINEARE",
+      "MERGED": "UNITO",
+      "SPLIT": "DIVISO",
+      "SPLIT_AND_MERGED": "DIVISO E UNITO",
+      "CIRCLE": "CIRCOLARE"
+    },
+    "COLUMNS": {
+      "PART_LEVEL": "Livello ricambio",
+      "ORIGIN_CURRENCY": "(valuta d'origine)"
+    },
+    "EXPORT_MSG": "Esporta",
+    "EXPORT_POSSIBLE_MSG": "L'esportazione è possibile solo per le catene di sostituzioni fino a 50 ricambi",
+    "GRAPHIC": "Modalità grafico",
+    "HINT": "Double click on a box to deactivate/activate it and select more boxes by rectangular marking",
+    "POPUP": {
+      "CLOSE": "Chiudi Popup"
+    },
+    "PREDECESSORS": "Predecessori",
+    "SUCCESSORS": "Successori",
+    "TABLE": "Modalità tabella",
+    "TITLE": "Sostituzioni",
+    "RESET": "Reset",
+    "INVOLVED_MSG": "Comprende le seguenti corrispondenze"
+  },
+  "TREE-FILTERS": {
+    "LEVEL-1": "1st Level",
+    "LEVEL-2": "2nd Level",
+    "LEVEL-3": "3rd Level"
+  },
+  "VEHICLE-SEARCH": {
+    "AT_2": "At 2",
+    "AT_3": "At 3",
+    "PLACEHOLDER": "Numero KBA (DE)",
+    "VEHICLE-TYPE": "Tipo veicolo",
+    "VEHICLE-BRAND": "Marca veicolo",
+    "BRAND-MODEL": "Modello marca",
+    "ENGINE-1": "Parametro motore 1",
+    "ENGINE-2": "Parametro motore 2",
+    "ASSEMBLY-GROUP": "Gruppo ass.",
+    "SUBCATEGORY": "Sottocategoria",
+    "ADD-PART-PASKET": "Aggiungi a Carrello articoli",
+    "ADD-OE-BENCHMARK": "Aggiungi a 'Confronto veicoli'",
+    "LOAD-ALL": "Carica tutti i ricambi del Gruppo ass.",
+    "LOAD-ALL-WARNING": "Attention: It can take between a few seconds and a few minutes to load all parts of a specific assembly group. This depends strongly on the number of parts assigned to this assembly group. Do you want to continue?",
+    "EXPORT": "Esporta",
+    "EXPORT_FILE_NAME": "Ricerca ricambio per veicolo",
+    "PLEASE_SELECT": "Seleziona...",
+    "SUBMODEL": "Sottomodello",
+    "VEHICLE": "Veicolo",
+    "VEHICLE-SET": "Vehicles Set",
+    "SEARCH_PART_BY_DESCR": "Ricerca ricambio per descrizione",
+    "PLEASE_INPUT_TEXT": "Inserisci testo...",
+    "ASSEMBLY_GROUP": "Gruppo ass.",
+    "ZOOM": "Zoom",
+    "ZOOM_TOOLTIP": "Zoom avanti/indietro",
+    "SEARCH_BY": "Seleziona veicolo per",
+    "SEARCH_HISTORY": "Cronologia ricerca",
+    "SEARCH_HISTORY_EMPTY": "Nessun veicolo cercato",
+    "SHOW_CONFIGURATION": "Mostra configurazione",
+    "TOOLTIPS": {
+      "SEARCH-BY-VEHICLE": "Ricerca ricambio per veicolo",
+      "BACK-TO-SEARCH-PART-NUMBER": "Torna alla ricerca per codice articolo"
+    },
+    "HIDE_CONFIGURATION": "Nascondi configurazione",
+    "PART_GROUP_NAME": "Nome gruppo ricambi (fornito da DAT)",
+    "OPTIONS": {
+      "DESCRIPTION_TOOLTIP": "Seleziona un veicolo in base alla descrizione, inclusi tipo di veicolo, marca, modello, sottotipo, variante (il numero di parametri di inserimento obbligatori può variare)",
+      "KBA_NUMBER": "Numero KBA",
+      "KBA_NUMBER_TOOLTIP": "Numero di identificazione nazionale per autoveicoli definito dal Kraftfahrt-Bundesamt (KBA)",
+      "SEARCH_HISTORY": "Cronologia ricerca",
+      "SEARCH_HISTORY_TOOLTIP": "Seleziona un veicolo tra le ultime 10 ricerche di veicoli",
+      "MY_VEHICLE_SETS": "I miei set di veicoli",
+      "MY_VEHICLE_SETS_TOOLTIP": "Seleziona un veicolo incluso in uno dei tuoi set di veicoli o in un set di veicoli condiviso con te"
+    },
+    "CLASSIFICATION_GROUPS": {
+      "ENGINE_OPTIONS": "Engine",
+      "CAR_BODY_OPTIONS": "Car Body",
+      "WHEEL_BASE_OPTIONS": "Wheel Base",
+      "TYPE_OF_DRIVE_OPTIONS": "Type Of Drive",
+      "CAB_OPTIONS": "Cab",
+      "TONNAGE_OPTIONS": "Tonnage",
+      "SUSPENSION_TYPE_OPTIONS": "Suspension Type",
+      "NUMBER_OF_AXIS_OPTIONS": "Number Of Axis",
+      "EQUIPMENT_LINE_OPTIONS": "Equipment Line",
+      "GEARING_OPTIONS": "Gearing"
+    },
+    "OR": "o",
+    "LOAD": "Carica",
+    "MISSING_DATA_HINT": "This part cannot be transferred by select box, because important product information is missing"
+  },
+  "PARTS-POTENTIALS": {
+    "OVERVIEW_TABLE_TITLE": "Overview",
+    "DETAILED_TABLE_TITLE": "Details per Month",
+    "PRICE_DEVELOPMENT_TITLE": "Price Development",
+    "COLUMNS": {
+      "CATEGORIES": "Category",
+      "DATE": "Date",
+      "IAM_UNITS_SOLD": "IAM Units sold",
+      "TOTAL_RATING": "Rating",
+      "AVG_CHANGE_IAM_UNITS_SOLD": "Ø Change/{{value}}",
+      "CHANGE_IAM_UNITS_SOLD": "Change/{{value}}",
+      "MAIN_COMPETITOR": "Main IAM Competitor",
+      "MAIN_COMPETITOR_BRAND": "Brand",
+      "MAIN_COMPETITOR_IAM_INDEX": "Ø RRP Index",
+      "COMPETITORS": "IAM References",
+      "NUM_REFERENCES": "#",
+      "COMPETITORS_WITH_UNITS": "# with Units sold",
+      "COMPETITORS_WITH_MS": "# with MS > 80%",
+      "DESCRIPTION": "Description",
+      "COUNTRY": "Country",
+      "OEM_NAME": "Own Brand",
+      "PART_NUMBER": "Part Number",
+      "PRICE": "Price",
+      "RRP": "RRP",
+      "OEM": "Own RRP",
+      "AVG_IAM": "Ø IAM RRP",
+      "CURRENCY": "Currency",
+      "COMPETITOR": "Main IAM Competitor",
+      "COMPETITOR_DATE": "Date",
+      "COMPETITOR_NAME": "Brand",
+      "COMPETITOR_PART_NUMBER": "Part Number",
+      "COMPETITOR_IAM_SOLD_MONTH": "# with Units sold",
+      "COMPETITOR_IAM_SOLD_OVER_80": "# with MS > 80%",
+      "PRODUCT_GROUP_1": "Product Group 1",
+      "PRODUCT_GROUP_1_DESCRIPTION": "Product Group 1 Description",
+      "PRODUCT_GROUP_2": "Product Group 2",
+      "PRODUCT_GROUP_2_DESCRIPTION": "Product Group 2 Description",
+      "PRODUCT_GROUP_3": "Product Group 3",
+      "PRODUCT_GROUP_3_DESCRIPTION": "Product Group 3 Description",
+      "PRODUCT_GROUP_4": "Product Group 4",
+      "PRODUCT_GROUP_4_DESCRIPTION": "Product Group 4 Description",
+      "OEM_ID": "Eucon ID",
+      "PART_DESCRIPTION": "Part Description",
+      "PART_ID": "Eucon Part ID"
+    },
+    "SOLD-UNITS": {
+      "AVG-TITLE": "Ø IAM Units sold/Month",
+      "TOOLTIPS": {
+        "UNITS_SOLD": "IAM Units sold",
+        "UNITS_CHANGE": "Change/Month"
+      }
+    },
+    "FIRST_LEVEL": "First Level",
+    "OWN_RRP": "Own RRP",
+    "IAM_RRP": "Ø IAM RRP",
+    "MAIN_COMP_RRP": "Main IAM Competitor RRP",
+    "OVERVIEW-CHART": {
+      "TITLE": "Rating",
+      "TOOLTIPS": {
+        "SALES_CHANGE": "Ø Change/Month",
+        "IAM_INDEX": "Ø Main IAM Competitor RRP Index ",
+        "TOTAL_RANK": "Rating",
+        "SELECT_GROUP": "Single click to load details / Double click to drill down"
+      },
+      "AXISES": {
+        "LOW_IAM_SALES": "Low increase of IAM Units sold",
+        "HIGH_IAM_SALES": "High increase of IAM Units sold",
+        "LOW_IAM_PRICE": "Low IAM RRP",
+        "HIGH_IAM_PRICE": "High IAM RRP"
+      }
+    },
+    "TOOLTIPS": {
+      "SELECT_CATEGORY": "Please select a category from Overview or Rating Matrix by single click"
+    }
+  },
+  "COUNTRY_AL": "Albania",
+  "COUNTRY_AR": "Argentina",
+  "COUNTRY_AT": "Austria",
+  "COUNTRY_AU": "Australia",
+  "COUNTRY_AZ": "Azerbaijan",
+  "COUNTRY_BA": "Bosnia-Erzegovina",
+  "COUNTRY_BE": "Belgio",
+  "COUNTRY_BG": "Bulgaria",
+  "COUNTRY_BR": "Brasile",
+  "COUNTRY_BY": "Bielorussia",
+  "COUNTRY_CA": "Canada",
+  "COUNTRY_CH": "Svizzera",
+  "COUNTRY_CL": "Chile",
+  "COUNTRY_CN": "Cina",
+  "COUNTRY_CO": "Colombia",
+  "COUNTRY_CZ": "Repubblica Ceca",
+  "COUNTRY_DE": "Germania",
+  "COUNTRY_DK": "Danimarca",
+  "COUNTRY_DZ": "Algeria",
+  "COUNTRY_EE": "Estonia",
+  "COUNTRY_ES": "Spagna",
+  "COUNTRY_FI": "Finlandia",
+  "COUNTRY_FR": "Francia",
+  "COUNTRY_GE": "Georgia",
+  "COUNTRY_GR": "Grecia",
+  "COUNTRY_HR": "Croazia (Hrvatska)",
+  "COUNTRY_HU": "Ungheria",
+  "COUNTRY_IE": "Irlanda",
+  "COUNTRY_IN": "India",
+  "COUNTRY_IS": "Islanda",
+  "COUNTRY_IT": "Italia",
+  "COUNTRY_JP": "Giappone",
+  "COUNTRY_KZ": "Kazakhstan",
+  "COUNTRY_LT": "Lituania",
+  "COUNTRY_LU": "Lussemburgo",
+  "COUNTRY_LV": "Lettonia",
+  "COUNTRY_MA": "Marocco",
+  "COUNTRY_MD": "Moldova",
+  "COUNTRY_ME": "Montenegro",
+  "COUNTRY_MK": "Macedonia Ex Yug",
+  "COUNTRY_MX": "Messico",
+  "COUNTRY_NL": "Olanda",
+  "COUNTRY_NO": "Norvegia",
+  "COUNTRY_NZ": "Nuova Zelanda",
+  "COUNTRY_PE": "Perù",
+  "COUNTRY_PL": "Polonia",
+  "COUNTRY_PR": "Puerto Rico",
+  "COUNTRY_PT": "Portogallo",
+  "COUNTRY_RO": "Romania",
+  "COUNTRY_RS": "Serbia",
+  "COUNTRY_RU": "Russia",
+  "COUNTRY_SE": "Svezia",
+  "COUNTRY_SI": "Slovenia",
+  "COUNTRY_SK": "Slovakia",
+  "COUNTRY_TR": "Turchia",
+  "COUNTRY_TW": "Taiwan",
+  "COUNTRY_UA": "Ucraina",
+  "COUNTRY_UK": "Gran Bretagna",
+  "COUNTRY_US": "Stati Uniti",
+  "COUNTRY_ZA": "Sudafrica",
+  "COUNTRY_GB": "Gran Bretagna",
+  "MY-EXPORT-DEFINITIONS": {
+    "TITLE": "Le mie difinizione di export",
+    "GRID-TITLE": "Le mie difinizione di export ({{value}})",
+    "ADD": "Nuove definizioni di export",
+    "EDIT": "Modificare definizioni di export",
+    "OPEN": "Aprire definizioni di export",
+    "COPY": "Copiare definizioni di export",
+    "COLUMNS": {
+      "COUNT": "# Colonne"
+    },
+    "FORM": {
+      "EXPORT-SETTINGS": "Impostatzioni Export",
+      "FIELD-DELIMITER": "Delimiter",
+      "TEXT-DELIMITER": "Text Qualifier",
+      "DECIMAL-SEPARATOR": "Decimal Separator",
+      "FILL-FIRST-LINE": "Fill first Row with Column Names"
+    },
+    "FIXED-LENGTH_false": "With Separator",
+    "FIXED-LENGTH_true": "Fixed Width without Separator",
+    "TEXT-DELIMITER_WITHOUT": "(without)",
+    "GRID": {
+      "TOOLTIP": {
+        "SHARED-NOT-OWN": "Elemento non proprio, pero condiviso",
+        "SHARED-OWN": "Elemento proprio e condiviso"
+      }
+    },
+    "FORM-COLUMNS": {
+      "TITLE": "Columns and Order"
+    }
+  },
+  "BRAND-TYPE_1": "OE",
+  "BRAND-TYPE_2": "IAM",
+  "BRAND-TYPE_3": "Grossista",
+  "PART-BASKET-BRANDS_1": "Colonna 2 - TecDoc DlNr (Data Supplier)",
+  "PART-BASKET-BRANDS_2": "Colonna 2 - TecDoc KHerNr (Manufacturer)",
+  "PART-BASKET-BRANDS_3": "Colonna 2 - DVSE ID (Data Supplier)",
+  "PART-BASKET-BRANDS_5": "Colonna 2 - Eucon ID",
+  "PART-BASKET-BRANDS_99": "Per tutti ricambi uguale",
+  "PART-BASKET-BRANDS_100": "Non definito",
+  "HELP": {
+    "TITLE": "Aiuto & Assistenza",
+    "TAB": {
+      "FAQ": "FAQ",
+      "TICKET": "Creare richiesta di support",
+      "BRANDS": "Lista dei marchi",
+      "CURRENCIES": "Lista della valute",
+      "RELEASE": "Note di rilascio",
+      "TRAININGS": "Training Academy"
+    },
+    "CURRENCIES": {
+      "COLUMN": {
+        "CURRENCY_CODE": "Currency Code",
+        "RATE": "Exchange Rate to Euro",
+        "RATE_DATE": "Exchange Rate Date"
+      }
+    },
+    "BRANDS": {
+      "COLUMN": {
+        "CORPORATION": "Società",
+        "TECDOC_KHER": "TecDoc KHer",
+        "TECDOC_DL": "TecDoc DL",
+        "DVSE_ID": "DVSE ID",
+        "DAT_ID": "DAT ID"
+      }
+    },
+    "TICKET": {
+      "TITLE": "Your question has not been answered in the FAQ?",
+      "TEXT": "We look forward to assisting you personally. Please try to describe your problem as detailed as possible. Our support team would be glad to receive your request via email as follows",
+      "SUB-TITLE": "Support Hotline",
+      "SUB-TEXT": "We offer phone support in German and English.",
+      "SUB-TEXT-PHONE": "Please use the following phone number to contact us:"
+    },
+    "TRAININGS": {
+      "TITLE": "Take part in our training and optimize your product and price management through efficient use of PartsPool®.",
+      "TEXT-1": "Please take a look on our",
+      "TEXT-SITE": "website",
+      "TEXT-2": "to find the latest information about the Eucon Training Academy and available courses.",
+      "SUB-TITLE": "You would like to receive more information on our training courses?",
+      "SUB-TEXT": "We can help you personally. Please tell us which additional information you would like to receive or whether you wish to register for a training course. After receiving your request, we will contact you as soon as possible."
+    }
+  },
+  "VEHICLE-COMPARISON": {
+    "COLUMNS": {
+      "REFERENCES": "# Ref.",
+      "PRODUCT-GROUP": "Gruppo articoli",
+      "INDEX": "Index"
+    },
+    "ADD-PARTS": "Aggiungi ricambi",
+    "STATUS-LINE": {
+      "VEHICLE-COMPARISON": "Confronto veicoli",
+      "VEHICLE-SET": "Set veicoli",
+      "VEHICLES-PARTS-SET": "Set ricambi veicoli"
+    },
+    "TITLE": "Confronto veicoli",
+    "POPUP": {
+      "TITLE": {
+        "NEW": "Nuovo Confronto veicoli",
+        "EDIT": "Modifica Confronto veicoli"
+      },
+      "ARTICLE-GROUP": {
+        "TITLE": "Edit Article Group",
+        "MOVE-UP": "Move up",
+        "MOVE-DOWN": "Move down",
+        "DELETE": "Elimina gruppo articoli"
+      },
+      "VEHICLE": {
+        "TITLE": {
+          "NEW": "Create own Vehicle",
+          "EDIT": "Modifica veicoli"
+        },
+        "LABEL": {
+          "VEHICLE-TYPE": "Tipo veicolo",
+          "FOREINGSYSTEMKEY": "Foreignsystem Vehiclekey",
+          "DETAIL-DESCRIPTION": "Detail Description",
+          "CATEGORY-INFORMATION": "Article Group Information"
+        },
+        "PLACEHOLDER": {
+          "SHORTDESCRIPTION": "Enter Name",
+          "DESCRIPTION": "Enter Description",
+          "VEHICLE-TYPE": "Enter Vehicle Type",
+          "FOREINGSYSTEMKEY": "Enter Foreignsystem Vehiclekey",
+          "DETAIL-DESCRIPTION": "Enter Detail Description"
+        },
+        "APPLY-COUNTRY-DIALOG": "Apply country changes to all vehicles?"
+      }
+    },
+    "ADD-NEW": "Nuovo Confronto veicoli",
+    "EDIT-EXISTING": "Modifica Confronto veicoli",
+    "COPY-EXISTING": "Copia Confronto veicoli",
+    "DELETE-EXISTING": "Elimina Confronto veicoli",
+    "VEHICLE": {
+      "EDIT": "Modifica veicoli",
+      "COPY": "Copia veicoli",
+      "DELETE": "Elimina veicoli"
+    },
+    "CATEGORY-GROUP": {
+      "POPUP": {
+        "TITLE": "Aggiungi a 'Confronto veicoli'",
+        "NEW": "Create new Article Group",
+        "EXISTING": "Transfer to existing Article Group"
+      }
+    },
+    "GRID": {
+      "EDIT-ROW": "Modifica righe",
+      "COPY-ROW": "Copia righe",
+      "NEW-ROW": "Nuovo righe",
+      "DELETE-ROW": "Elimina righe"
+    },
+    "CATEGORY": {
+      "POPUP": {
+        "TITLE": {
+          "NEW": "Nuovo righe",
+          "EDIT": "Modifica righe"
+        }
+      }
+    },
+    "BACK": "Torna ai 'Confronto veicoli'",
+    "MESSAGE": {
+      "VEHICLE-LIMIT": "You have reached the maximum of 10 vehicles. Please exclude a vehicle to be able to add a vehicle again.",
+      "FAVORITE": "Select a vehicle as benchmark by clicking on the pin icon to calculate index values"
+    },
+    "SEARCH-BY-VEHICLE": "Ricerca ricambio per veicolo",
+    "CREATE-VEHICLE": "Create own Vehicle",
+    "HINT": {
+      "VEHICLE-LIMITATION": "Please add at least 5 vehicles"
+    },
+    "MENU": {
+      "ROW": "Row Menu",
+      "VEHICLE": "Vehicle Menu"
+    },
+    "UPDATE": {
+      "HINT": "Attention:<br>RRPs, RRP Dates, # References, Supersession Indicators will be updated and overwritten for all parts that are known to the PartsPool Database (these are all clickable part numbers in the grid). Agree by clicking on 'OK' or skip by clicking on 'Cancel'.<br><br>Hint: You can preserve the current grid by creating a copy of this Comparing before updating."
+    }
+  },
+  "USER-ADMIN-GROUP": {
+    "FORM": {
+      "GROUPDATA": "General",
+      "MDEDEFAULT": "Default Settings",
+      "GROUPRIGHTS": "Group Rights",
+      "GROUP-ROLES": "Group Roles",
+      "GROUPNAME": "Group Name",
+      "CUSTOMERTYPE": "Customer Type",
+      "GROUPTYPE": "Group Type",
+      "NAVISIONNUMBER": "Navision Dimension Code",
+      "STATUS": "Status",
+      "DEBTORNAME": "Debtor Name",
+      "AUTOMATION": "Automation",
+      "END-TRAINING": "End training",
+      "RESET-PASSWORDS": "Reset passwords",
+      "RESET_SUCCESSFUL": "Reset was successful",
+      "START-NEW-TRAINING": "Start new training",
+      "EDIT-DEFAULT-SETTINGS": "Edit default settings of group",
+      "PASSWORD-OF-ALL-USERS": "Password of all users",
+      "REFRESH-PASSWORDS": "Refresh training users",
+      "REFRESH_SUCCESSFUL": "Refresh was successful",
+      "OPTIONAL-MANUL-WORK": "Optional manual work",
+      "ASSIGN-DEASSIGN": "Assign or de-assign roles (modules, brands, webshops) to users",
+      "USAGE": "Usage"
+    },
+    "COLUMNS": {
+      "USERCOUNT": "# Users",
+      "CREATED": "Created"
+    },
+    "GRID-TITLE": "Groups ({{value}})",
+    "RIGHTS-COLUMNS": {
+      "RIGHTTYPE": "Right Type"
+    },
+    "EDIT": "Edit Group: {{value}}",
+    "OPEN": "Open Group: {{value}}",
+    "ADD": "New Group"
+  },
+  "USER-ADMIN-USERS": {
+    "COLUMNS": {
+      "USERGROUP": "Gruppo di utenti",
+      "SALUTATION": "Appellativo",
+      "LOGINNAME": "Login Name",
+      "EMAIL": "Email",
+      "PHONE": "Telefono fisso",
+      "MOBILEPHONE": "Mobile Phone",
+      "DEPARTMENT": "Dipartimento",
+      "ISACTIVE": "Active",
+      "ISAPPROVED": "Password set",
+      "ISADMIN": "Admin",
+      "CREATED": "Created"
+    },
+    "GRID-TITLE": "Users ({{value}})",
+    "EDIT": "Edit User: {{value}}",
+    "OPEN": "Open User: {{value}}",
+    "ACTIVATE": "Activate",
+    "ACTIVATE_TOOLTIP": "Please mark at least one not activated user and ensure that only not activated users are marked",
+    "SEND_WELCOME_EMAIL_AGAIN": "Send again Welcome Email",
+    "SEND_WELCOME_EMAIL_AGAIN_TOOLTIP": "Please mark at least one activated user and ensure that only activated users are marked",
+    "CONFIRM-ACTIVATION": "Do you really want to activate {{value}} users?",
+    "CONFIRM_SEND_EMAIL": "Do you really want to send email again to {{value}} user(s?)",
+    "CONFIRM-ACTIVATION-SINGLE": "Do you really want to activate this user?",
+    "SUCCESSFULLY-ACTIVATED": "{{value}} users were activated and receive an email to set a password.",
+    "FAIlED-ERROR": "While activation there were some errors for the users with following login name (click on names to see technical error info).",
+    "LOGIN-UNDER": "Log in as this user",
+    "LOGIN-AS-SALES-ADMIN": "Go back to Sales Admin"
+  },
+  "USERS-IN-ROLES": {
+    "GRID-TITLE": "Licences ({{value}})",
+    "POPUP": {
+      "GRID-TITLE": "Users with Licence ({{selected}} of {{users}})"
+    }
+  },
+  "POPUPS": {
+    "START_DATE": "Start Date",
+    "END_DATE": "End date",
+    "MESSAGE": {
+      "END_DATE_SHOULD_BE_LOWER": "End date must be after start date",
+      "GRID_WARNING": "Please <b>don't reuse</b> past popup, <b>don't change</b> the active popup. Instead of it, copy it and change as you need it, then deactivate the original popup (set up end date to the past)."
+    }
+  },
+  "PP-DATA-AT": "PP Data Austria",
+  "PP-DATA-BE": "PP Data Belgium",
+  "PP-DATA-CH": "PP Data Switzerland",
+  "PP-DATA-CN": "PP Data China",
+  "PP-DATA-CZ": "PP Data Czech Republic",
+  "PP-DATA-DE": "PP Data Germany",
+  "PP-DATA-DK": "PP Data Denmark",
+  "PP-DATA-ES": "PP Data Spain",
+  "PP-DATA-FR": "PP Data France",
+  "PP-DATA-GB": "PP Data Great Britain",
+  "PP-DATA-HU": "PP Data Hungary",
+  "PP-DATA-IT": "PP Data Italy",
+  "PP-DATA-NL": "PP Data Netherlands",
+  "PP-DATA-NO": "PP Data Norway",
+  "PP-DATA-PL": "PP Data Poland",
+  "PP-DATA-PT": "PP Data Portugal",
+  "PP-DATA-RO": "PP Data Romania",
+  "PP-DATA-RU": "PP Data Russia",
+  "PP-DATA-SE": "PP Data Sweden",
+  "PP-DATA-SI": "PP Data Slovenia",
+  "PP-DATA-SK": "PP Data Slowakia",
+  "PP-DATA-TR": "PP Data Turkey",
+  "PP-DATA-UK": "PP Data United Kingdom",
+  "PP-IAM-ADV": "PP IAM Advanced Bundle",
+  "PP-IAM-CORP": "PP IAM Corporate Bundle",
+  "PP-IAM-NAT": "PP IAM National Bundle",
+  "PP-OEM-ADV": "PP OEM Advanced Bundle",
+  "PP-OEM-CORP": "PP OEM Corporate Bundle",
+  "PP-OEM-NAT": "PP OEM National Bundle",
+  "PP-OEM-NATG5": "PP OEM National G5 Bundle",
+  "PP-OPT-OE-BM": "Vehicles Comparison",
+  "PP-OPT-PRICECHANGES": "Price Changes",
+  "PP-OPT-PRICEHIST": "Price History",
+  "PP-OPT-PRODCHECK": "Parts Comparison",
+  "PP-OPT-PUSH-PRICE": "Price Changes Services",
+  "PP-OPT-PUSH-SUPERS": "Supersessions Services",
+  "MDE-DATA-AT": "PP Data Austria",
+  "MDE-DATA-BE": "PP Data Belgium",
+  "MDE-DATA-CH": "PP Data Switzerland",
+  "MDE-DATA-CN": "PP Data China",
+  "MDE-DATA-CZ": "PP Data Czech Republic",
+  "MDE-DATA-DE": "PP Data Germany",
+  "MDE-DATA-DK": "PP Data Denmark",
+  "MDE-DATA-ES": "PP Data Spain",
+  "MDE-DATA-FR": "PP Data France",
+  "MDE-DATA-GB": "PP Data Great Britain",
+  "MDE-DATA-HU": "PP Data Hungary",
+  "MDE-DATA-IT": "PP Data Italy",
+  "MDE-DATA-NL": "PP Data Netherlands",
+  "MDE-DATA-NO": "PP Data Norway",
+  "MDE-DATA-PL": "PP Data Poland",
+  "MDE-DATA-PT": "PP Data Portugal",
+  "MDE-DATA-RO": "PP Data Romania",
+  "MDE-DATA-RU": "PP Data Russia",
+  "MDE-DATA-SE": "PP Data Sweden",
+  "MDE-DATA-SI": "PP Data Slovenia",
+  "MDE-DATA-SK": "PP Data Slowakia",
+  "MDE-DATA-TR": "PP Data Turkey",
+  "MDE-DATA-UK": "PP Data United Kingdom",
+  "MDE-IAM-ADV": "PP IAM Advanced Bundle",
+  "MDE-IAM-CORP": "PP IAM Corporate Bundle",
+  "MDE-IAM-NAT": "PP IAM National Bundle",
+  "MDE-OEM-ADV": "PP OEM Advanced Bundle",
+  "MDE-OEM-CORP": "PP OEM Corporate Bundle",
+  "MDE-OEM-NAT": "PP OEM National Bundle",
+  "MDE-OEM-NATG5": "PP OEM National G5 Bundle",
+  "MDE-OPT-PARTSCOMP": "Parts Comparison",
+  "MDE-OPT-PRICECHANGES": "Price Changes",
+  "MDE-OPT-PRICEHIST": "Price History",
+  "MDE-OPT-PUSH-PRICE": "Price Changes Services",
+  "MDE-OPT-PUSH-SUPERS": "Supersession Services",
+  "MDE-OPT-VEHICLESCOMP": "Vehicles Comparison",
+  "PartsPoolData:Austria": "PP Data Austria",
+  "PartsPoolData:Belgium": "PP Data Belgium",
+  "PartsPoolData:Switzerland": "PP Data Switzerland",
+  "PartsPoolData:China": "PP Data China",
+  "PartsPoolData:Czechia": "PP Data Czech Republic",
+  "PartsPoolData:Germany": "PP Data Germany",
+  "PartsPoolData:Denmark": "PP Data Denmark",
+  "PartsPoolData:Spain": "PP Data Spain",
+  "PartsPoolData:France": "PP Data France",
+  "PartsPoolData:Great Britain": "PP Data Great Britain",
+  "PartsPoolData:Hungary": "PP Data Hungary",
+  "PartsPoolData:Italy": "PP Data Italy",
+  "PartsPoolData:Netherlands": "PP Data Netherlands",
+  "PartsPoolData:Norway": "PP Data Norway",
+  "PartsPoolData:Poland": "PP Data Poland",
+  "PartsPoolData:Portugal": "PP Data Portugal",
+  "PartsPoolData:Romania": "PP Data Romania",
+  "PartsPoolData:Russian Federation": "PP Data Russia",
+  "PartsPoolData:Sweden": "PP Data Sweden",
+  "PartsPoolData:Slovenia": "PP Data Slovenia",
+  "PartsPoolData:Slovakia": "PP Data Slowakia",
+  "PartsPoolData:Turkey": "PP Data Turkey",
+  "PartsPoolData:United Kingdom": "PP Data United Kingdom",
+  "References": "PartsPool References",
+  "Supersessions": "PartsPool Supersessions",
+  "CurrentPrices": "PartsPool Prices",
+  "PriceHistory": "PartsPool Price History",
+  "ProductCheck": "PartsPool Parts Comparison",
+  "GapAnalysis": "PartsPool Reference Gaps",
+  "BatchSearch": "PartsPool Batch Search",
+  "VehicleLinkings": "PartsPool Vehicle Linkings",
+  "ArticleDetails": "PartsPool Article Details",
+  "GraphicalPartSearch": "PartsPool Search by a Vehicle",
+  "OnlineMarket": "PartsPool Online Market",
+  "PartBasket": "My Parts Basket",
+  "Downloads": "My Downloads",
+  "Favorites": "My Favorites",
+  "MySets": "My Sets",
+  "Support": "Help & Support",
+  "CustomColumns": "PartsPool Custom Columns",
+  "KpiView": "PorfolioMonitor",
+  "AutomatedServices": "PartsPool Automated Services",
+  "PriceChangeService": "PartsPool Price Changes Services",
+  "SupersessionService": "PartsPool Supersessions Services",
+  "OEBenchmark": "PartsPool Vehicles Comparison",
+  "MyExportDefinitions": "My Export Definitions",
+  "Supersessions(Table)": "PartsPool Supersessions - Table Mode",
+  "PriceHistory(Country)": "PartsPool Price History - Country Mode",
+  "OnlineMarket(Advanced)": "PartsPool Online Market - Advanced Mode",
+  "PriceChanges": "PartsPool Price Changes",
+  "Potential Equal Parts": "PartsPool Potential Equal Parts",
+  "InfocardStDev": "PartsPool Infocard Standard Deviation",
+  "DynamicPartBasket": "PartsPool Dynamic Parts Basket",
+  "PriceIndex": "PriceSurveys",
+  "AdminStore": "Group Administration",
+  "GPS_Dashboard": "PriceSurveys Study Dashboard",
+  "GPS_KeyFindings": "PriceSurveys Key Findings",
+  "GPS_OEM_KeyFindings": "PriceSurveys OEM Key Findings",
+  "GPS_KeyFindings_Creator": "PriceSurveys Key Findings Creator",
+  "GPS_OEM_KeyFindings_Creator": "PriceSurveys OEM Key Findings Creator",
+  "GPS_DataTable": "PriceSurveys Data Table",
+  "GPS_OEM_DataTable": "PriceSurveys OEM Data Table",
+  "GPS_Coverage": "PriceSurveys Coverage",
+  "GPS_OEM_Coverage": "PriceSurveys OEM Coverage",
+  "GPS_PriceIndex": "PriceSurveys Price Index",
+  "GPS_OEM_PriceIndex": "PriceSurveys OEM Price Index",
+  "GPS_CompetIntens": "PriceSurveys Competitive Intensity",
+  "GPS_Presets": "PriceSurveys My Study Preset",
+  "GPS_OEM_Presets": "PriceSurveys OEM My Study Preset",
+  "GPS_Presets_Creator": "PriceSurveys My Study Preset Creator",
+  "GPS_OEM_Presets_Creator": "PriceSurveys OEM My Study Preset Creator",
+  "APPLICATION-STATUS": {
+    "STATUS_1-TITLE": "Occasional technical issues!",
+    "STATUS_1-TEXT": "Currently, we are facing some technical issues that can occasionally impede your session in our Market Data Engine<br/><br/>We give our best to solve the issues as quickly as possible.<br/><br/>Please try it again!",
+    "STATUS_2-TITLE": "Technical issues!",
+    "STATUS_2-TEXT": "Currently, we are facing technical issues.<br/><br/>We give our best to solve the issues as quickly as possible.<br/><br/>Please be patient!"
+  },
+  "TERMS-AND-DATA-PROTECTION": {
+    "TITLE": "Welcome to the Market Data Engine, your data is safe with us.",
+    "TERMS": "Yes, I agree to the <a target=\"blank\" href=\"assets/agreements/UserAgreement.pdf\">user agreement</a>. (German: <a target=\"blank\" href=\"assets/agreements/Nutzungsvereinbarung.pdf\">Nutzungsvereinbarung</a>)",
+    "DATA-PROTECTION": "Yes, I have noted the <a target=\"blank\" href=\"assets/agreements/DataProtection.pdf\">data protection declaration</a>. (German: <a target=\"blank\" href=\"assets/agreements/Datenschutzerklärung.pdf\">Datenschutzerklärung</a>)"
+  },
+  "NEWSLETTERS": {
+    "TITLE": "Stay up to date: about which Eucon topics are we allowed to contact you?",
+    "INVITATIONS": "Invitations to events",
+    "CUSTOMER-SATISFACTION-POOLS": "Questionnaire on customer satisfaction",
+    "SPECIAL-OFFERS": "Offers & promotions",
+    "DATA-UPDATE": "Information about data updates",
+    "TRACKING-TITLE": "Help us to improve the Market Data Engine for you.",
+    "TRACKING": "I agree to user tracking to allow better error handling and development of new features."
+  },
+  "MAINTENANCE": {
+    "TITLE": "Modules in Maintenance",
+    "INFO": "This module is in maintenance. We do our best, to offer it you again as soon as possible!"
+  },
+  "RELEASE-NOTES": {
+    "GRID": {
+      "TITLE": "Release Notes Data"
+    },
+    "ADD": "New Release Note",
+    "EDIT": "Edit Release Note",
+    "COLUMNS": {
+      "CATEGORY": "Category",
+      "LANGUAGE": "Language",
+      "CONTENT": "Content"
+    }
+  },
+  "FAQ-MANAGEMENT": {
+    "GRID": {
+      "TITLE": "FAQ Data"
+    },
+    "ADD": "New FAQ",
+    "EDIT": "Edit FAQ",
+    "GO_TO_FAQ": "Open FAQ section",
+    "COLUMNS": {
+      "CATEGORY": "Category",
+      "MODULE_RIGHT": "Module Right",
+      "LANGUAGE": "Language",
+      "CONTENT": "Answer"
+    }
+  },
+  "CUSTOMER-SURVEY": {
+    "TITLE": "Customer Survey",
+    "GREETING_TXT1": "Your opinion about the changeover to the new PartsPool® version matters!",
+    "GREETING_TXT2": "Please take 2 minutes to fill out the survey below.",
+    "GREETING_BTN1": "Participate anonymously",
+    "GREETING_BTN2": "Do not participate",
+    "FORM1": {
+      "HEADER": "How do you rate the migration to the new PartsPool® version within the Market Data Engine?<br/><br/>In terms of:"
+    },
+    "FORM2": {
+      "HEADER": "How do you rate the new PartsPool® version?<br/><br/>In terms of:"
+    },
+    "FORM3": {
+      "TOP3_FUNC": "Top 3 (Functions & Modules)"
+    },
+    "Q1": "Information materials provided (website, video tutorials, technical information, etc.)",
+    "Q2": "Websessions",
+    "Q3": "Transfer of your data from the old PartsPool® version",
+    "Q4": "Support by Eucon (e.g. assistance)",
+    "Q5": "<b>Total</b>",
+    "Q7": "General user friendliness",
+    "Q8": "Navigation (clarity)",
+    "Q9": "Extension of the range of functions in the modules (e.g. new view modes, new configurations, info cards, new 'Comparing Center' …)",
+    "Q10": "Data presentation and usability (e.g. filtering, grouping, clickable part numbers, quick links to other modules ...)",
+    "Q11": "Speed, performance und stability of the new application",
+    "Q12": "Increased efficiency of your work with PartsPool®",
+    "Q14": "How do you rate the new PartsPool® version?",
+    "Q15": "Has PartsPool® improved for you?",
+    "Q19": "How likely are you to recommend PartsPool® to others?",
+    "Q20": "Do you have questions, comments or remarks?",
+    "FAREWELL_TXT": "Thank you for your participation!",
+    "FAREWELL_BTN": "Send",
+    "Q19_OPTION_1": "In any case",
+    "Q19_OPTION_2": "Very likely",
+    "Q19_OPTION_3": "I do not know",
+    "Q19_OPTION_4": "Unlikely",
+    "Q19_OPTION_5": "Very unlikely"
+  },
+  "WELCOME-POPUP": {
+    "TITLE": "Welcome to the Market Data Engine",
+    "GET-STARTED": "Get started",
+    "LABEL_0": "Welcome {{value}}",
+    "CONTENT_0": "<p>The application offers you an easy access to one of the most powerful data bases in the automotive aftermarket.</p>\n<p>Ready to explore your unique opportunities?</p>\n<p>Take a few moments and discover how the Market Data Engine can help you to boost your business with new insights and analyses.</p>",
+    "LABEL_1": "Licence overview",
+    "CONTENT_1": "<p>With your booked licence package you have access to the following countries and functionalities:</p>",
+    "LABEL_2": "Market Data Engine Menu",
+    "CONTENT_2": "<p>The main menu on the left hand side allows you to navigate through all licensed modules.</p><p>On the next pages, we will guide you through the main points of this menu.</p><p> Click on the button to continue.</p>",
+    "LABEL_3": "PartsPool Visualizzazione ricambio",
+    "CONTENT_3": "<p>Start here and enter an OE or IAM or Wholesaler part number to receive all basic information about the part.</p>",
+    "LABEL_4": "PartsPool Analytics",
+    "CONTENT_4": "<p>Go one step further, get more context and discover further potentials in your portfolio and pricing with specialized modules.</p>",
+    "LABEL_5": "PartsPool Elaborazione a blocchi",
+    "CONTENT_5": "<p>Scale it up - process large lists of IAM and OE part numbers to get all part information at once.</p>",
+    "LABEL_6": "PortfolioMonitor",
+    "CONTENT_6": "<p>Assess the competitive situation of your complete parts portfolio through the unique combination of offer intensity and price distance towards the IAM</p>",
+    "LABEL_7": "PartsPotential",
+    "CONTENT_7": "",
+    "LABEL_8": "PriceSurveys IAM Benchmark",
+    "CONTENT_8": "<p>Go into detail - analyze your IAM competitors price positioning on different price levels for a tailor-made part basket based on manually created cross-references by Eucon</p>",
+    "LABEL_9": "La mia zona",
+    "CONTENT_9": "<p>This section allows to organize your own favorites, sets, parts baskets, downloads and export definitions to use PartsPool® more efficiently and customized for your own specific use cases.</p>",
+    "LABEL_10": "Admin Utenti",
+    "CONTENT_10": "<p>This section allows you to manage your team´s user accounts and licenses. </p>",
+    "LABEL_11": "How to get help in the Market Data Engine?",
+    "CONTENT_11": "<ul>\n<li>\n<b>i Icon</b><br/>\nYou will find an i-Icon on every page with frequently asked questions and answers to this specific module.\n</li>\n<li>\n<b>FAQ section</b><br/>\nWant to learn more? Check out our full FAQ´s in our Help&Support section and get some helpful tips on how to get the most out of the Market Data Engine.\n</li>\n<li>\n<b>Support</b><br/>\nIf you have a more specific question, please contact our support team via phone or <a href=\"mailto:support@eucon.com\">email</a>. \n</li>\n</ul>\n<br/>\n<p>Now that you are familiar with the general functionalities of the MDE it´s time to run your first analysis!</p>",
+    "START-NOW": "Start now"
+  },
+  "CUSTOMER-DATA": {
+    "STATUSES": {
+      "OPEN": "Open",
+      "APPROVED": "Approved",
+      "REJECTED": "Rejected"
+    },
+    "BUTTONS": {
+      "APPROVE": "Approve",
+      "REJECT": "Reject"
+    },
+    "COLUMNS": {
+      "RESPONSIBLE_USER": "Responsible User",
+      "APPROVER": "Approver",
+      "APPROVAL_DATE": "Approval Date",
+      "PROJECT_NUMBER": "Project Number",
+      "IMPORT_DATE": "Import Date"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.references-grid {
+  .dx-data-grid {
+    tr.dx-group-row:first-child > td {
+      position: sticky;
+      top: 0;
+    }
+  }
+}

@@ -1,0 +1,143 @@
+.compare-filter-main {
+  display: flex;
+  white-space: nowrap;
+  justify-content: flex-end;
+  height: 25px;
+  line-height: 14px;
+  font-weight: 500;
+
+  .compare-filter-title {
+    font-size: 12px;
+    color: #717776;
+  }
+
+  .compare-filter {
+    z-index: 101;
+    display: block;
+    border: 1px solid;
+    border-color: color(lightest);
+    border-radius: 2px;
+
+    &.disabled {
+      opacity: 0.5;
+      .dropdown-control {
+        cursor: default !important;
+      }
+    }
+
+    .title {
+      margin-top: -3px;
+      font-size: 12px;
+      color: color(dark-grey);
+      width: 300px;
+      justify-content: space-between;
+    }
+
+    .dropdown-container {
+      background: color(white);
+
+      &:not(.oe-items) {
+        left: 0;
+        right: 0;
+      }
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        padding: 6px 15px 5px 15px;
+
+        width: 100%;
+        height: 28px;
+
+        &:first-child {
+          margin: 4px 0 0 0;
+        }
+
+        &:last-child {
+          margin: 0 0 4px 0;
+        }
+
+        &:hover {
+          background-color: color(yellow);
+
+          color: color(white);
+        }
+      }
+
+      .active-item {
+        background-color: color(lightest-grey);
+      }
+    }
+
+    .name {
+      font-weight: 500;
+      font-size: 12px;
+    }
+
+    .dropdown-item {
+      &.active {
+        background-color: color(lightest-grey);
+      }
+
+      &:hover {
+        background-color: color(yellow);
+
+        color: color(white);
+      }
+    }
+
+    .oe-items {
+      overflow-x: auto;
+
+      &.left-oe {
+        left: 100%;
+        margin-left: 0px;
+        z-index: 1;
+      }
+
+      &.right-oe {
+        right: 100%;
+        margin-right: 0px;
+        z-index: 1;
+      }
+
+      .dx-scrollable.dx-scrollable-customizable-scrollbars {
+        margin: 4px 0 4px 0;
+      }
+    }
+
+    .panel {
+      padding: 0 !important;
+
+      border: 0;
+    }
+
+    .submenu {
+      display: flex;
+      font-size: 12px;
+    }
+
+    .dx-radio-value-container {
+      width: 50px;
+    }
+
+    .sub-title {
+      color: color(dark-grey);
+      border-color: color(lightest) !important;
+      border-style: solid;
+      padding: 12px 0px 12px 58px;
+    }
+  }
+}
+
+.compare-filter-bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  top: 0;
+  left: 0;
+  z-index: 100;
+}

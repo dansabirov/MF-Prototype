@@ -1,0 +1,87 @@
+// .my-favorites {
+//   .view.single .dx-data-grid .dx-row > td {
+//     padding: 5px 8px 5px 8px !important;
+//   }
+
+//   .view.combined .dx-data-grid .dx-row > td {
+//     padding: 5px 8px 4px 8px !important;
+//   }
+// }
+
+.my-favorites-popover {
+  box-shadow: 0px 0px 10px rgba(84, 121, 128, 0.5);
+  border-radius: 2px;
+
+  .dx-popup-title.dx-toolbar {
+
+    .dx-toolbar-before .dx-toolbar-item-content {
+      margin: 2px 0 0 0;
+    }
+
+    .dx-icon-close {
+      font-size: 16px
+    }
+  }
+
+  .favorites-body {
+
+    .dx-texteditor-input-container .dx-placeholder {
+      color: color(light-grey);
+      margin-left: 17px;
+      margin-top: 6px;
+    }
+
+    .dx-state-focused .dx-placeholder {
+      display: none !important;
+    }
+
+    .dx-invalid-message.dx-overlay-wrapper {
+      visibility: visible;
+    }
+
+    .dx-textbox {
+      border: 1px solid color(lightest);
+      box-sizing: border-box;
+      border-radius: 2px;
+      font-size: 14px !important;
+      line-height: 15px !important;
+
+      input,
+      textarea {
+        padding: 7px 16px 6px !important;
+      }
+    }
+
+    .dx-field-item-label {
+      color: color(blue-grey);
+    }
+
+    .dx-field-item-label-text {
+      color: color(blue-grey);
+    }
+
+    .dx-texteditor.dx-editor-underlined {
+      &:after,
+      &.dx-state-hover:after,
+      &.dx-state-focused:before {
+        border-bottom: none !important;
+      }
+    }
+  }
+
+  .dx-button-text {
+    @extend .mde-text-center;
+  }
+}
+
+.favorites-actions-popup {
+
+  .dx-button-text {
+    @extend .mde-text-center;
+  }
+}
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td.static-column:hover {
+  background-color: inherit !important;
+  cursor: default;
+}

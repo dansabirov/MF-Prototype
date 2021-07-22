@@ -1,0 +1,28 @@
+.dropdown-control {
+  @extend .flex;
+
+  .dx-texteditor-input {
+    @extend .pr-0;
+  }
+
+  .dx-texteditor {
+    &.dx-editor-underlined:after {
+      border-bottom: none !important;
+    }
+  }
+}
+
+.dropdown-list-item-first {
+  @extend .border-solid;
+  @extend .border-top;
+}
+
+.dropdown-control:not(.dropdown-control-inherit-color) {
+  .dx-texteditor-input, .dropdown-list-item {
+    color: color(blue-grey);
+  }
+
+  .dx-texteditor-input:hover {
+    color: color(mid-grey);
+  }
+}

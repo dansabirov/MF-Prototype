@@ -1,0 +1,87 @@
+app-automated-services {
+  .dx-data-grid .dx-data-row > td .dx-template-wrapper app-icon {
+    margin-left: 0px !important;
+  }
+
+  .dx-data-grid .dx-datagrid-rowsview .dx-selection.dx-row > td app-icon {
+    stroke: #FFFFFF !important;
+  }
+
+  .dx-data-grid .dx-row > td .stroke-light-grey {
+    stroke: #BCBCBC;
+  }
+
+  .dx-data-grid .dx-row > td .success {
+    stroke: #FBBA00;
+  }
+}
+
+.automated-services-form {
+  .enabled-item {
+    align-items: flex-end!important;
+    height: 43px;
+    label {
+      height: 28px;
+      display: flex!important;
+      flex-direction: row;
+      align-items: center;
+      text-align: right;
+      flex-grow: 10;
+      font-size: 12px;
+    }
+    .dx-field-item-content { width: auto!important; }
+    .dx-invalid-message-content { width: 1000px!important; max-width: unset!important; text-align: left;}
+  }
+
+  .includeReferences-item {
+    label {
+      display: flex!important;
+      flex-direction: row;
+      align-items: center;
+      text-align: right;
+      flex-grow: 100;
+      padding: 0;
+    }
+    .dx-field-item-content { width: auto!important; }
+  }
+
+  .percentages-item {
+    .dx-field-item-content-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .dx-field-item-help-text { padding: 0; }
+    }
+  }
+
+  .dx-form-group { margin-top: 10px; }
+  .dx-radiogroup .dx-item-content { font-size: 12px; }
+
+  .group-without-top-margin .dx-form-group { margin-top: 0!important; }
+
+  .labels-without-top-padding, .labels-without-top-padding .dx-field-item-label { padding-top: 0!important; }
+  .dx-invalid-message-content { padding: 0; }
+
+  .dx-popup-bottom .dx-button-text {
+    @extend .mde-text-center;
+  }
+
+  
+}
+
+.automated-services-form.dx-datagrid-edit-popup .brandSet-dropdown {
+  dx-text-box.dx-texteditor {
+    background-color: transparent;
+    border: none;
+    &.dx-editor-underlined.dx-state-readonly{
+      opacity: unset;
+    }
+  }
+  .dx-dropdowneditor-field-template-wrapper > .dx-template-wrapper {
+    margin-left: 15px;
+
+    dx-text-box input {
+      padding-left: 0!important;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.search-control {
+  @extend .control;
+  @extend .flex;
+
+  border-color: color(lightest);
+  justify-content: flex-start;
+
+  &.border-yellow {
+    border-color: color(yellow);
+  }
+
+  input {
+    @extend .flex-grow;
+    @extend .fz12;
+    border: none !important;
+    background: transparent;
+    color: color(mid-grey);
+
+    &:focus {
+      outline: none !important;
+    }
+    &:active {
+      outline: none !important;
+    }
+  }
+
+  app-icon .search.icon {
+    stroke: color(grey);
+
+    &:hover {
+      stroke: color(yellow);
+    }
+  }
+
+  app-icon .clear.icon {
+    stroke: color(grey);
+
+    &:hover {
+      stroke: color(yellow);
+    }
+  }
+}

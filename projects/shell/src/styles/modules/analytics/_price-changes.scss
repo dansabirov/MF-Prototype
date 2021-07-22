@@ -1,0 +1,30 @@
+.price-changes-search-filters {
+  .dx-slider {
+    .dx-slider-handle .dx-tooltip-wrapper {
+      z-index: inherit !important;
+    }
+    .dx-slider-handle .dx-tooltip-wrapper .dx-overlay-content:before {
+      background-color: transparent;
+    }
+    .dx-slider-handle .dx-tooltip-wrapper .dx-overlay-content {
+      z-index: inherit !important;
+    }
+    .dx-slider-handle .dx-tooltip-wrapper .dx-overlay-content .dx-popup-content {
+      @extend .p-0;
+      @extend .fz12;
+      color: color(light-grey);
+      text-overflow: unset;
+      max-width: 50px;
+      min-width: 50px;
+      width: 50px;
+    }
+  }
+}
+
+.price-changes-headline {
+  .separator {
+    margin: 0 -5px 0 13px;
+
+    color: color(dark-grey);
+  }
+}

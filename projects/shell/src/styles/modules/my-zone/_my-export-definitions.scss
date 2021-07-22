@@ -1,0 +1,31 @@
+.my-export-definitions-form {
+
+  .dx-radiogroup .dx-item-content {
+    font-size: 12px;
+  }
+
+  .labels-without-top-padding, .labels-without-top-padding .dx-field-item-label {
+    padding-top: 0 !important;
+  }
+
+  .labels-width-135px label { width: 135px; }
+
+  .dx-invalid-message-content {
+    padding: 0;
+  }
+
+  .dx-list .dx-list-select-all {
+    @extend .fz14;
+  }
+
+  input,
+  textarea {
+    line-height: 14px;
+    padding-top: 7px!important;
+    padding-bottom: 6px!important;
+  }
+
+  .dx-button-text {
+    @extend .mde-text-center;
+  }
+}

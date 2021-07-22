@@ -1,0 +1,50 @@
+.share-popover {
+  .content {
+    .dx-radiogroup .dx-radiobutton {
+      padding-bottom: 24px;
+    }
+
+    .item {
+      align-items: center;
+      height: 20px;
+    }
+
+    .dx-texteditor.dx-editor-underlined:after {
+      border-bottom: none;
+    }
+
+    .dx-tagbox {
+      border: 1px solid color(lightest);
+      box-sizing: border-box;
+      border-radius: 2px;
+      @extend .fz14;
+
+      .dx-placeholder {
+        padding-left: 8px;
+      }
+
+      .dx-tag {
+        margin: 0px;
+        .dx-tag-content {
+          margin: 3px 0 0 3px;
+          border-radius: 2px;
+          padding: 3px 32px 4px 6px;
+        }
+      }
+    }
+
+    .share-warning {
+      color: #a50000;
+      font-style: normal;
+      font-size: 12px;
+    }
+  }
+
+  .dx-button-text {
+    @extend .mde-text-center;
+  }
+}
+
+.dx-list-select-all {
+  cursor: pointer;
+}

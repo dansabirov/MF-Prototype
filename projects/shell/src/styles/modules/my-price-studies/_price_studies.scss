@@ -1,0 +1,86 @@
+.ps-study-preset-popup {
+  .dx-texteditor {
+    background-color: color(white) !important;
+  }
+}
+
+.ps-preset-dropdown {
+  .dx-texteditor-input {
+    font-size: 12px !important;
+    padding-left: 8px !important;
+  }
+}
+
+.ps-load-btn {
+  height: 27px;
+  .dx-button-text {
+    line-height: 18px !important;
+  }
+}
+
+.kf-html-ed {
+  .dx-toolbar-items-container {
+    .dx-htmleditor-toolbar-separator {
+      height: 25px;
+    }
+    .dx-toolbar-item-content {
+      .dx-button {
+        min-width: 20px;
+        height: 20px;
+
+        .dx-button-content {
+          padding: 0px;
+
+          .dx-icon {
+            width: 14px;
+            height: 14px;
+            background-size: 14px 14px;
+            font-size: 14px;
+            line-height: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.kf-grid {
+  .dx-row > td {
+    .dx-template-wrapper {
+      line-height: normal;
+    }
+  }
+}
+
+.ci-hover-hint {
+  background-color: color(white);
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.dx-datagrid-popover-table {
+  border: 1px solid color(lightest-grey);
+  border-collapse: collapse;
+  .dx-header-row {
+    th {
+      @extend .p-4;
+
+      border: 1px solid color(lightest-grey);
+      text-align: left;
+    }
+  }
+
+  .dx-row {
+    td {
+      @extend .p-4;
+
+      border: 1px solid color(lightest-grey);
+      text-align: left;
+
+      &.decimal {
+        text-align: right;
+      }
+    }
+  }
+}

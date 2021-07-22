@@ -1,0 +1,39 @@
+.invalid .app-file-selector {
+  border-color: color(dark-red);
+}
+
+.app-file-selector {
+  border: 2px dashed;
+  border-color: color(light);
+  border-radius: 7.5px;
+  position: relative;
+
+  .label {
+    @extend .fz18;
+    color: color(grey);
+    text-align: center;
+
+    .browse {
+      color: color(dark-blue);
+
+      cursor: pointer;
+
+      &:hover {
+        color: color(yellow);
+      }
+    }
+  }
+
+  &.dropped {
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 100;
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+  }
+}

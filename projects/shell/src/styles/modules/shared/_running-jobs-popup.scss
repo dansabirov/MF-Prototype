@@ -1,0 +1,69 @@
+/**
+ *  Component: app-running-jobs-popup
+ */
+/**
+ *  External Styles
+ */
+.running-jobs-popup {
+  .dx-datagrid.dx-gridbase-container {
+    border: 1px solid color(lightest);
+    box-shadow: 0 0 4px rgba(color(black), 0.15);
+  }
+
+  .dx-datagrid-header-panel,
+  .dx-toolbar {
+    background-color: color(white) !important;
+  }
+
+  .dx-data-grid .dx-row-lines > td {
+    height: 25px;
+  }
+
+  .dx-data-grid .dx-toolbar .dx-button {
+    background-color: color(white);
+  }
+}
+
+/**
+ *  Internal Styles
+ */
+.running-jobs-popup {
+  @extend .box-reset;
+
+  .running-jobs-container {
+    @extend .box-reset;
+
+    width: 100%;
+    height: 100%;
+    padding: 0 10px 10px 10px;
+  }
+
+  .running-jobs-message {
+    display: flex;
+    flex-direction: column;
+
+    height: 15%;
+
+    text-align: center;
+
+    line-height: 1.5;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .message-text {
+    color: color(blue-grey);
+
+    font-size: 14px;
+    font-style: italic;
+  }
+
+  .table-close-icon {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,108 @@
+app-supersessions {
+  svg {
+    margin: 0;
+    vertical-align: top;
+  }
+
+  svg text {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .dx-context-menu .dx-menu-items-container {
+    padding: 0 !important;
+    margin: 0px 0 !important;
+  }
+
+  .dx-context-menu .dx-menu-separator {
+    height: 1px;
+    margin: 0px 0;
+  }
+
+  .svg-part-number {
+    @extend .pointer;
+    fill: #3198bb;
+    font-weight: bold;
+
+    &:hover {
+      fill: #547980;
+    }
+  }
+
+  .svg-part-number-searched {
+    @extend .pointer;
+    fill: #ffffff;
+    font-weight: bold;
+
+    &:hover {
+      fill: #547980;
+    }
+  }
+
+  .text-draggable {
+    cursor: all-scroll;
+  }
+
+  .text-references {
+    cursor: pointer;
+  }
+
+  .text-hint {
+    color: color(blue-grey);
+    font-style: italic;
+    font-size: 12px;
+  }
+
+  .text-references:hover {
+    text-decoration: underline;
+  }
+
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .supersession-graph-toolbar {
+    .dx-toolbar-items-container {
+      height: 32px !important;
+    }
+
+    .toolbar-icon,
+    .toolbar.toolbar-icon:active,
+    .toolbar.toolbar-icon:focus,
+    .toolbar-icon:hover {
+      background-color: color(white) !important;
+      border: none !important;
+      box-shadow: none !important;
+      fill: none !important;
+      height: 24px;
+      width: 24px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .toolbar-icon i {
+      font-size: 16px !important;
+    }
+
+    .toolbar-icon-normal {
+      color: color(blue-grey);
+    }
+
+    .toolbar-icon-normal:hover {
+      color: color(yellow);
+    }
+
+    .toolbar-icon-active {
+      color: color(yellow) !important;
+    }
+
+    .toolbar-icon-disabled {
+      color: color(light-grey);
+    }
+  }
+}

@@ -1,0 +1,154 @@
+app-references {
+  .references-body {
+    &.scroll-view {
+      overflow: hidden;
+    }
+  }
+
+  .dx-data-row > td {
+    .dx-template-wrapper {
+      app-icon {
+        @extend .ml-8;
+        cursor: pointer;
+        .icon use {
+          fill: color(blue) !important;
+        }
+      }
+    }
+  }
+
+  .dx-datagrid-summary-item {
+    overflow: visible !important;
+    text-overflow: unset !important;
+  }
+
+  .dx-datagrid-rowsview .dx-selection.dx-row > td {
+    app-icon {
+      @extend .ml-8;
+      cursor: pointer;
+      .icon use {
+        fill: color(white) !important;
+      }
+    }
+  }
+
+  .part-number-menu {
+    &.dx-menu-item-content {
+      padding: 0 !important;
+    }
+  }
+
+  .grey-row:not(.dx-state-hover) {
+    td {
+      background-color: color(beige) !important;
+      border-color: color(lightest-grey) !important;
+    }
+  }
+  .grey-row {
+    &.dx-selection {
+      td {
+        background-color: color(yellow) !important;
+        color: color(white);
+      }
+    }
+  }
+
+  .cross-row {
+    td {
+      text-decoration: line-through;
+    }
+  }
+
+  .selected-grey-row {
+    td {
+      background-color: color(strong-grey) !important;
+      border-color: color(lightest-grey) !important;
+    }
+    .dx-command-select {
+      position: relative;
+      &::before {
+        content: ' ';
+        border-left-color: color(yellow) !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important;
+        height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &.dx-selection {
+      td {
+        background-color: color(yellow) !important;
+        color: color(white);
+      }
+    }
+  }
+
+  .references-context-item {
+    &:hover {
+      background-color: color(lightest);
+    }
+  }
+
+  .references-tooltip {
+    color: color(dark-grey);
+
+    .dx-menu-items-container {
+      width: 100% !important;
+    }
+
+    .references-context-item-parent {
+      @extend .flex;
+      color: color(dark-grey);
+      justify-content: space-between;
+      align-items: center;
+
+      &:hover {
+        background-color: color(yellow);
+        color: color(white);
+
+        &::after {
+          content: ' ';
+          width: 0;
+          height: 0;
+          border-top: 4px solid transparent;
+          border-bottom: 4px solid transparent;
+          border-left: 4px solid color(white);
+        }
+      }
+
+      &::after {
+        content: ' ';
+        width: 0;
+        height: 0;
+        border-top: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+        border-left: 4px solid color(dark-grey);
+      }
+    }
+
+    .dx-popup-content {
+      padding: 0px !important;
+    }
+
+    .dx-overlay-content.dx-popup-normal {
+      @extend .border-solid;
+      @extend .border-light;
+      @extend .borders;
+      background-color: color(white) !important;
+    }
+
+    .tooltip-sub-title {
+      @extend .font-medium;
+      color: color(blue-grey);
+    }
+  }
+
+  td.num-ref {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.comparing-сenter-popover {
+
+  .dx-popup-title.dx-toolbar {
+
+    .dx-toolbar-before .dx-toolbar-item-content {
+      margin: 2px 0 0 0;
+    }
+
+    .dx-icon-close {
+      font-size: 16px
+    }
+  }
+
+  .dx-button-text {
+    @extend .mde-text-center;
+  }
+}

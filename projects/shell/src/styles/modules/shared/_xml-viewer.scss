@@ -1,0 +1,146 @@
+.xml-viewer-header {
+}
+
+.xml-group {
+  position: relative;
+  background-color: color(white);
+  border-bottom: 1px solid color(grey-white);
+
+  i {
+    border: solid color(dark-grey);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  &:hover {
+    background-color: color(grey-white);
+    i {
+      border-color: color(yellow);
+    }
+
+    &::before {
+      content: ' ';
+      position: absolute;
+      height: 100%;
+      left: 0;
+      top: 0;
+      width: 5px;
+      background-color: color(yellow);
+    }
+  }
+
+  &.selected {
+    background-color: color(grey-white);
+  }
+}
+
+.selected-group-container {
+  background-color: color(grey-white);
+}
+
+.xml-sub-group {
+  position: relative;
+
+  &.highlighted {
+    background-color: color(grey-white);
+  }
+
+  i {
+    border: solid color(dark-grey);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  &:hover {
+    i {
+      border-color: color(yellow);
+    }
+  }
+}
+
+.xml-item {
+  position: relative;
+  &::before {
+    content: ' ';
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 5px;
+    background-color: color(yellow);
+  }
+}
+
+.xml-viewer-container {
+  mark {
+    background-color: color(yellow);
+    padding: 2px;
+  }
+}
+
+.xml-ex-col {
+  position: relative;
+
+  width: 100%;
+  height: 33px;
+
+  div {
+    width: auto;
+    height: inherit;
+
+    padding: 0 5px 0 5px;
+
+    &:hover {
+      color: color(yellow);
+    }
+  }
+
+  span,
+  i {
+    @extend .pointer;
+    @extend .fz12;
+    @extend .font-medium;
+  }
+}

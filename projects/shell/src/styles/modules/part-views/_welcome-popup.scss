@@ -1,0 +1,29 @@
+.welcome-popup {
+  background-color: transparent;
+
+  .dx-toolbar {
+    padding-left: 24px;
+  }
+
+  .dx-popup-bottom {
+    padding-bottom: 32px;
+
+    .dx-toolbar-before {
+      display: flex;
+      flex-direction: column;
+      height: 66px;
+    }
+  }
+
+  // .dx-scrollable-content {
+  //   display: flex;
+  //   align-items: center;
+  // }
+
+  h1 {
+    color: color(yellow);
+  }
+  .dx-datagrid-header-panel {
+    display: none;
+  }
+}

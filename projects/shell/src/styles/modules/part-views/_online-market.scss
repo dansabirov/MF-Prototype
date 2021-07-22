@@ -1,0 +1,88 @@
+.selected-grey-row {
+  td {
+    background-color: color(strong-grey) !important;
+    border-color: color(lightest-grey) !important;
+  }
+  .dx-command-select {
+    position: relative;
+    &::before {
+      content: ' ';
+      border-left-color: color(yellow) !important;
+      border-left-style: solid !important;
+      border-left-width: 5px !important;
+      height: 20px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  &.dx-selection {
+    td,
+    .grid-cell-part-number {
+      background-color: color(yellow) !important;
+      color: color(white) !important;
+    }
+  }
+}
+
+.dx-data-grid .dx-datagrid-rowsview .dx-selection.dx-row > td {
+  a {
+    color: white !important;
+  }
+}
+
+.dx-data-grid .dx-datagrid-rowsview .dx-selection {
+  .grid-cell-part-number {
+    background-color: color(yellow) !important;
+    color: color(white) !important;
+  }
+}
+
+.grid-cell-part-number {
+  @extend .pointer;
+  color: color(blue);
+  font-weight: 700;
+
+  &:hover {
+    color: color(green-blue) !important;
+  }
+}
+
+.om-info-message {
+  @extend .p-12;
+  color: color(yellow);
+}
+
+.load-button-container {
+  left: 0;
+  top: 50%;
+  z-index: 10;
+}
+
+.online-market-grid {
+  .dx-datagrid {
+    .dx-header-row > td {
+      .dx-datagrid-text-content {
+        white-space: nowrap !important;
+      }
+    }
+  }
+}
+
+.online-market-grid-popup {
+  position: relative;
+
+  .dx-toolbar.dx-popup-bottom {
+    position: absolute;
+    top: 37px;
+    left: 0;
+
+    padding: 0;
+
+    .cancel-btn {
+      @extend .mde-button-yellow;
+      @extend .mde-text-center;
+    }
+  }
+}

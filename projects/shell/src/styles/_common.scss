@@ -1,0 +1,526 @@
+.box-reset {
+  &,
+  &:before,
+  &:after {
+    position: relative;
+    z-index: 0;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+  }
+}
+
+.position-relative {
+  position: relative;
+}
+
+.z-index-one {
+  z-index: 1;
+}
+
+.d-none {
+  display: none !important;
+}
+.hidden {
+  display: none !important;
+}
+.d-inline {
+  display: inline !important;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
+.d-block {
+  display: block !important;
+}
+.d-table {
+  display: table !important;
+}
+.d-table-row {
+  display: table-row !important;
+}
+.d-table-cell {
+  display: table-cell !important;
+}
+
+.overflow-ini {
+  overflow: initial !important;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+ul.no-li-styles {
+  list-style-type: none;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.width-30 {
+  width: 30%;
+}
+
+.width-70 {
+  width: 70%;
+}
+
+.control {
+  @extend .border-radius;
+  @extend .border-solid;
+  @extend .border-light;
+  @extend .borders;
+  background: color(grey-white);
+  min-height: 38px;
+  max-height: 38px;
+
+  input {
+    border: 0;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text-ellepsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.panel {
+  @extend .border-solid;
+  @extend .border-light;
+  @extend .borders;
+  @extend .box-shadow;
+  @extend .p-16;
+}
+
+.dropdown-panel {
+  border-radius: 2px;
+
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.b-white {
+  background-color: color(white);
+}
+
+.reset-button {
+  @extend .fz12;
+  background-color: color(white);
+  color: color(yellow);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+
+  .dx-icon {
+    color: color(yellow) !important;
+  }
+
+  &.dx-state-disabled {
+    opacity: 1 !important;
+    color: color(light-grey);
+    background-color: color(white);
+    .dx-icon {
+      color: color(light-grey) !important;
+    }
+  }
+
+  .dx-button-text {
+    line-height: 28px;
+    text-transform: none !important;
+  }
+}
+
+.dxc-tooltip {
+  z-index: 105;
+  svg {
+    path {
+      fill: color(white);
+      stroke-width: 1px;
+    }
+  }
+
+  .custom-tooltip {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: color(dark-grey);
+    div {
+      margin-top: 8px;
+    }
+
+    .date {
+      color: color(light-grey);
+    }
+  }
+}
+.dx-scrollable-scrollbar.dx-widget.dx-scrollbar-horizontal.dx-scrollbar-hoverable.dx-state-hover {
+  height: 12px;
+
+  .dx-scrollable-scroll {
+    height: 12px;
+  }
+}
+
+.dx-scrollable-scrollbar.dx-widget.dx-scrollbar-horizontal {
+  height: 12px;
+
+  .dx-scrollable-scroll {
+    height: 12px;
+    .dx-scrollable-scroll-content {
+      border-radius: 0.5rem;
+    }
+  }
+}
+
+.dx-scrollable-scrollbar.dx-widget.dx-scrollbar-vertical.dx-scrollbar-hoverable.dx-state-hover {
+  width: 12px;
+
+  .dx-scrollable-scroll {
+    width: 12px;
+  }
+}
+.dx-scrollable-scrollbar.dx-widget.dx-scrollbar-vertical {
+  width: 12px;
+
+  .dx-scrollable-scroll {
+    width: 12px;
+    .dx-scrollable-scroll-content {
+      border-radius: 0.5rem;
+    }
+  }
+}
+
+app-icon.context-icon .icon use {
+  fill: color(blue-grey);
+}
+
+app-icon.logo-icon2 {
+  .icon use,
+  &.context-icon .icon use {
+    fill: color(mde-logo-orange);
+  }
+}
+
+app-icon.copy.context-icon .icon {
+  width: 18px;
+  height: 18px;
+}
+
+.mde-text-center {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.mde-icon-hover {
+  &:hover .icon use {
+    fill: color(yellow);
+  }
+}
+
+.mde-icon-hover__orange {
+  &:hover .icon use {
+    fill: color(yellow);
+  }
+}
+
+.mde-tbl-checkbox-tmpl {
+  .dx-data-grid .dx-datagrid-rowsview & .dx-checkbox-icon {
+    background-color: transparent;
+
+    border: none !important;
+  }
+}
+
+.mde-tbl-checkbox-tmpl {
+  .dx-datagrid-table .dx-selection & .dx-checkbox-container .dx-checkbox-icon:before {
+    color: color(white);
+  }
+}
+
+.mde-reset-button {
+  @extend .pointer;
+
+  border: none;
+  outline: none;
+  background-color: color(white);
+
+  &.enabled {
+    color: color(yellow);
+  }
+
+  &.disabled {
+    cursor: default;
+
+    color: color(mde-light-grey);
+  }
+
+  .dx-icon {
+    font-size: 16px;
+  }
+}
+
+.help-icon-orange {
+  .icon use {
+    fill: color(yellow) !important;
+  }
+}
+
+.pi-info-icon {
+  font-size: 20px !important;
+
+  color: color(blue-grey);
+
+  cursor: pointer;
+
+  &:hover {
+    color: color(yellow);
+  }
+}
+
+.height-13px {
+  height: 13px;
+}
+
+.toolbox-graph-button {
+  color: #444544;
+  height: 27px;
+  font-size: 12px;
+  min-width: 24px;
+  background-color: transparent;
+  box-shadow: none;
+  stroke: color(black);
+
+  > .dx-button-content {
+    padding: 0 !important;
+  }
+
+  &.dx-button.dx-state-disabled {
+    background-color: transparent !important;
+  }
+
+  .dx-button-text {
+    text-transform: none;
+  }
+
+  &:hover,
+  &:hover > .dx-icon {
+    color: #ffffff !important;
+    background-color: #fbba00 !important;
+    stroke: color(#ffffff);
+  }
+}
+
+.toolbox-graph-button-with-paddings {
+  @extend .toolbox-graph-button;
+  margin-bottom: 5px !important;
+
+  > .dx-button-content {
+    padding: 9px 8px 4px 8px !important;
+  }
+
+  .dx-icon {
+    margin-bottom: 3px !important;
+    margin-right: 0px !important;
+  }
+
+  .dx-graph-icon {
+    height: 11px;
+    font-size: 20px;
+    line-height: 11px;
+  }
+}
+.dashboard-toolbox-graph-button {
+  @extend .toolbox-graph-button;
+
+  > .dx-button-content {
+    padding: 9px 8px 4px 8px !important;
+  }
+
+  .dx-icon {
+    margin-bottom: 3px !important;
+    margin-right: 0px !important;
+  }
+
+  .dx-graph-icon {
+    height: 11px;
+    font-size: 20px;
+    line-height: 11px;
+  }
+}
+
+.toolbox-graph-button-with-paddings-plus > .dx-button-content {
+  padding: 9px 8px 4px 2px !important;
+}
+
+.toolbox-graph-button:hover {
+  .dx-icon {
+    color: #ffffff !important;
+    background-color: #fbba00 !important;
+    stroke: color(#ffffff);
+  }
+}
+
+.height-35 {
+  height: 35px;
+}
+
+.dx-button-content {
+  .dx-icon-mde-loader {
+    position: relative;
+
+    display: inline-block !important;
+
+    width: 1rem !important;
+    height: 1rem !important;
+
+    color: rgba(color(white), 0.2) !important;
+
+    border: 2px solid;
+    border-top-color: color(white);
+    border-radius: 50%;
+
+    animation: mde-rotate 1s linear infinite;
+  }
+
+  .dx-icon-mde-loader + .dx-button-text {
+    display: none;
+  }
+}
+
+.grid-item-hover:hover {
+  text-decoration: underline;
+
+  cursor: pointer;
+}
+
+.chart-custom-export-styles {
+  position: relative;
+
+  .chart-toolbar-separator {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 33px;
+
+    border-bottom: 1px solid color(lightest-grey);
+  }
+
+  .chart-toolbar {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: row;
+
+    width: calc(100% - 32px);
+    height: 32px;
+    padding: 8px 8px 8px 8px;
+
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .dx-export-menu-button {
+    transform: translate(12px, -18px);
+
+    & > rect {
+      fill: transparent;
+      stroke: transparent;
+    }
+
+    & > path {
+      fill: color(blue-grey);
+    }
+
+    &:hover {
+      & > path {
+        fill: color(yellow);
+      }
+    }
+  }
+
+  .dx-export-menu-list {
+    transform: translate(22px, -23px);
+
+    & > rect {
+      width: 100px;
+      height: 97px;
+
+      transform: translate(0.5px, -4px);
+
+      rx: size(border-radius);
+      ry: size(border-radius);
+      filter: url(#mde-svg-box-shadow);
+      stroke: none;
+    }
+  }
+
+  .dx-export-menu-list-item {
+    &:hover > {
+      & rect {
+        fill: color(yellow);
+      }
+
+      & text {
+        fill: color(white) !important;
+      }
+    }
+
+    & > rect {
+      width: 100px;
+      height: 28px;
+    }
+
+    & > text {
+      transform: translate(1px, -3px);
+      text-transform: capitalize;
+
+      font-size: 12px !important;
+
+      fill: color(dark-grey) !important;
+    }
+  }
+}
+
+.dx-state-readonly {
+  cursor: initial !important;
+
+  .dx-radiobutton {
+    cursor: initial !important;
+  }
+}
+
+input:read-only {
+  cursor: initial !important;
+}

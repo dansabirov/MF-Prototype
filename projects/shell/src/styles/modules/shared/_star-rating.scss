@@ -1,0 +1,11 @@
+.star-rating {
+  app-icon {
+    cursor: pointer;
+    &:first-of-type {
+      margin-left: -8px;
+    }
+  }
+  .dx-checkbox-container, .dx-checkbox-text {
+    @extend .flex-center;
+  }
+}

@@ -1,0 +1,212 @@
+.competitive-intensity-page {
+  .competitive-intensity-dashboard-header {
+    position: relative;
+  }
+
+  .dashboard-toolbar {
+  }
+
+  .dashboard-toolbar .mde-dropdown-title {
+    position: absolute;
+
+    top: 6px;
+    right: 18px;
+  }
+}
+
+.competitive-intensity-graph {
+  circle {
+    @extend .pointer;
+  }
+  .graph-toolbar {
+    width: 100%;
+    height: 32px;
+
+    border-bottom: 1px solid color(lightest-grey);
+
+    .drill-down-button {
+      color: color(light-grey);
+      stroke: color(light-grey);
+      &.enabled {
+        .title {
+          color: color(grey);
+          stroke: color(grey);
+        }
+
+        &.ei {
+          @extend .pointer;
+          color: color(grey);
+          stroke: color(grey);
+
+          &:hover {
+            color: color(yellow);
+            stroke: color(yellow);
+          }
+        }
+      }
+      .enabled {
+        color: color(grey);
+        stroke: color(grey);
+
+        &.arrow {
+          @extend .pointer;
+          &:hover {
+            color: color(yellow);
+            stroke: color(yellow);
+          }
+        }
+      }
+    }
+
+    .chart-setting-icons {
+      padding: 3px 0 0 0;
+    }
+  }
+
+  .cpg-inc {
+    fill: color(blue-green) !important;
+    font-style: normal !important;
+    font-size: 12px;
+  }
+  .cpg-red {
+    fill: color(red) !important;
+    font-style: normal !important;
+    font-size: 12px;
+  }
+}
+.competitive-intensity-search-panel {
+  .dx-texteditor.dx-editor-underlined {
+    &:after {
+      border-bottom: none !important;
+    }
+  }
+}
+
+.arrow {
+  line-height: 11px;
+}
+
+.competitive-intensity-legend-panel {
+  color: color(blue-grey);
+
+  .dx-datagrid-header-panel {
+    display: none;
+  }
+
+  .ci-legend-shadow {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+  }
+
+  .item {
+    display: inline-flex;
+
+    margin: 8px 8px 8px 8px;
+
+    cursor: pointer;
+
+    &:hover,
+    &.item-hover {
+      text-decoration: underline;
+    }
+
+    &.hovered {
+      text-decoration: underline;
+    }
+
+    &.deactivated {
+      color: color(light-grey);
+    }
+  }
+
+  .rectangle {
+    height: 10px;
+    width: 10px;
+
+    &.hide {
+      background: color(white);
+      border: 1px solid color(blue-grey);
+      border-radius: 1px;
+    }
+
+    .point {
+      width: 4px;
+      height: 4px;
+      background: color(yellow);
+      margin-left: 2px;
+      margin-top: 2px;
+    }
+
+    &.item-box {
+      background: color(yellow);
+    }
+  }
+}
+
+.ci-tooltip {
+  @extend .fz12;
+  color: color(mid-grey);
+
+  .ci-title {
+    color: color(mid-grey);
+    font-weight: 500;
+  }
+}
+
+.grid-ci-title {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8px;
+  color: color(blue-grey);
+  font-size: 12px;
+  border-bottom: 1px solid color(light);
+
+  .title {
+    padding-top: 13px;
+  }
+}
+
+.ci-settings-panel {
+  position: relative;
+
+  .ci-settings {
+    position: absolute;
+    top: 18px;
+    right: 6px;
+    width: 95px;
+    background-color: color(white);
+    border-radius: 2px;
+    z-index: 500;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+  }
+
+  .dropdown-item {
+    padding: 6px 15px 5px 15px;
+    &:hover {
+      background-color: color(yellow);
+      color: color(white);
+    }
+  }
+}
+
+.ci-open-legend {
+  @extend .pointer;
+
+  app-icon use {
+    stroke: color(blue-grey);
+  }
+}
+
+.ci-legend-panel {
+  position: absolute;
+  top: 33px;
+  right: 5px;
+  z-index: 1;
+}
+
+.ci-chart-background {
+  background: linear-gradient(315deg, rgba(82, 81, 85, 0.25), #ffffff);
+  background-size: calc(100% - 77px) calc(100% - 71px);
+  background-repeat: no-repeat;
+  background-position-x: 69px;
+  background-position-y: 15px;
+}

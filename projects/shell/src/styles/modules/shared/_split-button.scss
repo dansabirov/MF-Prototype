@@ -1,0 +1,46 @@
+.split-button {
+  cursor: pointer;
+  border: none !important;
+  background: color(white);
+
+  .split-button_item {
+    @extend .border-solid;
+    @extend .borders;
+    @extend .px-8;
+    @extend .flex;
+    @extend .align-center;
+    @extend .min-width-100px;
+    border-color: color(lightest);
+
+    span {
+      @extend .noselect;
+    }
+
+    &:nth-child(1) {
+      border-radius: 2px 0 0 2px;
+    }
+
+    &:nth-last-child(1) {
+      border-radius: 0 2px 2px 0;
+    }
+
+    &.selected {
+      background-color: color(yellow);
+      color: color(white);
+      border-color: color(yellow);
+    }
+
+    &.disabled {
+      cursor: help;
+
+      span {
+        opacity: 0.4;
+      }
+    }
+
+    &.button-mode {
+      font-size: 12px;
+      height: 32px;
+    }
+  }
+}

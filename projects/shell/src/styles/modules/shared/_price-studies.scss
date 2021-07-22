@@ -1,0 +1,237 @@
+.price-studies-navigation {
+  @extend .pointer;
+  position: relative;
+  color: color(yellow);
+
+  .underline-item {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.price-studies-navigation--disabled {
+  color: color(light-grey);
+
+  cursor: default;
+
+  .underline-item:hover {
+    text-decoration: none;
+  }
+}
+
+.price-studies-navigation-dropdown {
+  position: absolute;
+  overflow: auto;
+  top: 14px;
+  left: 0px;
+  width: max-content;
+  max-height: 200px;
+  background-color: color(white);
+  border-radius: 2px;
+  z-index: 100;
+  padding: 0px 0px 4px 0px !important;
+  border: 0;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+
+  .control-check {
+    border-radius: 1px;
+    border: 1px solid color(light);
+
+    app-icon .icon use {
+      fill: color(orange);
+    }
+  }
+}
+
+.price-studies-navigation-dropdown-item {
+  align-items: center;
+  height: 28px;
+  padding: 6px 15px 5px 15px;
+}
+
+.price-studies-navigation-dropdown-item:hover {
+  color: #ffffff !important;
+  background-color: #fbba00 !important;
+}
+
+.dashboard-toolbar-item {
+  &:hover {
+    background-color: color(yellow);
+    color: color(white);
+    app-icon .icon use {
+      fill: color(white);
+    }
+  }
+}
+
+.open-button {
+  @extend .fz14;
+  @extend .font-medium;
+  @extend .pointer;
+
+  color: color(white);
+  text-align: center;
+  background-color: color(yellow);
+}
+.save-kf-button {
+  @extend .fz14;
+  @extend .font-medium;
+  @extend .pointer;
+
+  color: color(white);
+  text-align: center;
+  background-color: color(yellow);
+
+  &.as-new {
+    color: color(yellow);
+    text-align: center;
+    background-color: color(white);
+  }
+
+  &:hover {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
+  }
+
+  &.disabled {
+    opacity: 0.5;
+    cursor: initial;
+    box-shadow: none !important;
+  }
+}
+
+.impact-container {
+  .dx-texteditor.dx-editor-underlined::after {
+    border-bottom: none;
+  }
+
+  .dx-texteditor.dx-editor-underlined.dx-state-readonly::after {
+    border-bottom-style: none;
+    border-bottom-width: none;
+  }
+}
+
+.impact {
+  @extend .py-2;
+  @extend .px-8;
+
+  color: color(white);
+  border-radius: 14px;
+  height: 19px;
+  line-height: 1;
+  text-align: center;
+
+  &.__dashboard {
+    height: 30px;
+  }
+
+  &.high {
+    background-color: color(red);
+  }
+  &.medium {
+    background-color: color(yellow);
+  }
+  &.low {
+    background-color: color(blue);
+  }
+}
+
+.price-studies-key-finsing-btn {
+  background-color: color(yellow);
+  border-radius: 14px;
+  margin-top: 19px;
+  width: max-content;
+
+  &.disabled {
+    background-color: color(light-grey);
+  }
+
+  &:hover {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
+  }
+
+  .button-icon {
+    color: color(white);
+  }
+
+  .button-text {
+    color: color(white);
+    line-height: 28px;
+  }
+}
+
+.price-studies-kf-arr {
+  color: color(light-grey);
+  stroke: color(light-grey);
+
+  &.enabled {
+    @extend .pointer;
+
+    color: color(yellow);
+    stroke: color(yellow);
+  }
+}
+
+.kf-close-icon {
+  height: 31px;
+  margin-top: -8px;
+  use {
+    stroke: color(grey);
+  }
+  &:hover {
+    use {
+      stroke: color(yellow);
+    }
+  }
+}
+
+app-key-findings {
+  .dx-toolbar-before {
+    .dx-toolbar-item-content {
+      height: 32px;
+    }
+  }
+  .key-findings-grid {
+    .use-case .name {
+      padding-left: 16px;
+      font-size: 16px;
+    }
+    .impact {
+      padding: 8px 24px !important;
+    }
+    .kf-name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 24px;
+      width: 100%;
+      white-space: normal;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+    .dx-datagrid-table tr.dx-data-row td {
+      padding: 24px 16px !important;
+    }
+    .master-details {
+      padding: 16px !important;
+      line-height: 14px;
+      white-space: normal;
+    }
+    .dashboard-toolbar-item:hover {
+      background-color: #fff;
+      color: #3b3b3b;
+    }
+  }
+}
+
+.mde-dropdown-tree {
+  .dx-treelist-filter-row > td {
+    height: 22px;
+    .dx-menu .dx-menu-item-content .dx-icon {
+      width: 16px;
+      height: 19px;
+      background-size: 16px 16px;
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,485 @@
+.coverage-page-oem {
+  /*********************************************
+   *  Splitter Area
+   *********************************************/
+  .mde-split-inherit {
+    &.body-area {
+    }
+
+    &.body-area--key-findings {
+      .grid-area {
+        padding-right: 3px;
+      }
+
+      .split-charts-area {
+        min-width: calc(100% + 5px);
+      }
+
+      app-key-findings-oem-panel > div {
+        padding-left: 3px !important;
+      }
+    }
+
+    &.main-area {
+      padding: 3px 0 0 0;
+    }
+
+    &.split-charts-area {
+      .as-split-area:nth-child(1) .chart-item {
+        padding: 3px 3px 4px 4px;
+      }
+
+      .as-split-area:nth-child(2) .chart-item {
+        padding: 3px 2px 4px 3px;
+      }
+    }
+
+    .as-split-gutter {
+      flex-basis: 5px !important;
+    }
+  }
+
+  /*********************************************
+   *  Grid Area
+   *********************************************/
+  .grid-area {
+    @extend .box-reset;
+
+    z-index: 1;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+    padding: 5px 8px 3px 8px;
+  }
+
+  /**
+   *  Tree
+   */
+  .app-coverage-oem-tree {
+    @extend .box-reset;
+    @extend .mde-card;
+
+    width: 100%;
+    height: 100%;
+
+    /*
+     *  Tree - Header
+     */
+    .tree-list-header {
+      display: flex;
+      flex-direction: row;
+
+      width: 100%;
+      height: 33px;
+      padding: 8px 8px 8px 8px;
+
+      border-bottom: 1px solid color(lightest-grey);
+      background-color: color(white);
+
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .tree-list-header-left-area {
+      display: flex;
+      flex-direction: row;
+
+      width: 50%;
+      height: 100%;
+
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .tree-list-header-right-area {
+      display: flex;
+      flex-direction: row;
+
+      width: 50%;
+      height: 100%;
+
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .header-filters {
+    }
+
+    .mde-reset-button {
+      margin: 0 10px 0 0;
+      padding: 0;
+    }
+
+    .export-btn {
+      cursor: pointer;
+
+      &:hover .dx-icon-export {
+        color: color(yellow);
+      }
+    }
+
+    /*
+     *  Tree - Body
+     */
+    .tree-list-body {
+      @extend .box-reset;
+
+      width: 100%;
+      height: calc(100% - 33px);
+    }
+
+    .tree-list-body .dx-header-row .oem-header {
+      text-align: center !important;
+
+      &:hover .dx-treelist-text-content {
+        color: color(dark-grey);
+      }
+
+      .dx-treelist-text-content {
+        color: color(blue-grey);
+      }
+    }
+
+    .tree-list-body .dx-row-lines:first-child td {
+      background-color: color(light-beige);
+
+      font-size: 15px !important;
+      font-weight: bold;
+    }
+
+    .tree-list-body .dx-row-lines td {
+      color: color(dark-grey);
+      background-color: color(white);
+
+      font-weight: normal;
+    }
+
+    .tree-list-body .dx-row:not(.dx-freespace-row) .oem-header.td-row-border-right {
+      border-right: 1px solid color(lightest-grey) !important;
+    }
+
+    .tree-list-body .coverage-bar {
+      text-align: center;
+    }
+  }
+
+  /*********************************************
+   *  Charts Area
+   *********************************************/
+  .charts-area {
+    @extend .box-reset;
+
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 4px;
+  }
+
+  .chart-item {
+    overflow: hidden;
+  }
+
+  /**
+   *  Chart Stacked Bar
+   */
+  .coverage-oem-chart-stacked-bar {
+    @extend .box-reset;
+    @extend .mde-card;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: inherit;
+    min-height: 100%;
+
+    .chart-header {
+      position: relative;
+
+      display: flex;
+      flex-direction: row;
+
+      width: 100%;
+      height: 33px;
+      padding: 8px 8px 8px 8px;
+
+      border-bottom: 1px solid color(lightest-grey);
+      background-color: color(white);
+
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .chart-header-title {
+
+      width: auto;
+      height: 100%;
+      padding: 0 0 0 22px;
+
+      white-space: nowrap;
+
+      font-weight: bold;
+    }
+
+    .chart-header-items {
+      position: absolute;
+      top: 10px;
+      right: 8px;
+    }
+
+    .chart-body {
+      @extend .box-reset;
+
+      width: 100%;
+      height: calc(100% - 28px);
+      padding: 4px 0 4px 4px;
+    }
+
+    .chart-body-legend {
+      @extend .box-reset;
+
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+
+      display: flex;
+      flex-direction: row;
+
+      width: 100%;
+      height: 24px;
+
+      background-color: color(white);
+
+      justify-content: center;
+      align-items: center;
+    }
+
+    .chart-body-legend-item {
+      display: flex;
+      flex-direction: row;
+
+      padding: 0 0 0 20px;
+
+      justify-content: center;
+      align-items: center;
+
+      &:first-child {
+        padding: 0 0 0 0;
+      }
+    }
+
+    .chart-body-legend-icon {
+      width: 10px;
+      height: 10px;
+      margin: -1px 12px 0 0;
+    }
+
+    .chart-body-legend-text {
+      white-space: nowrap;
+    }
+
+    .chart-body-item {
+      @extend .box-reset;
+
+      width: 100%;
+      height: calc(100% - 30px);
+      margin: 18px 0 0 0;
+    }
+  }
+
+  /**
+   *  Chart Doughnuts
+   */
+  .coverage-oem-chart-doughnuts {
+    @extend .box-reset;
+    @extend .mde-card;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: inherit;
+    min-height: 100%;
+
+    .chart-header {
+      position: relative;
+
+      display: flex;
+      flex-direction: row;
+
+      width: 100%;
+      height: 33px;
+      padding: 8px 8px 8px 8px;
+
+      border-bottom: 1px solid color(lightest-grey);
+      background-color: color(white);
+
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .chart-header-title {
+
+      width: auto;
+      height: 100%;
+      padding: 0 0 0 22px;
+
+      white-space: nowrap;
+
+      font-weight: bold;
+    }
+
+    .chart-header-items {
+      position: absolute;
+      top: 10px;
+      right: 8px;
+    }
+
+    .chart-body {
+      @extend .box-reset;
+
+      overflow-x: auto;
+      overflow-y: hidden;
+
+      width: 100%;
+      height: calc(100% - 33px);
+    }
+
+    .chart-body--no-data {
+      display: flex;
+      flex-direction: row;
+
+      height: 100%;
+
+      justify-content: center;
+      align-items: center;
+    }
+
+    .chart-body-no-data-txt {
+      text-align: center;
+
+      color: color(devextreme-grey);
+
+      font-size: size(devextreme-font-size);
+    }
+
+    .chart-body-legend {
+      @extend .box-reset;
+
+      position: sticky;
+      z-index: 1;
+      top: -1px;
+
+      display: flex;
+      flex-direction: row;
+
+      width: 100%;
+      height: 34px;
+
+      background-color: color(white);
+
+      justify-content: center;
+      align-items: center;
+      will-change: transform;
+    }
+
+    .chart-body-legend-item {
+      display: flex;
+      flex-direction: row;
+
+      padding: 0 0 0 20px;
+
+      justify-content: center;
+      align-items: center;
+
+      &:first-child {
+        padding: 0 0 0 0;
+      }
+    }
+
+    .chart-body-legend-icon {
+      width: 10px;
+      height: 10px;
+      margin: -1px 12px 0 0;
+    }
+
+    .chart-body-legend-text {
+      white-space: nowrap;
+    }
+
+    .chart-body-line {
+      @extend .box-reset;
+
+      display: flex;
+
+      flex-direction: row;
+
+      width: 100%;
+      height: calc(100% - 34px);
+      padding: 0 4px 0 6px;
+    }
+
+    .chart-body-item {
+      @extend .box-reset;
+
+      width: 33.33%;
+      height: 100%;
+    }
+  }
+
+  /**
+   *  Chart Export
+   */
+  .coverage-oem-chart-export {
+    @extend .box-reset;
+
+    z-index: 1;
+
+    .export-icon {
+      @extend .chart-setting-icons;
+
+      width: 16px;
+      height: 13px;
+
+      cursor: pointer;
+    }
+
+    .export-menu {
+      @extend .dropdown-panel;
+      @extend .panel;
+
+      position: absolute;
+      top: 19px;
+      right: 0;
+
+      padding: 4px 0 4px 0 !important;
+
+      border: 0;
+      background-color: color(white);
+    }
+
+    .export-menu-item {
+      @extend .fz12;
+
+      display: flex;
+      flex-direction: row;
+
+      min-width: 100px;
+      height: 28px;
+      padding: 6px 15px 5px 15px;
+
+      cursor: pointer;
+
+      justify-content: flex-start;
+      align-items: center;
+
+      &:hover {
+        color: color(white);
+        background-color: color(yellow);
+      }
+    }
+  }
+}

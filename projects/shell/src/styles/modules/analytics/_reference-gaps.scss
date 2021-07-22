@@ -1,0 +1,277 @@
+app-reference-gaps {
+  .brand-highlighted {
+    background: color(yellow);
+    color: white !important;
+  }
+
+  .gap-analysis-data-grid {
+    .dx-header-row {
+      .dx-editor-cell {
+        padding: 8px !important;
+      }
+
+      .grid-cell-bordered {
+        padding: 8px !important;
+
+        .dx-column-indicators {
+          float: none !important;
+        }
+      }
+
+      .dx-command-select,
+      .grid-cell-fixed,
+      .grid-cell-bordered,
+      .grid-cell-iam-brand {
+        vertical-align: bottom !important;
+      }
+
+      .grid-cell-fixed {
+        padding: 8px !important;
+
+        .dx-column-indicators {
+          float: none !important;
+        }
+      }
+
+      .grid-cell-iam-brand {
+        padding: 8px !important;
+
+        .dx-column-indicators {
+          float: left !important;
+        }
+
+        .dx-sort-indicator.dx-sort-index-indicator {
+          max-width: 100% !important;
+        }
+      }
+
+      .grid-cell-iam {
+        padding: 0 !important;
+      }
+
+      .grid-cell-rotated {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        width: 88px;
+        height: 100px;
+        margin: 0 0 0 32px;
+
+        transform: rotate(-90deg);
+        transform-origin: bottom left;
+
+        .grid-cell-rotated-text {
+          overflow: hidden;
+
+          width: inherit;
+          padding: 0 0 0 12px;
+
+          text-align: left;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+
+      .grid-cell-rotated--sort {
+        margin-left: 18px;
+      }
+
+      td {
+        color: color(blue-grey) !important;
+
+        .dx-datagrid-text-content {
+          float: left;
+        }
+      }
+    }
+
+    .dx-data-row {
+      .dx-checkbox-icon {
+        border: 1px solid color(light) !important;
+        background: color(white);
+        margin-bottom: 1px;
+
+        &::before {
+          color: color(yellow);
+        }
+      }
+
+      .grid-cell-iam {
+        padding: 0 !important;
+        &:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+
+      td {
+        font-size: 12px;
+        height: 20px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        .dx-template-wrapper {
+          .check-mark {
+            app-icon {
+              @extend .ml-8;
+              .icon use {
+                fill: color(dark-grey) !important;
+              }
+            }
+          }
+
+          .supersessions {
+            app-icon {
+              @extend .ml-8;
+              cursor: pointer;
+              .icon use {
+                fill: color(blue) !important;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row {
+      td {
+        padding: 0;
+        vertical-align: bottom;
+      }
+
+      td.dx-command-select {
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+        border-right: none !important;
+      }
+    }
+
+    .dx-datagrid-header-panel {
+      width: 100%;
+      height: 32px;
+    }
+
+    .dx-datagrid-headers {
+      border-top-width: 1px !important;
+      border-bottom-width: 1px !important;
+    }
+
+    .dx-datagrid-rowsview {
+      .icon-check-area app-icon {
+        cursor: default;
+      }
+
+      .dx-selection.dx-row > td {
+        background: color(yellow) !important;
+        color: white !important;
+
+        .dx-template-wrapper {
+          .check-mark {
+            app-icon {
+              @extend .ml-8;
+              .icon use {
+                fill: color(white) !important;
+              }
+            }
+          }
+
+          .supersessions {
+            app-icon {
+              @extend .ml-8;
+              cursor: pointer;
+              .icon use {
+                fill: color(white) !important;
+              }
+            }
+          }
+        }
+      }
+
+      .dx-selection.dx-row > td > div {
+        background: color(yellow) !important;
+        color: white !important;
+      }
+    }
+
+    .dx-datagrid-total-footer {
+      color: color(blue-grey);
+    }
+
+    .dx-datagrid-total-footer > .dx-datagrid-content {
+      padding: 0 !important;
+    }
+
+    .dx-toolbar {
+      .dx-toolbar-items-container {
+        height: 32px;
+      }
+
+      .dx-button {
+        height: 24px;
+        min-width: 24px;
+
+        &.dx-button-has-icon .dx-button-content,
+        &.dx-button-has-text .dx-button-content {
+          padding: 0;
+        }
+
+        .dx-icon {
+          @extend .fz16;
+          color: color(blue-grey);
+
+          &:hover {
+            background: color(white);
+            color: color(yellow);
+          }
+
+          &:active {
+            color: color(yellow);
+          }
+
+          &:focus {
+            color: color(yellow);
+          }
+        }
+      }
+    }
+
+    .dx-datagrid.dx-datagrid-borders > .dx-datagrid-total-footer {
+      border-left: none;
+      border-right: none;
+      border-top: 1px solid color(lightest-grey) !important;
+    }
+
+    .dx-datagrid.dx-datagrid-borders > .dx-datagrid-pager {
+      border-top: none;
+      margin-top: 0px;
+    }
+
+    .dx-freespace-row {
+      height: 0px !important;
+    }
+
+    .grid-cell-bordered {
+      border-left: none !important;
+      border-right: 2px solid lightgrey !important;
+      padding: 0 8px 0 8px !important;
+    }
+
+    .grid-cell-fixed {
+      border-left: none !important;
+      border-right: none !important;
+      padding: 0 8px 0 8px !important;
+    }
+
+    .grid-cell-iam-brand {
+      border-left: none !important;
+      border-right: none !important;
+      padding: 0 8px 0 8px !important;
+    }
+
+    .dx-datagrid-summary-item {
+      color: inherit;
+    }
+  }
+}
