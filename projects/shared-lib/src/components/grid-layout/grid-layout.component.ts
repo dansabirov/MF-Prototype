@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { classNames, copyToClipboard } from '@shared/functions';
+import { classNames } from '@shared/functions';
 
 @Component({
   selector: 'app-grid-layout',
@@ -28,7 +28,6 @@ export class GridLayoutComponent implements OnInit {
 
   ngOnInit() {
     this.setGridClass();
-    copyToClipboard('aaa', 'good');
   }
 
   setGridClass() {
