@@ -31,6 +31,8 @@
               "projects/shell/src/assets"
             ],
             "styles": [
+              "node_modules/devextreme/dist/css/dx.common.css",
+              "projects/shell/src/themes/generated/theme.base.css",
               "projects/shell/src/styles.scss"
             ],
             "scripts": [],

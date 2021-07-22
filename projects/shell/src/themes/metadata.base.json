@@ -1,0 +1,260 @@
+{
+    "items": [
+        {
+            "key": "@list-item-focused-selected-bg",
+            "value": "#ebebeb"
+        },
+        {
+            "key": "@base-danger",
+            "value": "#a50000"
+        },
+        {
+            "key": "@base-success",
+            "value": "#547980"
+        },
+        {
+            "key": "@base-warning",
+            "value": "#F49719"
+        },
+        {
+            "key": "@base-border-radius",
+            "value": "2px"
+        },
+        {
+            "key": "@base-accent",
+            "value": "#Fbba00"
+        },
+        {
+            "key": "@base-icon-color",
+            "value": "#444544"
+        },
+        {
+            "key": "@base-label-color",
+            "value": "#bcbcbc"
+        },
+        {
+            "key": "@base-text-color",
+            "value": "#3b3b3b"
+        },
+        {
+            "key": "@datagrid-columnchooser-font-weight",
+            "value": "normal"
+        },
+        {
+            "key": "@datagrid-nodata-color",
+            "value": "#bcbcbc"
+        },
+        {
+            "key": "@datagrid-link-color",
+            "value": "#717776"
+        },
+        {
+            "key": "@datagrid-columnchooser-item-color",
+            "value": "#000000"
+        },
+        {
+            "key": "@datagrid-border-color",
+            "value": "#ebebeb"
+        },
+        {
+            "key": "@datagrid-menu-icon-color",
+            "value": "#525155"
+        },
+        {
+            "key": "@datagrid-cell-modified-border-color",
+            "value": "#d5ded9"
+        },
+        {
+            "key": "@datagrid-row-selected-color",
+            "value": "#000000"
+        },
+        {
+            "key": "@treelist-row-focused-bg",
+            "value": "#f49719"
+        },
+        {
+            "key": "@datagrid-row-focused-bg",
+            "value": "#f49719"
+        },
+        {
+            "key": "@datagrid-focused-border-color",
+            "value": "#f49719"
+        },
+        {
+            "key": "@datagrid-chevron-icon-color",
+            "value": "#717776"
+        },
+        {
+            "key": "@datagrid-search-bg",
+            "value": "#f49719"
+        },
+        {
+            "key": "@datagrid-summary-color",
+            "value": "#000000"
+        },
+        {
+            "key": "@datagrid-filter-row-background-color",
+            "value": "#ebebeb"
+        },
+        {
+            "key": "@datagrid-base-color",
+            "value": "#3b3b3b"
+        },
+        {
+            "key": "@treelist-link-color",
+            "value": "#717776"
+        },
+        {
+            "key": "@treelist-nodata-color",
+            "value": "#bcbcbc"
+        },
+        {
+            "key": "@treelist-border-color",
+            "value": "#ebebeb"
+        },
+        {
+            "key": "@treelist-cell-modified-border-color",
+            "value": "#bcbcbc"
+        },
+        {
+            "key": "@treelist-menu-icon-color",
+            "value": "#717776"
+        },
+        {
+            "key": "@treelist-row-selected-color",
+            "value": "#000000"
+        },
+        {
+            "key": "@treelist-hover-bg",
+            "value": "#ebebeb"
+        },
+        {
+            "key": "@treelist-row-alternation-bg",
+            "value": "#ebebeb"
+        },
+        {
+            "key": "@treelist-focused-border-color",
+            "value": "#f49719"
+        },
+        {
+            "key": "@treelist-chevron-icon-color",
+            "value": "#525155"
+        },
+        {
+            "key": "@treelist-search-bg",
+            "value": "#000000"
+        },
+        {
+            "key": "@treelist-summary-color",
+            "value": "#000000"
+        },
+        {
+            "key": "@treelist-filter-row-background-color",
+            "value": "#ebebeb"
+        },
+        {
+            "key": "@treelist-row-error-bg",
+            "value": "#a50000"
+        },
+        {
+            "key": "@pivotgrid-chevron-icon-color",
+            "value": "#3b3b3b"
+        },
+        {
+            "key": "@PIVOTGRID_FIELD_AREA_TEXT_COLOR",
+            "value": "#bcbcbc"
+        },
+        {
+            "key": "@PIVOTGRID_DATA_AREA_COLOR",
+            "value": "#000000"
+        },
+        {
+            "key": "@PIVOTGRID_AREA_COLOR",
+            "value": "#717776"
+        },
+        {
+            "key": "@PIVOTGRID_TOTALCOLOR",
+            "value": "#f9f9f9"
+        },
+        {
+            "key": "@PIVOTGRID_GRANDTOTALCOLOR",
+            "value": "#f0f0f2"
+        },
+        {
+            "key": "@PIVOTGRID_BORDER_COLOR",
+            "value": "#e0e0e0"
+        },
+        {
+            "key": "@button-default-bg",
+            "value": "#F49719"
+        },
+        {
+            "key": "@button-default-active-bg",
+            "value": "#af7a00"
+        },
+        {
+            "key": "@button-group-normal-selected-bg",
+            "value": "#ebebeb"
+        },
+        {
+            "key": "@button-normal-active-bg",
+            "value": "#ebebeb"
+        },
+        {
+            "key": "@texteditor-border-color",
+            "value": "#bcbcbc"
+        },
+        {
+            "key": "@texteditor-bg",
+            "value": "#f9f9f9"
+        },
+        {
+            "key": "@texteditor-placeholder-color",
+            "value": "#717776"
+        },
+        {
+            "key": "@textbox-search-icon-color",
+            "value": "#444544"
+        },
+        {
+            "key": "@calendar-header-color",
+            "value": "#bcbcbc"
+        },
+        {
+            "key": "@calendar-cell-other-color",
+            "value": "#bcbcbc"
+        },
+        {
+            "key": "@calendar-cell-active-bg",
+            "value": "#bcbcbc"
+        },
+        {
+            "key": "@calendar-hover-bg",
+            "value": "#f9f9f9"
+        },
+        {
+            "key": "@checkbox-border-color",
+            "value": "#ebebeb"
+        },
+        {
+            "key": "@checkbox-hover-border-color",
+            "value": "#af7a00"
+        },
+        {
+            "key": "@fileuploader-falename-status-color",
+            "value": "#bcbcbc"
+        },
+        {
+            "key": "@fileuploader-border-color",
+            "value": "#ebebeb"
+        },
+        {
+            "key": "@radiogroup-border-color",
+            "value": "#ebebeb"
+        }
+    ],
+    "baseTheme": "material.orange.light",
+    "outputColorScheme": "custom-scheme",
+    "assetsBasePath": "../../../node_modules/devextreme/dist/css/",
+    "base": true
+}

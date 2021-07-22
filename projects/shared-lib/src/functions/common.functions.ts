@@ -1,5 +1,10 @@
-// import { NotificationService } from '@shared/services';
+import { NotificationService } from '@shared/services';
 import { cloneDeep, identity, isEmpty, sortBy, template, templateSettings } from 'lodash';
+
+
+interface ICustomWindow extends Window {
+  safari: string | undefined;
+}
 
 export function classNames(...args: any[]) {
   const classes = [];
@@ -48,7 +53,7 @@ export function numberMedian(arr: number[]) {
     sorted = sortBy(arr, identity);
   return sorted.length % 2 ? sorted[middle - 1] : (sorted[middle - 1.5] + sorted[middle - 0.5]) / 2;
 }
-/*
+
 export function copyToClipboard(value: string, notificationMessage: string) {
   const zero = '0';
   const tmpElement = document.createElement('textarea');
@@ -117,7 +122,7 @@ export function isEdge(): boolean {
 }
 
 export function getZoomPercentage(): number {
-  if (window['safari']) {
+  if ((window as ICustomWindow & typeof globalThis)['safari']) {
     return Math.round((window.outerWidth / window.innerWidth) * 100);
   }
 
@@ -162,8 +167,7 @@ export function getSortedArrByFieldName<T>(data: Array<T> | any, fieldName: stri
 
   const resultData: Array<T> = cloneDeep<Array<T>>(data);
 
-  resultData.sort((a: T, b: T): number => Intl.Collator().compare(a[fieldName], b[fieldName]));
+  resultData.sort((a: T, b: T): number => Intl.Collator().compare((a as any)[fieldName], (b as any)[fieldName]));
 
   return resultData;
 }
-*/

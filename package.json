@@ -6,7 +6,7 @@
     "start": "ng serve",
     "start:shell": "ng serve shell  -o --port 4200",
     "start:part-views": "ng serve part-views -o --port 4203",
-    "build": "ng build",
+    "build:shell": "ng build shell --prod",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
@@ -23,6 +23,8 @@
     "@angular/platform-browser": "~12.1.2",
     "@angular/platform-browser-dynamic": "~12.1.2",
     "@angular/router": "~12.1.2",
+    "devextreme": "^20.2.7",
+    "devextreme-angular": "^20.2.7",
     "lodash": "^4.17.21",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
