@@ -1,0 +1,3 @@
+<div class="carousel-switcher">
+  <div *ngFor="let item of [].constructor(count); index as i" [ngClass]="{ active: i === value }" (click)="onBtnClicked(i)"></div>
+</div>

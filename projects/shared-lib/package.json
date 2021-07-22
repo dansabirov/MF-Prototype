@@ -5,7 +5,8 @@
     "@angular/common": "~12.1.2",
     "@angular/core": "~12.1.2",
     "lodash": "^4.17.21",
-    "devextreme": "^20.2.7"
+    "devextreme": "^20.2.7",
+    "devextreme-angular": "^20.2.7"
   },
   "dependencies": {
     "tslib": "^2.2.0"

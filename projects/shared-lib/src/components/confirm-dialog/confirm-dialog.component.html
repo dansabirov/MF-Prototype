@@ -1,0 +1,26 @@
+<dx-popup
+  class="confirm-dialog"
+  [closeOnOutsideClick]="true"
+  [dragEnabled]="false"
+  height="auto"
+  [id]="id"
+  [showTitle]="false"
+  [(visible)]="visible"
+  [width]="350"
+>
+  <div *dxTemplate="let data of 'content'" [id]="id">
+    <div *ngFor="let message of messages" class="message mb-16">{{ message }}</div>
+    <div class="btn-group">
+      <dx-button
+        *ngIf="showYesBtn"
+        class="mr-16 primary-btn"
+        [id]="confirmBtnId"
+        [text]="confirmBtnName"
+        [width]="115"
+        (onClick)="confirm()"
+      >
+      </dx-button>
+      <dx-button class="secondary-btn" [id]="cancelBtnId" [text]="cancelBtnName" [width]="115" (onClick)="cancel()"></dx-button>
+    </div>
+  </div>
+</dx-popup>
