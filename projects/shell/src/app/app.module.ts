@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { SharedLibModule } from 'shared-lib';
-import { SharedModule } from 'shared-lib';
+import { SharedLibModule } from '@shared/public-api';
+import { SharedModule } from '@shared/shared.module';
 import { AppComponent } from './app.component';
 
 @NgModule({

@@ -1,5 +1,5 @@
 // import { NotificationService } from '@shared/services';
-// import { cloneDeep, identity, isEmpty, sortBy, template, templateSettings } from 'lodash';
+import { cloneDeep, identity, isEmpty, sortBy, template, templateSettings } from 'lodash';
 
 export function classNames(...args: any[]) {
   const classes = [];
@@ -30,7 +30,7 @@ export function classNames(...args: any[]) {
   const result = classes.join(' ');
   return result || undefined;
 }
-/*
+
 export function stringTemplate(templateStr: string, data: any) {
   templateSettings.interpolate = /\${([\s\S]+?)}/g;
 
@@ -48,7 +48,7 @@ export function numberMedian(arr: number[]) {
     sorted = sortBy(arr, identity);
   return sorted.length % 2 ? sorted[middle - 1] : (sorted[middle - 1.5] + sorted[middle - 0.5]) / 2;
 }
-
+/*
 export function copyToClipboard(value: string, notificationMessage: string) {
   const zero = '0';
   const tmpElement = document.createElement('textarea');
