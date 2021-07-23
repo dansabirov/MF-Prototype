@@ -8,7 +8,7 @@ import { AuthLibService } from 'core-lib';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  @ViewChild(ConfirmDialogComponent, {static: true}) c!: ConfirmDialogComponent;
+  // @ViewChild(ConfirmDialogComponent, {static: true}) c!: ConfirmDialogComponent;
   title = 'shell';
 
   constructor(private service: AuthLibService) {
@@ -16,6 +16,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.c.show({}, ['Hey']);
+    // this.c.show({}, ['Hey']);
   }
 }
