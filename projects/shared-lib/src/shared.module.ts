@@ -3,8 +3,7 @@ import { GridLayoutComponent } from '@shared/components/grid-layout/grid-layout.
 import { CarouselSwitcherComponent } from '@shared/components/carousel-switcher/carousel-switcher.component';
 import { ConfirmDialogComponent } from './components/confirm-dialog/confirm-dialog.component';
 import { CommonModule } from '@angular/common';
-import { DxPopupModule } from 'devextreme-angular/ui/popup';
-import { DxButtonModule } from 'devextreme-angular/ui/button';
+import { DxButtonModule, DxPopupModule } from 'devextreme-angular';
 
 @NgModule({
   declarations: [
