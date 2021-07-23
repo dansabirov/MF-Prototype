@@ -6,7 +6,7 @@ const share = mf.share;
 const sharedMappings = new mf.SharedMappings();
 sharedMappings.register(
   path.join(__dirname, '../../tsconfig.json'),
-  ['core-lib']);
+  ['core-lib', '@shared']);
 
 module.exports = {
   output: {
@@ -43,6 +43,8 @@ module.exports = {
           "@angular/common/http": { singleton: true, strictVersion: true, requiredVersion: 'auto' }, 
           "@angular/router": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
           "lodash": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
+          "devextreme": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
+          "devextreme-angular": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
 
           ...sharedMappings.getDescriptors()
         })
